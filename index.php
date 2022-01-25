@@ -15,47 +15,31 @@
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div id="container-logo">
-				<picture>
-					<source type="" media="" srcset="">
-					<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="">
-				</picture>
-				<p>Papelaria, escritório, utilidades, miudezas...</p>
-			</div>
-			<div id="enfeite">
-				<nav>
-					<a href="home">Início</a>
-					<a href="produtos">Produtos</a>
-					<a href="contato">Contato</a>
-					<a href="favoritos">&#10084;</a>
-				</nav>
-			</div>
-		</div>
-	</header>
 
-
-
-
-
-
-
-
-	<?php
+<?php
 	$url = (isset($_GET['url'])) ? $_GET['url'] : 'Home';
 	$url = array_filter(explode('/', $url));
-	var_dump($url);
-
+	
 	$file = 'Pages/' . ucfirst($url[0]) . '.php'; //define o filename
-	var_dump($file);
 
 	if (is_file($file)) {
+		$file == 'Pages/Home.php' ? include 'Pages/HeaderHome.php' : "";
+		$file != 'Pages/Home.php' ? include 'Pages/Header.php' : "";
+
 		include $file;
 	} else {
+		include 'Pages/HeaderHome.php';
 		include 'Pages/Home.php';
 	}
-	?>
+?>
+
+
+	
+
+
+<footer>
+
+</footer>
 
 </body>
 
