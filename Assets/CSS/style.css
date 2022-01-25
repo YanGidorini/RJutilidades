@@ -6,11 +6,16 @@ h1{
 /* header */
 header .container{
     margin-top: 15px;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "logo nav"
+    "frase nav";
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
 }
 
 header #container-logo{
+    grid-area: logo;
     display: flex;
     align-items: center;
     width: 100%;
@@ -18,8 +23,7 @@ header #container-logo{
     background-color: #fff;
     mix-blend-mode: normal;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 30px 30px 0px;
-    flex: 1 50px;
+    border-radius: 0px 30px 30px 0px;   
     z-index: 1;
 }
 
@@ -31,41 +35,58 @@ header #container-logo p{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    letter-spacing: 5%;
+    letter-spacing: 1px;
     color: #747474;
-    max-width: 200px;
+    max-width: 300px;
     line-height: 26px;
     display: inline-block;
     margin-left: 20px;
 }
 
-#enfeite{
+header #fraseTitulo{
+    grid-area: frase;
+    justify-self: center;
+    margin-bottom: 80px;
+}
+
+header #fraseTitulo h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-align: left;
+    font-size: 45px;
+    max-width: 500px;;
+    background: #fff;
+}
+
+header #enfeite{
+    grid-area: nav;
     display: flex;
     width: 800px;
     height: 550px;
     background: linear-gradient(149.81deg, #FF0000 8.11%, rgba(133, 0, 0, 0.92) 69.3%);
     box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
-    flex: 1 200px;
-    transform: translate(-20px, -10px);
+    transform: translate(-15px, -10px);
 }
 
-#enfeite nav{
+header #enfeite nav{
     margin: 40px 0 0 100px;
     display: inline-block;
 }
 
-#enfeite nav a{
+header #enfeite nav a{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
     font-size: 24px;
     text-decoration: none;
     color: #fff;
-    margin-right: 100px;
+    margin-right: 90px;
     align-items: center;
 }
 
-#enfeite nav:first-child::before{
+header #enfeite nav:first-child::before{
     content: "";
     display: inline-block;
     width: 15px;
@@ -75,3 +96,69 @@ header #container-logo p{
     background-color: #fff;
 }
 
+/* categorias */
+nav.categorias{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-90px);
+}
+
+nav.categorias a{
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+    padding: 20px 0;
+    margin: 0 20px;
+    color: #fff;
+    background-color: #D91919;
+    border-radius: 5px;
+}
+
+/*  amostras */
+section.amostras{
+    display: flex;
+    justify-content: center;
+}
+
+.amostras .cardProduto{
+    width: 300px;
+    height: 480px;
+    background-color: #eee;
+}
+
+.amostras .imgProduto{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    background-color: #fff;
+    margin: 20px 20px 20px 20px;
+}
+
+.amostras h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    max-width: 260px;
+    margin-left: 20px;
+}
+
+.amostras p{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    max-width: 260px;
+    margin: 20px 0 10px 20px;
+}
+
+.amostras span{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #CB6464;
+    margin-left: 160px;
+}
