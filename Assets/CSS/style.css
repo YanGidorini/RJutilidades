@@ -282,6 +282,9 @@ section.secaoMapa{
 
 /* footer */
 footer{
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     flex-flow: row wrap;
@@ -290,9 +293,7 @@ footer{
     height: fit-content;
     background: #7D0202;
     border-radius: 10px 10px 0px 0px;
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box; 
+ 
     padding:25px;
     padding-left: 40px;
 }
