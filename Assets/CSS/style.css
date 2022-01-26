@@ -1,8 +1,3 @@
-h1{
-    text-align: center;
-    background-color: burlywood;
-}
-
 /* header */
 header .container{
     margin-top: 15px;
@@ -70,7 +65,7 @@ header #enfeite{
 }
 
 header #enfeite nav{
-    margin: 40px 0 0 100px;
+    margin: 40px 0 0 70px;
     display: inline-block;
 }
 
@@ -122,13 +117,19 @@ nav.categorias a{
 /*  amostras */
 section.amostras{
     display: flex;
-    justify-content: center;
+    overflow-x: hidden;
 }
 
 .amostras .cardProduto{
     width: 300px;
     height: 480px;
+    border-radius: 5px;
     background-color: #eee;
+    margin: 0 20px 60px 0;
+}
+
+.amostras:nth-of-type(1) .cardProduto:nth-of-type(1){
+    margin-left: 50px;
 }
 
 .amostras .imgProduto{
@@ -163,6 +164,78 @@ section.amostras{
     line-height: 36px;
     color: #CB6464;
     margin-left: 160px;
+}
+
+/* mapa */
+section.secaoMapa{
+    display: grid;
+    grid-template-areas: 
+    "mapa apps"
+    "mapa icones";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: #bbb;
+}
+
+.secaoMapa .mapa{
+    grid-area: mapa;
+    padding: 20px 40px;
+    background-color : #fff;
+    text-align: center;
+    justify-self: center;
+    border-radius: 15px;
+    box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
+}
+
+.secaoMapa .mapa h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 2px;
+}
+
+.secaoMapa .mapa div{
+    width: 490px;
+    background-color: #fff;
+    padding: 10px;
+    transform: translateY(25px);
+    border-radius: 12px;
+    box-shadow:  0px 4px 27px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+}
+
+.secaoMapa .mapa p{
+    font-family: 'Red Hat Display', sans-serif;;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 2px;
+    color: #6D6D6D;
+}
+
+.secaoMapa .apps{
+
+}
+
+.secaoMapa .apps .imgApp{
+    display: flex;
+    width: 40px;
+    height:  40px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.secaoMapa .apps p{
+    max-width: 130px;
+
+    font-family: 'Red Hat Display', sans-serif;;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29px;
+    background-color: #fff;
 }
 
 /* Menu flutuante de redes sociais */
@@ -211,6 +284,7 @@ section.amostras{
     }
 }
 
+/* footer */
 footer{
     display: flex;
     align-items: center;
