@@ -33,12 +33,31 @@
 	}
 ?>
 
-
-	
+<ul class="social-media">
+	<li class="first">
+		<img id="logo" src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="logo da R&J Utilidades">
+	</li>
+	<li>
+		<img src="Assets/IMG/wpp.svg" alt="">
+	</li>
+	<li>
+		<img src="Assets/IMG/instagram.svg" alt="">
+	</li>
+	<li>
+		<img src="Assets/IMG/1024px-Facebook_icon.svg" alt="">
+	</li>
+</ul>
 
 
 <footer>
-
+	<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="logo da R&J Utilidades">
+		
+	<ul>
+		<li>Empresa: J. da S. N. Santana Limpeza - ME</li>
+		<li>CNPJ: 29.588.052/0001-02</li>
+		<li>Rua Jair de Godoy n° 56</li>
+		<li>Vila Açoreana - Poá / São Paulo</li>
+	</ul>
 </footer>
 
 </body>
