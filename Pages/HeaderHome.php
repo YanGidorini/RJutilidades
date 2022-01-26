@@ -1,9 +1,10 @@
+<title>Home</title>
 <header>
 	<div class="container">
 		<div id="container-logo">
 			<picture>
 				<source type="" media="" srcset="">
-				<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="logo da R&J Utilidades">
+				<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 			</picture>
 			<p>Papelaria, escritório, utilidades, miudezas...</p>
 		</div>

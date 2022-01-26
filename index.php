@@ -35,7 +35,7 @@
 
 <ul class="social-media">
 	<li class="first">
-		<img id="logo" src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="logo da R&J Utilidades">
+		<img id="logo" src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 	</li>
 	<li>
 		<img src="Assets/IMG/wpp.svg" alt="">
@@ -50,7 +50,7 @@
 
 
 <footer>
-	<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.svg" alt="logo da R&J Utilidades">
+	<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 		
 	<ul>
 		<li>Empresa: J. da S. N. Santana Limpeza - ME</li>
