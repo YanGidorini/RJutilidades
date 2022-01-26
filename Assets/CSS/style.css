@@ -98,6 +98,9 @@ header #enfeite nav:first-child::before{
 nav.categorias{
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    column-gap: 30px;
     transform: translateY(-90px);
 }
 
@@ -109,11 +112,12 @@ nav.categorias a{
     text-decoration: none;
     width: 300px;
     padding: 20px 0;
-    margin: 0 20px;
     color: #fff;
     background-color: #D91919;
     border-radius: 5px;
+    box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.3);
 }
+
 
 /*  amostras */
 section.amostras{
@@ -195,27 +199,39 @@ section.amostras{
     height: 40px;
 }
 
+@media all and (max-width: 920px){
+    .social-media{
+        flex-direction: column-reverse;
+        padding-right: 0px;
+        padding-top: 15px;
+        gap: 10px;
+    }
+    .first{
+        padding: 10px;
+    }
+}
 
 footer{
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
+    row-gap: 20px;
     width: 100%;
-    height: 150px;
-    bottom: 0px;
+    height: fit-content;
     background: #7D0202;
     border-radius: 10px 10px 0px 0px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box; 
+    padding:25px;
+    padding-left: 40px;
 }
 footer img{
     width: 120px;
-    height: 65px;
-    margin-left: 55px;
+    margin-right: 30px;
 }
-footer ul{
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 35px;
-}
- footer ul li{
+
+footer ul li{
     font-family: 'Red Hat Display';
     font-style: normal;
     font-weight: 500;
@@ -225,6 +241,4 @@ footer ul{
     letter-spacing: 0.05em;
     color: #fff;
     text-align: left;
-    float: right;
  }
-
