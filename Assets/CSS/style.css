@@ -165,18 +165,18 @@ section.amostras{
 .social-media{
     display: flex;
     align-items: center;
-    row-gap: 10px;
     position: fixed;
+    gap: 15px;
     bottom: 5%;
     right: 2%;
     width: fit-content;
-    height: 50px;
+    height: fit-content;
+    padding-right: 15px;
+
     background: #FFFFFF;
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     z-index: 9;
-    padding: 10px;
-    padding-left: 0px;
     overflow: hidden;
 }
 .first{
@@ -184,14 +184,11 @@ section.amostras{
     align-items: center;
     height: 100%;
     width: auto;
+    padding: 15px;
+
     background: rgba(255, 255, 255, 0.9);
     box-shadow: 2px 0px 9px rgba(0, 0, 0, 0.29);
     border-radius: 15px;
-    padding: 10px;
-    padding-left: 5px;
-}
-.social-media img{
-    margin-left: 5px;
 }
 .social-media img#logo{
     width: 70px;
