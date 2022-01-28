@@ -1,8 +1,8 @@
 <nav class="categorias">
-    <a href="#">Papelaria, Escritório e Escolar</a>
-    <a href="#">Artigos de Festa e Brinquedos</a>
-    <a href="#">Utensílios de Cozinha</a>
-    <a href="#">Miudezas</a>
+    <a href="Papelaria">Papelaria, Escritório e Escolar</a>
+    <a href="Artigos-Festa">Artigos de Festa e Brinquedos</a>
+    <a href="Utensilios-Cozinha">Utensílios de Cozinha</a>
+    <a href="Miudezas">Miudezas</a>
 </nav>
 
 <section class="amostras">
