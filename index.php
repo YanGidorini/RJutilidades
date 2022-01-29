@@ -44,7 +44,6 @@
 	<li></li>
 </ul>
 
-
 <footer>
 	<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 		

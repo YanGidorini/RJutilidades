@@ -6,6 +6,9 @@ nav.categorias{
     row-gap: 20px;
     column-gap: 30px;
     margin: 20px 0px;
+    max-width: 1920px;
+    margin: 0 auto;
+    transform: translateY(-90px);
 }
 
 nav.categorias a{
@@ -20,12 +23,80 @@ nav.categorias a{
     background-color: #D91919;
     border-radius: 5px;
     box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+nav.categorias a:first-child::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: -40px;
+    width: 70px;
+    height: 70px;
+    background-image: url(../IMG/icones/Clip_perspective_matte_s\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav.categorias a:nth-child(2)::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 59px;
+    height: 66px;
+    background-image: url(../IMG/icones/Ping_Pong_perspective_matte\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav.categorias a:nth-child(3)::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -15px;
+    right: -8px;
+    width: 73px;
+    height: 77px;
+    background-image: url(../IMG/icones/Teapot_perspective_matte\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+nav.categorias a:last-child::before{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    right: -25px;
+    width: 98px;
+    height: 98px;
+    background-image: url(../IMG/icones/Shopping_cart_perspective_matte_s\ 1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media all and (max-width: 630px) {
+    nav.categorias a:nth-child(2)::before{
+        top: -15px;
+        right: -35px;
+        left: auto;
+        width: 65px;
+        height: 72px;
+    }
+    nav.categorias a:nth-child(3)::before{
+        top: -15px;
+        left: -30px;
+        right: auto;
+    }
 }
 
 /*  amostras */
 section.amostras{
     display: flex;
     overflow-x: hidden;
+    margin-top: 80px;
 }
 
 .amostras .cardProduto{

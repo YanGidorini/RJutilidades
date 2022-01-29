@@ -1,6 +1,6 @@
 <style>
 	/* header home*/
-header .container{
+header{
     display: grid;
     grid-template-areas: 
     "logo nav"
@@ -22,7 +22,7 @@ header #container-logo{
     transform: translateY(15px);
 }
 
-header #container-logo  img{
+header #container-logo img{
     margin-left: 30px;
     width: 120px;
     height: 65px;
@@ -79,10 +79,9 @@ header #enfeite nav{
     justify-content: center;
     width: 100%;
     height: 100px;
-    mix-blend-mode: normal;
     z-index: 1;
     transform: translateY(15px);
-    column-gap: 80px;
+    column-gap: 50px;
     row-gap: 2px;
     flex-flow: row wrap
 }
@@ -90,38 +89,69 @@ header #enfeite nav{
 header #enfeite nav a{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
+    line-height: 26px;
+    letter-spacing: 0.05em;
     color: #fff;
 }
 
+header #enfeite nav a[href="favoritos"]{
+    font-size: 35px;
+}
+@media all and (min-width: 1440px){
+    header #enfeite nav{
+        column-gap: 70px;
+    }
+}
 
+@media all and (min-width: 1920px){
+    header {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    header #container-logo{
+        border-radius: 30px;
+    }
+}
 </style>
 
 
 <title>Home</title>
 <header>
-	<div class="container">
-		<div id="container-logo">
-			<picture>
-				<source type="" media="" srcset="">
-				<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
-			</picture>
-			<p>Papelaria, escritório, utilidades, miudezas...</p>
-		</div>
+    <div id="container-logo">
+        <a href="home"><img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades"></a>
+        <p>Papelaria, escritório, utilidades, miudezas...</p>
+    </div>
 
-		<div id="fraseTitulo">
-			<h1>Tudo o que precisa, encontra aqui!</h1>
-		</div>
+    <div id="fraseTitulo">
+        <h1>Tudo o que precisa, encontra aqui!</h1>
+    </div>
 
-		<div id="enfeite">
-			<nav>
-				<a href="home">Início</a>
-				<a href="produtos">Produtos</a>
-				<a href="contato">Contato</a>
-				<a href="favoritos">&#10084;</a>
-			</nav>
-		</div>
-
-	</div>
+    <div id="enfeite">
+        <nav>
+            <a href="home">INÍCIO</a>
+            <a href="produtos">PRODUTOS</a>
+            <a href="contato">CONTATO</a>
+            <a href="favoritos">
+                <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i_146_15)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33.1504 2.65507C36.95 6.19516 36.95 11.9348 33.1504 15.4749L31.7131 16.8141L31.7443 16.8432L17.985 29.663L2.84966 15.5612C-0.949883 12.0211 -0.949889 6.28148 2.84965 2.74139C6.6492 -0.798702 12.8095 -0.798703 16.609 2.74139L17.9537 3.99427L19.3911 2.65507C23.1906 -0.885023 29.3509 -0.885023 33.1504 2.65507Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_i_146_15" x="0" y="0" width="36" height="33.663" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2.5"/>
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0"/>
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_146_15"/>
+                    </filter>
+                    </defs>
+                </svg>
+            </a>
+        </nav>
+    </div>
 </header>
