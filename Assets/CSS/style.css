@@ -232,7 +232,7 @@ section.secaoMapa{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.social-media li:nth-child(4){
+.social-media li:last-child{
     height: 43px;
     width: 43px;
     background-image: url(../IMG/1024px-Facebook_icon.svg);
@@ -265,7 +265,7 @@ section.secaoMapa{
         height: 40px;
         width: 40px;
     }
-    .social-media li:nth-child(4){
+    .social-media li:last-child{
         height: 37px;
         width: 37px;
     }
@@ -303,4 +303,14 @@ footer ul li{
     letter-spacing: 0.05em;
     color: #fff;
     text-align: left;
+ }
+ @media all and (max-width: 600px){
+    footer{
+        padding-left: 25px;
+    }
+    footer img{
+        width: 100px;
+        height: 54px;
+    }
+
  }

@@ -65,7 +65,10 @@ header #enfeite{
     grid-area: nav;
     display: flex;
     height: 550px;  
-    background-image: linear-gradient(149.81deg, #FF0000 8.11%, rgba(133, 0, 0, 0.92) 69.3%);
+    background-image: url(../RJutilidades/Assets/IMG/enfeite.svg);
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     transform: translateX(-15px);
@@ -92,13 +95,7 @@ header #enfeite nav a{
     color: #fff;
 }
 
-header #enfeite nav:first-child::before{
-    content: "";
-    width: 15px;
-    height: 5px;
-    border-radius: 5px;
-    background-color: #fff;
-}
+
 </style>
 
 
