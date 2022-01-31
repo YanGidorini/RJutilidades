@@ -65,7 +65,7 @@
         /* Firefox, other Gecko */
         box-sizing: border-box;
         grid-area: nav;
-        display: flex;
+
         height: 550px;
         background-color: #ff0000;
         background-image: url(../RJutilidades/Assets/IMG/enfeite.svg);
@@ -91,23 +91,22 @@
 
     header #enfeite nav {
         display: flex;
-        justify-content: flex-end;
-        width: 100%;
-    }
-
-    header #enfeite nav .menu {
-        display: flex;
-        align-content: center;
+        align-items: center;
         justify-content: center;
         height: 100px;
-        z-index: 1;
+        width: 100%;
         transform: translateY(15px);
-        column-gap: 70px;
-        row-gap: 2px;
-        flex-flow: row wrap
     }
 
-    header #enfeite nav .menu a {
+    header #enfeite nav ul.menu {
+        display: flex;
+        align-items: center;     
+        column-gap: 70px;
+    }
+
+    header #enfeite nav ul.menu li,
+    header #enfeite nav ul.menu li a
+    {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
         font-size: 20px;
@@ -119,6 +118,51 @@
 
     header #enfeite nav a[href="favoritos"] {
         font-size: 35px;
+    }
+
+    header #enfeite nav ul.menu > li:nth-child(2){
+        position: relative;
+        padding: 15px;
+        border-radius: 15px 15px 0px 0px;
+        transition: background-color .4s ease-in-out;
+    }
+    header #enfeite nav ul.menu > li:nth-child(2):hover{
+        background-color: rgba(255, 255, 255, 0.33);
+        box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
+    }
+    header #enfeite nav ul.menu > li:nth-child(2):hover .submenu{
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    header #enfeite nav ul.submenu{
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        background-color: #fff;
+        width: max-content;
+        padding: 10px 25px;
+        left: 0px;
+        top: 80%;
+        border-radius: 15px;
+        box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
+    }
+    header #enfeite nav ul.submenu li{
+        border-bottom: solid 1px #dfdfdf;
+    }
+    header #enfeite nav ul.submenu li:last-child{
+        border: none;
+    }
+    header #enfeite nav ul.submenu li a{
+        display: inline-block;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        color: #000;
+        padding: 10px 0px 10px 0px;
     }
 
     @media all and (min-width: 1920px) {
@@ -146,8 +190,8 @@
 
     @media all and (max-width: 1080px) {
         header #enfeite nav .menu {
-            /* display: none; */
-            display: block;
+            display: none;
+            /* display: block; */
             width: 50%;
             height: auto;
             position: absolute;
@@ -169,6 +213,8 @@
 
         header #enfeite nav.menuAtivo .menu {
             display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
 
         header #enfeite nav #btnMobile {
@@ -194,7 +240,14 @@
             <button id="btnMobile">Menu<span></span></button>
             <ul class="menu">
                 <li><a href="home">INÍCIO</a></li>
-                <li><a href="produtos">PRODUTOS</a></li>
+                <li>PRODUTOS 
+                    <ul class="submenu">
+                        <li><a href="Papelaria">Papelaria, Escritório e Escolar</a></li> 
+                        <li><a href="Artigos-Festa">Artigos de Festa e Brinquedos</a></li>
+                        <li><a href="Utensilios-Cozinha">Utensílios de Cozinha</a></li>
+                        <li><a href="Miudezas">Miudezas</a></li>
+                    </ul>
+                </li>
                 <li><a href="contato">CONTATO</a></li>
                 <li><a href="favoritos">
                         <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +267,8 @@
                                 </filter>
                             </defs>
                         </svg>
-                    </a></li>
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
