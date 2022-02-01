@@ -77,18 +77,6 @@
         transform: translateX(-15px);
     }
 
-    header #enfeite #btnMobile {
-        display: none;
-        font-family: 'Red Hat Display', sans-serif;
-        font-weight: 900;
-        font-size: 20px;
-        text-decoration: none;
-        line-height: 26px;
-        letter-spacing: 0.05em;
-        color: #fff;
-        background: none;
-    }
-
     header #enfeite nav {
         display: flex;
         align-items: center;
@@ -98,15 +86,46 @@
         transform: translateY(15px);
     }
 
+    header #enfeite nav #btnMobile {
+        display: none;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #fff;
+        background: none;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    header #enfeite nav #btnMobile span {
+        width: 20px;
+        border-top: 2px solid;
+        color: #fff;
+    }
+
+    header #enfeite nav #btnMobile span::after,
+    header #enfeite nav #btnMobile span::before {
+        content: "";
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        display: block;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
     header #enfeite nav ul.menu {
         display: flex;
-        align-items: center;     
+        align-items: center;
         column-gap: 70px;
     }
 
     header #enfeite nav ul.menu li,
-    header #enfeite nav ul.menu li a
-    {
+    header #enfeite nav ul.menu li a {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
         font-size: 20px;
@@ -120,22 +139,24 @@
         font-size: 35px;
     }
 
-    header #enfeite nav ul.menu > li:nth-child(2){
+    header #enfeite nav ul.menu>li:nth-child(2) {
         position: relative;
         padding: 15px;
         border-radius: 15px 15px 0px 0px;
         transition: background-color .4s ease-in-out;
     }
-    header #enfeite nav ul.menu > li:nth-child(2):hover{
+
+    header #enfeite nav ul.menu>li:nth-child(2):hover {
         background-color: rgba(255, 255, 255, 0.33);
         box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
     }
-    header #enfeite nav ul.menu > li:nth-child(2):hover .submenu{
+
+    header #enfeite nav ul.menu>li:nth-child(2):hover .submenu {
         opacity: 1;
         pointer-events: auto;
     }
 
-    header #enfeite nav ul.submenu{
+    header #enfeite nav ul.submenu {
         transition: opacity .2s ease-in-out;
         opacity: 0;
         pointer-events: none;
@@ -148,13 +169,16 @@
         border-radius: 15px;
         box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
     }
-    header #enfeite nav ul.submenu li{
+
+    header #enfeite nav ul.submenu li {
         border-bottom: solid 1px #dfdfdf;
     }
-    header #enfeite nav ul.submenu li:last-child{
+
+    header #enfeite nav ul.submenu li:last-child {
         border: none;
     }
-    header #enfeite nav ul.submenu li a{
+
+    header #enfeite nav ul.submenu li a {
         display: inline-block;
         font-family: 'Red Hat Text';
         font-style: normal;
@@ -177,7 +201,7 @@
     }
 
     @media all and (max-width: 1440px) {
-        header #enfeite nav .menu {
+        header #enfeite nav ul.menu {
             column-gap: 50px;
         }
     }
@@ -186,14 +210,20 @@
         header #container-logo {
             width: 100%;
         }
+
+        header #enfeite nav ul.menu {
+            column-gap: 40px;
+        }
     }
 
     @media all and (max-width: 1080px) {
-        header #enfeite nav .menu {
+        header #enfeite nav {
+            justify-content: end;
+        }
+
+        header #enfeite nav ul.menu {
             display: none;
-            /* display: block; */
-            width: 50%;
-            height: auto;
+            height: 0px;
             position: absolute;
             top: 40px;
             right: 10px;
@@ -201,24 +231,81 @@
             border-radius: 5px;
         }
 
-        header #enfeite nav .menu li a {
+        header #enfeite nav ul.menu li {
+            width: 100%;
+        }
+
+        header #enfeite nav ul.menu li a {
             display: block;
-            padding: 5px 0 5px 10px;
+            padding: 5px 0px 5px 10px;
             border-radius: 5px;
         }
 
-        header #enfeite nav .menu li a:hover {
+        header #enfeite nav ul.menu li a:hover {
             background-color: rgba(256, 256, 256, .6);
         }
 
-        header #enfeite nav.menuAtivo .menu {
+        header #enfeite nav.menuAtivo ul.menu {
+            height: auto;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            top: 70%;
         }
 
         header #enfeite nav #btnMobile {
             display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+
+        header #enfeite nav.menuAtivo #btnMobile span {
+            border-top-color: transparent;
+        }
+
+        header #enfeite nav.menuAtivo #btnMobile span::after {
+            transform: rotate(135deg);
+            top: -7px;
+        }
+
+        header #enfeite nav.menuAtivo #btnMobile span::before {
+            transform: rotate(-135deg);
+        }
+
+        header #enfeite nav ul.menu>li:nth-child(2) {
+            padding: 5px 0px 0px 10px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            transition: none;
+        }
+
+        header #enfeite nav ul.submenu {
+            transition: none;
+            opacity: 1;
+            pointer-events: none;
+            position: relative;
+            background: none;
+            padding: 10px;
+            left: 0px;
+            top: 0px;
+            border-radius: 0px;
+            box-shadow: none;
+        }
+
+        header #enfeite nav ul.menu>li:nth-child(2):hover {
+            box-shadow: none;
+        }
+
+        header #enfeite nav ul.submenu li a {
+            display: inline-block;
+            width: 100%;
+            font-family: 'Red Hat Text';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            color: #323232;
+            padding: 10px 0px 10px 0px;
         }
     }
 </style>
@@ -240,9 +327,9 @@
             <button id="btnMobile">Menu<span></span></button>
             <ul class="menu">
                 <li><a href="home">INÍCIO</a></li>
-                <li>PRODUTOS 
+                <li>PRODUTOS
                     <ul class="submenu">
-                        <li><a href="Papelaria">Papelaria, Escritório e Escolar</a></li> 
+                        <li><a href="Papelaria">Papelaria, Escritório e Escolar</a></li>
                         <li><a href="Artigos-Festa">Artigos de Festa e Brinquedos</a></li>
                         <li><a href="Utensilios-Cozinha">Utensílios de Cozinha</a></li>
                         <li><a href="Miudezas">Miudezas</a></li>
