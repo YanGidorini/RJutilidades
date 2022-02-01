@@ -1,5 +1,6 @@
-/* TESTAR USAR POSITION AO INVES DE TRANSFORM */
-
+body{
+    overflow-x: hidden;
+}
 /* categorias */
 nav.categorias{
     display: flex;
@@ -98,7 +99,7 @@ nav.categorias a:last-child::before{
 section.amostras{
     display: flex;
     overflow-x: hidden;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .amostras .cardProduto{
@@ -288,16 +289,16 @@ section.secaoMapa{
     width: 74px;
     height: 40px;
 }
-.social-media li:nth-child(2){
+.social-media li:nth-child(2) a div{
     height: 54px;
     width: 54px;
     background-image: url(../IMG/wpp.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
 }
-.social-media li:nth-child(3){
+.social-media li:nth-child(3) a div{
+    display: block;
     height: 46px;
     width: 46px;
     background-image: url(../IMG/instagram.svg);
@@ -305,7 +306,8 @@ section.secaoMapa{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.social-media li:last-child{
+
+.social-media li:last-child a div{
     height: 43px;
     width: 43px;
     background-image: url(../IMG/1024px-Facebook_icon.svg);
@@ -330,15 +332,15 @@ section.secaoMapa{
         width: 49px;
         height: 27px;
     }
-    .social-media li:nth-child(2){
+    .social-media li:nth-child(2) a div{
         height: 48px;
         width: 48px;
     }
-    .social-media li:nth-child(3){
+    .social-media li:nth-child(3) a div{
         height: 40px;
         width: 40px;
     }
-    .social-media li:last-child{
+    .social-media li:last-child a div{
         height: 37px;
         width: 37px;
     }

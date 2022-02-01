@@ -12,8 +12,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="Assets/CSS/reset.css">
-	<link rel="stylesheet" href="Assets/CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" >
 
 </head>
 
@@ -22,7 +22,7 @@
 <?php
 	$url = (isset($_GET['url'])) ? $_GET['url'] : 'Home';
 	$url = str_replace('-','', array_filter(explode('/', $url)));
-	
+
 	$file = 'Pages/' . ucfirst($url[0]) . '.php'; //define o filename
 
 	if (is_file($file)) {
@@ -40,9 +40,15 @@
 	<li>
 		<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 	</li>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li>
+		<a href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank"> <div></div> </a>
+	</li>
+	<li>
+		<a href="https://www.instagram.com/rjutilidadess/" target="_blank"> <div></div> </a>
+	</li>
+	<li>
+		<a href=""> <div></div> </a>
+	</li>
 </ul>
 
 <footer>

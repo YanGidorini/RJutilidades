@@ -116,6 +116,7 @@
         margin-top: 5px;
         transition: .3s;
         position: relative;
+        border-radius: 10%;
     }
 
     header #enfeite nav ul.menu {
@@ -173,6 +174,10 @@
     header #enfeite nav ul.submenu li {
         border-bottom: solid 1px #dfdfdf;
     }
+    header #enfeite nav ul.submenu li:hover a {
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.02);
+    }
 
     header #enfeite nav ul.submenu li:last-child {
         border: none;
@@ -218,39 +223,44 @@
 
     @media all and (max-width: 1080px) {
         header #enfeite nav {
-            justify-content: end;
+            justify-content: flex-end;
         }
-
         header #enfeite nav ul.menu {
             display: none;
-            height: 0px;
-            position: absolute;
-            top: 40px;
-            right: 10px;
-            background-color: rgba(256, 256, 256, .6);
-            border-radius: 5px;
         }
-
-        header #enfeite nav ul.menu li {
+        header #enfeite nav ul.menu li{
             width: 100%;
         }
-
-        header #enfeite nav ul.menu li a {
+        header #enfeite nav ul.menu li a{
+            box-sizing: border-box;
             display: block;
-            padding: 5px 0px 5px 10px;
-            border-radius: 5px;
+            width: 100%;
+            color: #000;
+            padding: 10px;
         }
-
-        header #enfeite nav ul.menu li a:hover {
-            background-color: rgba(256, 256, 256, .6);
+        header #enfeite nav ul.menu li:nth-child(2){ /* cor do PRODUTOS */
+            color: #000;
         }
-
+        header #enfeite nav ul.menu > li:first-child a:hover{
+            background-color: #dfdfdf;
+            border-radius: 15px 15px 0px 0px;
+        }   
+        header #enfeite nav ul.menu > li:nth-child(3) a:hover{
+            background-color: #dfdfdf;
+        }   
+        header #enfeite nav ul.menu > li:last-child a:hover{
+            background-color: #dfdfdf;
+            border-radius: 0px 0px 15px 15px;
+        }  
         header #enfeite nav.menuAtivo ul.menu {
-            height: auto;
+            position: absolute;
+            top: calc(100% - 30px);
+            right: 10px;
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
-            top: 70%;
+            background-color: rgba(256, 256, 256, 1);
+            border-radius: 15px;
+            box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
         }
 
         header #enfeite nav #btnMobile {
@@ -286,13 +296,14 @@
             position: relative;
             background: none;
             padding: 10px;
+            padding-left: 0px;
             left: 0px;
             top: 0px;
             border-radius: 0px;
             box-shadow: none;
         }
 
-        header #enfeite nav ul.menu>li:nth-child(2):hover {
+        header #enfeite nav ul.menu li:nth-child(2):hover {
             box-shadow: none;
         }
 
@@ -306,6 +317,25 @@
             line-height: 24px;
             color: #323232;
             padding: 10px 0px 10px 0px;
+        }
+        header #enfeite nav ul.submenu li:hover {
+            background-color: #dfdfdf;
+        }  
+    }
+
+    @media all and (max-width: 620px)
+    {
+        header #enfeite{
+            transform: translateX(0px);
+        }
+        header #container-logo{
+            width: fit-content;
+        }
+        header #container-logo img{
+            margin-right: 30px;
+        }
+        header #container-logo p{
+            display: none;
         }
     }
 </style>
