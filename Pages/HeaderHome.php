@@ -102,21 +102,21 @@
 
     header #enfeite nav #btnMobile span {
         width: 20px;
-        border-top: 2px solid;
+        border-top: 4px solid;
         color: #fff;
+        
     }
 
     header #enfeite nav #btnMobile span::after,
     header #enfeite nav #btnMobile span::before {
         content: "";
         width: 20px;
-        height: 2px;
+        height: 4px;
+        margin-top: 5px;
         background: currentColor;
         display: block;
-        margin-top: 5px;
         transition: .3s;
         position: relative;
-        border-radius: 10%;
     }
 
     header #enfeite nav ul.menu {
@@ -176,7 +176,10 @@
     }
     header #enfeite nav ul.submenu li:hover a {
         font-size: 20px;
+    }
+    header #enfeite nav ul.submenu li:hover{
         background-color: rgba(0, 0, 0, 0.02);
+        cursor: pointer;
     }
 
     header #enfeite nav ul.submenu li:last-child {
@@ -275,7 +278,7 @@
 
         header #enfeite nav.menuAtivo #btnMobile span::after {
             transform: rotate(135deg);
-            top: -7px;
+            top: -8px;
         }
 
         header #enfeite nav.menuAtivo #btnMobile span::before {
@@ -305,37 +308,45 @@
 
         header #enfeite nav ul.menu li:nth-child(2):hover {
             box-shadow: none;
-        }
-
-        header #enfeite nav ul.submenu li a {
-            display: inline-block;
-            width: 100%;
-            font-family: 'Red Hat Text';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            line-height: 24px;
-            color: #323232;
-            padding: 10px 0px 10px 0px;
-        }
+        }       
         header #enfeite nav ul.submenu li:hover {
             background-color: #dfdfdf;
         }  
+        header #enfeite nav ul.submenu li:hover a {
+            font-size: 18px;
+        }
     }
 
     @media all and (max-width: 620px)
     {
+        header{
+            grid-template-areas:
+            "logo nav"
+            "frase frase";
+        }
         header #enfeite{
             transform: translateX(0px);
+            height: 100px;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 0px;
         }
         header #container-logo{
-            width: fit-content;
+            justify-content: center;
+            width: 100%;
+            transform: translateY(0px);
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 0;
         }
         header #container-logo img{
-            margin-right: 30px;
+            width: 100px;
+            height: 54px;
+            margin: 0px;
         }
         header #container-logo p{
             display: none;
+        }
+        header #enfeite nav{
+            transform: translateY(0px);
         }
     }
 </style>
@@ -354,7 +365,7 @@
 
     <div id="enfeite">
         <nav>
-            <button id="btnMobile">Menu<span></span></button>
+            <button id="btnMobile">MENU<span></span></button>
             <ul class="menu">
                 <li><a href="home">INÍCIO</a></li>
                 <li>PRODUTOS

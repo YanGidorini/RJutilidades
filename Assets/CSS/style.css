@@ -80,7 +80,10 @@ nav.categorias a:last-child::before{
     background-repeat: no-repeat;
     background-size: contain;
 }
-@media all and (max-width: 630px) {
+@media all and (max-width: 620px) {
+    nav.categorias{
+        transform: translateY(0px);
+    }
     nav.categorias a:nth-child(2)::before{
         top: -15px;
         right: -35px;
@@ -315,14 +318,19 @@ section.secaoMapa{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.social-media li a div:hover {
+    transform: scale(1.05);
+}
 
 @media all and (max-width: 920px){
     .social-media{
-        flex-direction: column-reverse;
-        padding-right: 0px;
-        padding-top: 10px;
+        flex-direction: row;
+        padding-right: 10px;
+        padding-top: 0px;
         gap: 10px;
         border-radius: 10px;
+        bottom: 2%;
+        right: 5%;
     }
     .social-media li:first-child{
         padding: 10px;
