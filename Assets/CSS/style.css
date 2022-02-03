@@ -161,38 +161,43 @@ section.amostras{
 }
 
 /* mapa */
-section.secaoMapa{
+section.localizacao{
+    background-image: url("../IMG/Curvas.svg");
+    background-repeat: no-repeat;
+    background-position: top -90px left 0px;
+    background-size: 100%;
+    height: auto;
+}
+
+.localizacao .container{
+    max-width: 1440px;
+    height: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-areas: 
-    "mapa apps"
+    "mapa botoes"
     "mapa ilustracoes";
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
-    position: relative;
-    top: 150px;
+    align-items: center;
+    justify-items: center;
 }
 
-.fundoMapa{
-    position: relative;
-    height: 620px;
-    background : url("../IMG/Curvas.svg");
-    background-size: cover;
-    background-position: 0% 0%;
-    bottom: 60px;
-}
-
-.secaoMapa .mapa{
+.container .containerMapa{
     grid-area: mapa;
-    max-height: 340px;
+}
+
+.containerMapa .mapa{
+    max-width: 870px;
+    max-height: 373px;
     padding: 20px 40px;
     background : #fff;
     text-align: center;
-    justify-self: center;
     border-radius: 15px;
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
 }
 
-.secaoMapa .mapa h2{
+.containerMapa .mapa h2{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -200,8 +205,10 @@ section.secaoMapa{
     letter-spacing: 2px;
 }
 
-.secaoMapa .mapa div{
+.containerMapa .mapa div{
     width: 490px;
+    max-width: 80%;
+    min-width: 50%;
     background-color: #fff;
     padding: 10px;
     transform: translateY(25px);
@@ -210,7 +217,7 @@ section.secaoMapa{
     margin: 0 auto;
 }
 
-.secaoMapa .mapa p{
+.containerMapa .mapa div p{
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     font-weight: 400;
@@ -219,40 +226,31 @@ section.secaoMapa{
     color: #6D6D6D;
 }
 
-.secaoMapa .apps {
-    grid-area: apps;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.containerMapa .mapa img{
+    max-width: 100%;
 }
 
-.secaoMapa .apps .imgApp{
-    display: flex;
+.container .botoes{
+    grid-area: botoes;
+    align-self: end;
+    justify-self: start;
+    display: grid;
+    grid-template-columns: 40px 2fr;
+    grid-template-rows: repeat(2, 40px);
+    gap: 5px;
+}
+
+.container .botoes .imgApp{
     width: 40px;
-    height:  40px;
     background-color: #fff;
+    border-radius: 8px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 8px;
 }
 
-.secaoMapa .apps .imgApp:nth-of-type(3){
-    margin-bottom: 40px;
-}
-
-.secaoMapa .apps .nomeApp{
-    width: 90%;
-}
-
-.secaoMapa .apps .nomeApp:nth-of-type(4){
-    margin-bottom: 40px;
-}
-
-.secaoMapa .apps .nomeApp p{
-    max-width: 150px;
-    max-height: 30px;
+.container .botoes p{
     padding: 5px 10px;
-    margin-left: 10px;
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 22px;
     font-weight: 700;
@@ -261,13 +259,116 @@ section.secaoMapa{
     border-radius: 5px;
 }
 
-.secaoMapa .ilustracoes{
+.container .ilustracoes{
     grid-area: ilustracoes;
     display: flex;
 }
 
-.secaoMapa .ilustracoes img:nth-of-type(2){
+.container .ilustracoes img{
+    max-width: 280px;
+    max-height: 280px;
+}
+
+.ilustracoes img:nth-of-type(2){
     transform: translateX(-120px);
+}
+
+@media all and (max-width: 1440px) {
+    section.localizacao{
+        background-position: top -30px left 0px;
+    }
+    .localizacao .container{
+        max-width: 1280px;
+    }
+    .containerMapa .mapa{
+        transform: scale(0.99);
+    }
+    .container .botoes{
+        transform: scale(0.99);
+    }
+    .container .ilustracoes{
+        grid-area: ilustracoes;
+        display: flex;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    section.localizacao{
+        background-size: 110%;
+    }
+    .localizacao .container{
+        max-width: 1080px;
+        grid-template-areas: 
+        "mapa"
+        "botoes";
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(385px, 400px) 50px;
+        align-items: center;
+        justify-items: center;
+    }
+    .container .botoes{
+        justify-self: center;
+        display: flex;
+    }
+    .container .botoes .imgApp{
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
+    }
+    .container .botoes p{
+        box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);  
+    }
+
+    .container .ilustracoes{
+        display: none;
+    }
+}
+
+@media all and (max-width: 812px) {
+    section.localizacao{
+        background-size: 160%;
+    }
+    .localizacao .container{
+        grid-template-columns: 100%;
+        grid-template-rows: minmax(250px, 380px) 50px;
+    }
+    .containerMapa .mapa{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .containerMapa .mapa h2{
+        font-size: 28px;
+    }
+    .containerMapa .mapa div{
+        max-width: 70%;
+    } 
+    .containerMapa .mapa div p{
+        font-size: 14px;
+    }  
+    .container .botoes p{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 620px) {
+    section.localizacao{
+        background-size: 170%;
+    }
+    .localizacao .container{
+        grid-template-columns: 100%;
+        grid-template-rows: minmax(250px, 300px) 50px;
+    }
+    .containerMapa .mapa{
+        max-width: 70%;
+        padding: 10px 20px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .localizacao .container{
+        grid-template-rows: 250px 50px;
+    }
+    .containerMapa .mapa{
+        max-width: 60%;
+    }
 }
 
 /* Menu flutuante de redes sociais */
