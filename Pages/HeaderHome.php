@@ -40,7 +40,7 @@
         margin-left: 20px;
     }
 
-    header  h1 {
+    header h1 {
         grid-area: frase;
         justify-self: center;
         margin-bottom: 80px;
@@ -82,11 +82,11 @@
         transform: translateY(15px);
     }
 
-    .fa-heart::before{
+    .fa-heart::before {
         font-size: 35px;
     }
 
-    header #enfeite nav ul.menu > li:last-child a span{
+    header #enfeite nav ul.menu>li:last-child a span {
         display: none;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
@@ -116,7 +116,7 @@
         border-top: 4px solid;
         color: #fff;
         border-radius: 4px;
-        
+
     }
 
     header #enfeite nav #btnMobile span::after,
@@ -132,11 +132,11 @@
         border-radius: 0px 0px 4px 4px;
     }
 
-    header #enfeite nav #btnMobile span::before{
+    header #enfeite nav #btnMobile span::before {
         border-radius: 4px;
     }
 
-    
+
 
     header #enfeite nav ul.menu {
         display: flex;
@@ -193,10 +193,12 @@
     header #enfeite nav ul.submenu li {
         border-bottom: solid 1px #dfdfdf;
     }
+
     header #enfeite nav ul.submenu li:hover a {
         font-size: 20px;
     }
-    header #enfeite nav ul.submenu li:hover{
+
+    header #enfeite nav ul.submenu li:hover {
         background-color: rgba(0, 0, 0, 0.02);
         cursor: pointer;
     }
@@ -244,50 +246,60 @@
     }
 
     @media all and (max-width: 1080px) {
-        
+
 
         header #enfeite nav {
             justify-content: flex-end;
         }
+
         header #enfeite nav ul.menu {
             display: none;
         }
-        header #enfeite nav ul.menu li{
+
+        header #enfeite nav ul.menu li {
             width: 100%;
         }
-        header #enfeite nav ul.menu li a{
+
+        header #enfeite nav ul.menu li a {
             box-sizing: border-box;
             display: block;
             width: 100%;
             color: #000;
             padding: 10px;
         }
-        header #enfeite nav ul.menu li:nth-child(2){ /* cor do PRODUTOS */
+
+        header #enfeite nav ul.menu li:nth-child(2) {
+            /* cor do PRODUTOS */
             color: #000;
         }
-        header #enfeite nav ul.menu > li:first-child a:hover{
+
+        header #enfeite nav ul.menu>li:first-child a:hover {
             background-color: #dfdfdf;
             border-radius: 15px 15px 0px 0px;
-        }   
-        header #enfeite nav ul.menu > li:nth-child(3) a:hover{
+        }
+
+        header #enfeite nav ul.menu>li:nth-child(3) a:hover {
             background-color: #dfdfdf;
-        }   
-        header #enfeite nav ul.menu > li:last-child a:hover{
+        }
+
+        header #enfeite nav ul.menu>li:last-child a:hover {
             background-color: #dfdfdf;
             border-radius: 0px 0px 15px 15px;
-        }  
+        }
 
-        header #enfeite nav ul.menu > li:last-child a span{
+        header #enfeite nav ul.menu>li:last-child a span {
             display: inline-block;
             color: #000;
         }
-        header #enfeite nav ul.menu > li:last-child a {
+
+        header #enfeite nav ul.menu>li:last-child a {
             display: flex;
             align-items: center;
             justify-content: space-between;
         }
-        .fa-heart::before{
-        font-size: 25px;
+
+        .fa-heart::before {
+            font-size: 25px;
         }
 
         header #enfeite nav.menuAtivo ul.menu {
@@ -344,52 +356,58 @@
 
         header #enfeite nav ul.menu li:nth-child(2):hover {
             box-shadow: none;
-        }       
+        }
+
         header #enfeite nav ul.submenu li:hover {
             background-color: #dfdfdf;
-        }  
+        }
+
         header #enfeite nav ul.submenu li:hover a {
             font-size: 18px;
         }
     }
-    @media all and (max-width: 811px) {
-        header{
+
+    @media all and (max-width: 812px) {
+        header {
             grid-template-areas:
-            "logo nav"
-            "frase frase";
+                "logo nav"
+                "frase frase";
         }
-        header #enfeite{
+
+        header #enfeite {
             height: 130px;
         }
-        header h1{
+
+        header h1 {
             text-align: center;
             margin-top: 50px;
             margin-bottom: 50px;
         }
     }
 
-    @media all and (max-width: 620px)
-    {
-        header{
+    @media all and (max-width: 620px) {
+        header {
             grid-template-areas:
-            "logo nav"
-            "frase frase";
-        } 
-        header h1{
+                "logo nav"
+                "frase frase";
+        }
+
+        header h1 {
             text-align: center;
             margin-top: 50px;
             margin-bottom: 50px;
             font-size: 40px;
         }
 
-        header #enfeite{
+        header #enfeite {
             transform: translateX(0px);
             height: 100px;
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
             border-radius: 0px 20px 20px 0px;
             margin: 10px 15px 0px 0px;
         }
-        header #container-logo{
+
+        header #container-logo {
             justify-content: center;
             width: 100%;
             transform: translateY(0px);
@@ -398,17 +416,20 @@
             border-radius: 20px 0px 0px 20px;
             margin: 10px 0px 0px 15px;
         }
-        header #container-logo img{
+
+        header #container-logo img {
             width: 109px;
             height: 59px;
             margin: 0px;
         }
-        header #container-logo p{
+
+        header #container-logo p {
             display: none;
         }
-        header #enfeite nav{
+
+        header #enfeite nav {
             transform: translateY(0px);
-            
+
         }
     }
 </style>
@@ -421,9 +442,9 @@
         <p>Papelaria, escritório, utilidades, miudezas...</p>
     </div>
 
-    
+
     <h1>Tudo o que precisa, encontra aqui!</h1>
-   
+
 
     <div id="enfeite">
         <nav>

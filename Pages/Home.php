@@ -38,34 +38,30 @@
     </div>
 </section>
 
-<div class="fundoMapa">
-    <section class="secaoMapa">
-        <div class="mapa">
-            <h2>Visite nossa loja!</h2>
-            <div>
-                <p>Rua Jair de Godóy, nº56 - Vila Açoreana - Poá/SP</p>
+<section class="localizacao">
+    <div class="container">
+        <div class="containerMapa">
+            <div class="mapa">
+                <h2>Visite nossa loja!</h2>
+                <div>
+                    <p>Rua Jair de Godóy, nº56 - Vila Açoreana - Poá/SP</p>
+                </div>
+                <img src="Assets/IMG/mapa.png" alt="Endereço R&J Utilidades">
             </div>
-            <img src="Assets/IMG/mapa.png" alt="Endereço R&J Utilidades">
         </div>
-
-        <div class="apps">
+        <div class="botoes">
             <div class="imgApp">
                 <img src="Assets/IMG/maps.svg" alt="Google Maps">
             </div>
-            <div class="nomeApp">
-                <p>Ver no Maps</p>
-            </div>
+            <p>Ver no Maps</p>
             <div class="imgApp">
                 <img src="Assets/IMG/waze.svg" alt="Waze">
             </div>
-            <div class="nomeApp">
-                <p>Ver no Waze</p>
-            </div>
+            <p>Ver no Waze</p>
         </div>
-
         <div class="ilustracoes">
             <img src="Assets/IMG/cesta.svg" alt="">
             <img src="Assets/IMG/presente.svg" alt="">
         </div>
-    </section>
-</div>
+    </div>
+</section>
