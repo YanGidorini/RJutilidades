@@ -115,6 +115,7 @@
         width: 20px;
         border-top: 4px solid;
         color: #fff;
+        border-radius: 4px;
         
     }
 
@@ -128,7 +129,14 @@
         display: block;
         transition: .3s;
         position: relative;
+        border-radius: 0px 0px 4px 4px;
     }
+
+    header #enfeite nav #btnMobile span::before{
+        border-radius: 4px;
+    }
+
+    
 
     header #enfeite nav ul.menu {
         display: flex;
@@ -281,7 +289,7 @@
         .fa-heart::before{
         font-size: 25px;
         }
-        
+
         header #enfeite nav.menuAtivo ul.menu {
             position: absolute;
             top: calc(100% - 30px);
@@ -305,7 +313,8 @@
 
         header #enfeite nav.menuAtivo #btnMobile span::after {
             transform: rotate(135deg);
-            top: -8px;
+            top: -9px;
+            border-radius: 4px;
         }
 
         header #enfeite nav.menuAtivo #btnMobile span::before {

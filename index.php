@@ -41,13 +41,13 @@
 		<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
 	</li>
 	<li>
-		<a href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank"> <div></div> </a>
+		<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank"> <div></div> </a>
 	</li>
 	<li>
-		<a href="https://www.instagram.com/rjutilidadess/" target="_blank"> <div></div> </a>
+		<a rel="noreferrer" href="https://www.instagram.com/rjutilidadess/" target="_blank"> <div></div> </a>
 	</li>
 	<li>
-		<a href=""> <div></div> </a>
+		<a rel="noreferrer" href=""> <div></div> </a>
 	</li>
 </ul>
 
