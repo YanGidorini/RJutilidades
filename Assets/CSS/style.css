@@ -12,6 +12,7 @@ nav.categorias{
     max-width: 1920px;
     margin: 0 auto;
     transform: translateY(-90px);
+    position: relative;
 }
 
 nav.categorias a{
@@ -80,9 +81,17 @@ nav.categorias a:last-child::before{
     background-repeat: no-repeat;
     background-size: contain;
 }
+@media all and (max-width: 811px){
+    nav.categorias{
+        transform: translateY(0px);
+        z-index: -1;
+    }
+}
+
 @media all and (max-width: 620px) {
     nav.categorias{
         transform: translateY(0px);
+        z-index: -1;
     }
     nav.categorias a:nth-child(2)::before{
         top: -15px;
@@ -267,7 +276,7 @@ section.secaoMapa{
     align-items: center;
     position: fixed;
     gap: 15px;
-    bottom: 5%;
+    bottom: 4%;
     right: 2%;
     width: fit-content;
     height: fit-content;

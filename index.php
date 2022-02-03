@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" >
-
+	
 </head>
 
 <body>
@@ -64,4 +64,5 @@
 
 </body>
 
+<script src="https://kit.fontawesome.com/280b8f0274.js" crossorigin="anonymous"></script>
 </html>

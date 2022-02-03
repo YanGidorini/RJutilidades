@@ -40,13 +40,10 @@
         margin-left: 20px;
     }
 
-    header #fraseTitulo {
+    header  h1 {
         grid-area: frase;
         justify-self: center;
         margin-bottom: 80px;
-    }
-
-    header #fraseTitulo h1 {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 700;
         line-height: 60px;
@@ -54,7 +51,6 @@
         text-align: left;
         font-size: 45px;
         max-width: 500px;
-        ;
         background: #fff;
     }
 
@@ -85,6 +81,21 @@
         width: 100%;
         transform: translateY(15px);
     }
+
+    .fa-heart::before{
+        font-size: 35px;
+    }
+
+    header #enfeite nav ul.menu > li:last-child a span{
+        display: none;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 900;
+        font-size: 20px;
+        text-decoration: none;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+    }
+
 
     header #enfeite nav #btnMobile {
         display: none;
@@ -225,6 +236,8 @@
     }
 
     @media all and (max-width: 1080px) {
+        
+
         header #enfeite nav {
             justify-content: flex-end;
         }
@@ -255,6 +268,20 @@
             background-color: #dfdfdf;
             border-radius: 0px 0px 15px 15px;
         }  
+
+        header #enfeite nav ul.menu > li:last-child a span{
+            display: inline-block;
+            color: #000;
+        }
+        header #enfeite nav ul.menu > li:last-child a {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .fa-heart::before{
+        font-size: 25px;
+        }
+        
         header #enfeite nav.menuAtivo ul.menu {
             position: absolute;
             top: calc(100% - 30px);
@@ -269,7 +296,7 @@
         header #enfeite nav #btnMobile {
             display: flex;
             align-items: center;
-            margin-right: 20px;
+            margin-right: 40px;
         }
 
         header #enfeite nav.menuAtivo #btnMobile span {
@@ -316,6 +343,21 @@
             font-size: 18px;
         }
     }
+    @media all and (max-width: 811px) {
+        header{
+            grid-template-areas:
+            "logo nav"
+            "frase frase";
+        }
+        header #enfeite{
+            height: 130px;
+        }
+        header h1{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
 
     @media all and (max-width: 620px)
     {
@@ -323,23 +365,33 @@
             grid-template-areas:
             "logo nav"
             "frase frase";
+        } 
+        header h1{
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-size: 40px;
         }
+
         header #enfeite{
             transform: translateX(0px);
             height: 100px;
-            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-            border-radius: 0px;
+            box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 20px 20px 0px;
+            margin: 10px 15px 0px 0px;
         }
         header #container-logo{
             justify-content: center;
             width: 100%;
             transform: translateY(0px);
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-            border-radius: 0;
+            z-index: 0;
+            border-radius: 20px 0px 0px 20px;
+            margin: 10px 0px 0px 15px;
         }
         header #container-logo img{
-            width: 100px;
-            height: 54px;
+            width: 109px;
+            height: 59px;
             margin: 0px;
         }
         header #container-logo p{
@@ -347,6 +399,7 @@
         }
         header #enfeite nav{
             transform: translateY(0px);
+            
         }
     }
 </style>
@@ -359,9 +412,9 @@
         <p>Papelaria, escritório, utilidades, miudezas...</p>
     </div>
 
-    <div id="fraseTitulo">
-        <h1>Tudo o que precisa, encontra aqui!</h1>
-    </div>
+    
+    <h1>Tudo o que precisa, encontra aqui!</h1>
+   
 
     <div id="enfeite">
         <nav>
@@ -377,24 +430,10 @@
                     </ul>
                 </li>
                 <li><a href="contato">CONTATO</a></li>
-                <li><a href="favoritos">
-                        <svg width="36" height="30" viewBox="0 0 36 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_i_146_15)">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M33.1504 2.65507C36.95 6.19516 36.95 11.9348 33.1504 15.4749L31.7131 16.8141L31.7443 16.8432L17.985 29.663L2.84966 15.5612C-0.949883 12.0211 -0.949889 6.28148 2.84965 2.74139C6.6492 -0.798702 12.8095 -0.798703 16.609 2.74139L17.9537 3.99427L19.3911 2.65507C23.1906 -0.885023 29.3509 -0.885023 33.1504 2.65507Z" fill="white" />
-                            </g>
-                            <defs>
-                                <filter id="filter0_i_146_15" x="0" y="0" width="36" height="33.663" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                    <feOffset dy="4" />
-                                    <feGaussianBlur stdDeviation="2.5" />
-                                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.11 0" />
-                                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_146_15" />
-                                </filter>
-                            </defs>
-                        </svg>
+                <li>
+                    <a href="favoritos">
+                        <span>FAVORITOS</span>
+                        <i class="fas fa-heart"></i>
                     </a>
                 </li>
             </ul>
