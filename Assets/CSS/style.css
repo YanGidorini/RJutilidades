@@ -145,7 +145,9 @@ section.amostras{
     top: 30px;
     right: 30px;
 }
-.amostras h2{
+
+.amostras h2, 
+.produtos h2{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     line-height: 27px;
@@ -154,7 +156,8 @@ section.amostras{
     align-self: center;
 }
 
-.amostras p{
+.amostras p,
+.produtos p{
     font-family: 'Red Hat Text', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -164,7 +167,9 @@ section.amostras{
     align-self: center;
 }
 
-.card-content span{
+.card-content span,
+.amostras span,
+.produtos span{
     font-family: 'Red Hat Text', sans-serif;
     font-size: 28px;
     font-weight: 700;
@@ -201,7 +206,7 @@ section.localizacao{
     height: auto;
 }
 
-.localizacao .container{
+.localizacao .containerMapa{
     max-width: 1440px;
     height: 100%;
     margin: 0 auto;
@@ -215,11 +220,11 @@ section.localizacao{
     justify-items: center;
 }
 
-.container .containerMapa{
+.containerMapa .blocoMapa{
     grid-area: mapa;
 }
 
-.containerMapa .mapa{
+.blocoMapa .mapa{
     max-width: 870px;
     max-height: 373px;
     padding: 20px 40px;
@@ -229,7 +234,7 @@ section.localizacao{
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
 }
 
-.containerMapa .mapa h2{
+.blocoMapa .mapa h2{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -237,7 +242,7 @@ section.localizacao{
     letter-spacing: 2px;
 }
 
-.containerMapa .mapa div{
+.blocoMapa .mapa div{
     width: 490px;
     max-width: 80%;
     min-width: 50%;
@@ -249,7 +254,7 @@ section.localizacao{
     margin: 0 auto;
 }
 
-.containerMapa .mapa div p{
+.blocoMapa .mapa div p{
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     font-weight: 400;
@@ -258,11 +263,11 @@ section.localizacao{
     color: #6D6D6D;
 }
 
-.containerMapa .mapa img{
+.blocoMapa .mapa img{
     max-width: 100%;
 }
 
-.container .botoes{
+.containerMapa .botoes{
     grid-area: botoes;
     align-self: end;
     justify-self: start;
@@ -272,7 +277,7 @@ section.localizacao{
     gap: 5px;
 }
 
-.container .botoes .imgApp{
+.containerMapa .botoes .imgApp{
     width: 40px;
     background-color: #fff;
     border-radius: 8px;
@@ -281,7 +286,7 @@ section.localizacao{
     justify-content: center;
 }
 
-.container .botoes p{
+.containerMapa .botoes p{
     padding: 5px 10px;
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 22px;
@@ -291,12 +296,12 @@ section.localizacao{
     border-radius: 5px;
 }
 
-.container .ilustracoes{
+.containerMapa .ilustracoes{
     grid-area: ilustracoes;
     display: flex;
 }
 
-.container .ilustracoes img{
+.containerMapa .ilustracoes img{
     max-width: 280px;
     max-height: 280px;
 }
@@ -309,16 +314,16 @@ section.localizacao{
     section.localizacao{
         background-position: top -30px left 0px;
     }
-    .localizacao .container{
+    .localizacao .containerMapa{
         max-width: 1280px;
     }
-    .containerMapa .mapa{
+    .blocoMapa .mapa{
         transform: scale(0.99);
     }
-    .container .botoes{
+    .containerMapa .botoes{
         transform: scale(0.99);
     }
-    .container .ilustracoes{
+    .containerMapa .ilustracoes{
         grid-area: ilustracoes;
         display: flex;
     }
@@ -328,7 +333,7 @@ section.localizacao{
     section.localizacao{
         background-size: 110%;
     }
-    .localizacao .container{
+    .localizacao .containerMapa{
         max-width: 1080px;
         grid-template-areas: 
         "mapa"
@@ -338,18 +343,18 @@ section.localizacao{
         align-items: center;
         justify-items: center;
     }
-    .container .botoes{
+    .containerMapa .botoes{
         justify-self: center;
         display: flex;
     }
-    .container .botoes .imgApp{
+    .containerMapa .botoes .imgApp{
         box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
     }
-    .container .botoes p{
+    .containerMapa .botoes p{
         box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);  
     }
 
-    .container .ilustracoes{
+    .containerMapa .ilustracoes{
         display: none;
     }
 }
@@ -358,24 +363,24 @@ section.localizacao{
     section.localizacao{
         background-size: 160%;
     }
-    .localizacao .container{
+    .localizacao .containerMapa{
         grid-template-columns: 100%;
         grid-template-rows: minmax(250px, 380px) 50px;
     }
-    .containerMapa .mapa{
+    .blocoMapa .mapa{
         max-width: 80%;
         margin: 0 auto;
     }
-    .containerMapa .mapa h2{
+    .blocoMapa .mapa h2{
         font-size: 28px;
     }
-    .containerMapa .mapa div{
+    .blocoMapa .mapa div{
         max-width: 70%;
     } 
-    .containerMapa .mapa div p{
+    .blocoMapa .mapa div p{
         font-size: 14px;
     }  
-    .container .botoes p{
+    .containerMapa .botoes p{
         font-size: 16px;
     }
     
@@ -385,23 +390,33 @@ section.localizacao{
     section.localizacao{
         background-size: 170%;
     }
-    .localizacao .container{
+    .localizacao .containerMapa{
         grid-template-columns: 100%;
         grid-template-rows: minmax(250px, 300px) 50px;
     }
-    .containerMapa .mapa{
+    .blocoMapa .mapa{
         max-width: 70%;
         padding: 10px 20px;
     }
 }
 
 @media all and (max-width: 450px) {
-    .localizacao .container{
+    .localizacao .containerMapa{
         grid-template-rows: 250px 50px;
     }
-    .containerMapa .mapa{
+    .blocoMapa .mapa{
         max-width: 60%;
     }
+}
+/* Seção produtos */
+section.produtos .containerProdutos{
+    margin: 50px auto;
+    max-width: 1275px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 300px));
+    column-gap: 25px;
+    row-gap: 35px;
+    justify-content: end;
 }
 
 /* Menu flutuante de redes sociais */
