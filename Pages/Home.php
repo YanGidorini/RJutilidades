@@ -10,7 +10,7 @@
     <div class=" swiper mySwiper container">
         <div class="swiper-wrapper content">
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -22,7 +22,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -94,7 +94,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -106,7 +106,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -118,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -130,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -142,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -154,7 +154,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -166,7 +166,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide cardProduto ">
+            <div class="swiper-slide product-card ">
                 <div class="card-content">
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -220,41 +220,88 @@
 
 <section class="produtos">
     <div class="containerProdutos">
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
-        <div class="cardProduto">
-            <div class="imgProduto"></div>
-            <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-            <span>R$ 14,80</span>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
+        </div>
+
+        <div class=" product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <i class="far fa-heart"></i>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
         </div>
     </div>
 </section>

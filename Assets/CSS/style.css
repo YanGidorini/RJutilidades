@@ -118,7 +118,7 @@ section.amostras{
     width: 100%;
     padding: 45px 30px;
 }
-.amostras .cardProduto{
+.product-card{
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 9.12338px 18.2468px 45.6169px rgba(0, 0, 0, 0.05);
@@ -408,6 +408,7 @@ section.localizacao{
         max-width: 60%;
     }
 }
+
 /* Seção produtos */
 section.produtos .containerProdutos{
     margin: 50px auto;
