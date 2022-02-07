@@ -43,7 +43,7 @@
     header h1 {
         grid-area: frase;
         justify-self: center;
-        margin-bottom: 80px;
+        margin: 0px 10px 80px 30px;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 700;
         line-height: 60px;
@@ -64,7 +64,7 @@
 
         height: 550px;
         background-color: #ff0000;
-        background-image: url(../RJutilidades/Assets/IMG/enfeite.svg);
+        background-image: url(../RJutilidades/Assets/IMG/enfeite.png);
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
@@ -379,9 +379,11 @@
         }
 
         header h1 {
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 50px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            justify-self: left;
+            margin-left: 80px;
+            font-size: 40px;
         }
     }
 
@@ -393,10 +395,8 @@
         }
 
         header h1 {
-            text-align: center;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            font-size: 40px;
+            margin: 40px 10px 40px 30px;
+            font-size: 36px;
         }
 
         header #enfeite {

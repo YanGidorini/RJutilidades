@@ -1,8 +1,17 @@
-
 *{
 	margin: 0;
 	padding: 0;
 	border: 0;
+	box-sizing: border-box;
+}
+html {
+    height: 100%;
+    min-height: 100%;
+}
+body {
+	display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 a{
 	text-decoration: none;
@@ -11,9 +20,6 @@ a{
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
-}
-body {
-	line-height: 1;
 }
 ol, ul {
 	list-style: none;
