@@ -182,10 +182,11 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-pagination"></div>
-    </div> 
+    </div>
 </section>
 
 <section class="localizacao">
+    <img src="Assets/IMG/Curvas.svg" alt="">
     <div class="containerMapa">
         <div class="blocoMapa">
             <div class="mapa">
@@ -212,15 +213,23 @@
         </div>
 
         <div class="ilustracoes">
-            <img src="Assets/IMG/cesta.svg" alt="">
-            <img src="Assets/IMG/presente.svg" alt="">
+            <img src="Assets/IMG/cesta-presente.png" alt="">
         </div>
     </div>
 </section>
 
 <section class="produtos">
+    <div class="headerProdutos">
+        <div class="filtro">
+            <p>Ordenar por: Menor Preço</p>
+        </div>
+        <div class="barra-pesquisa">
+            <i class="fas fa-search" style="color: #bfbfbf;"></i>
+            <input type="text" placeholder="Buscar">
+        </div>
+    </div>
     <div class="containerProdutos">
-        <div class=" product-card ">
+        <div class="product-card">
             <div class="card-content">
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
@@ -232,7 +241,7 @@
             </div>
         </div>
 
-        <div class=" product-card ">
+        <div class="product-card">
             <div class="card-content">
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">

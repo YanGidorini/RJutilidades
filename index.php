@@ -14,17 +14,17 @@
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,600;0,700;0,900;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
 	<!-- swiper slider -->
-	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-	
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css" >
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 </head>
 
 <body>
 
-<?php
+	<?php
 	$url = (isset($_GET['url'])) ? $_GET['url'] : 'Home';
-	$url = str_replace('-','', array_filter(explode('/', $url)));
+	$url = str_replace('-', '', array_filter(explode('/', $url)));
 
 	$file = 'Pages/' . ucfirst($url[0]) . '.php'; //define o filename
 
@@ -37,66 +37,73 @@
 		include 'Pages/HeaderHome.php';
 		include 'Pages/Home.php';
 	}
-?>
+	?>
 
-<ul class="social-media">
-	<li>
-		<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
-	</li>
-	<li>
-		<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank" title="Whatsapp da loja"> <div alt="Whatsapp da loja"></div> </a>
-	</li>
-	<li>
-		<a rel="noreferrer" href="https://www.instagram.com/rjutilidadess/" target="_blank" title="Instagram da loja"> <div alt="Instagram da loja"></div> </a>
-	</li>
-	<li>
-		<a rel="noreferrer" href=""> <div></div> </a>
-	</li>
-</ul>
-
-<footer>		
-	<ul>
-		<li>Empresa: J. da S. N. Santana Limpeza - ME</li>
-		<li>CNPJ: 29.588.052/0001-02</li>
-		<li>Rua Jair de Godoy n° 56</li>
-		<li>Vila Açoreana - Poá / São Paulo</li>
+	<ul class="social-media">
+		<li>
+			<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
+		</li>
+		<li>
+			<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank" title="Whatsapp da loja">
+				<div alt="Whatsapp da loja"></div>
+			</a>
+		</li>
+		<li>
+			<a rel="noreferrer" href="https://www.instagram.com/rjutilidadess/" target="_blank" title="Instagram da loja">
+				<div alt="Instagram da loja"></div>
+			</a>
+		</li>
+		<li>
+			<a rel="noreferrer" href="">
+				<div></div>
+			</a>
+		</li>
 	</ul>
-</footer>
+
+	<footer>
+		<ul>
+			<li>Empresa: J. da S. N. Santana Limpeza - ME</li>
+			<li>CNPJ: 29.588.052/0001-02</li>
+			<li>Rua Jair de Godoy n° 56</li>
+			<li>Vila Açoreana - Poá / São Paulo</li>
+		</ul>
+	</footer>
 
 </body>
 
-	<script src="https://kit.fontawesome.com/280b8f0274.js" crossorigin="anonymous"></script>
-	<!-- Swiper JS -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/280b8f0274.js" crossorigin="anonymous"></script>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-	<!-- Initialize Swiper -->
-	<script>
+<!-- Initialize Swiper -->
+<script>
 	var swiper = new Swiper(".mySwiper", {
 		spaceBetween: 30,
 		loop: true,
 		loopFillGroupWithBlank: true,
 		pagination: {
-		el: ".swiper-pagination",
-		clickable: true,
+			el: ".swiper-pagination",
+			clickable: true,
 		},
 		navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
+			nextEl: ".swiper-button-next",
+			prevEl: ".swiper-button-prev",
 		},
 		breakpoints: {
-		480: {
-			slidesPerView: 1,
-			spaceBetween: 30,
-		},
-		640: {
-			slidesPerView: 2,
-			spaceBetween: 30,
-      	},
-		1280: {
-			slidesPerView: 5,
-			spaceBetween: 30,
-		}, 
+			480: {
+				slidesPerView: 1,
+				spaceBetween: 30,
+			},
+			640: {
+				slidesPerView: 2,
+				spaceBetween: 30,
+			},
+			1280: {
+				slidesPerView: 5,
+				spaceBetween: 30,
+			},
 		}
 	});
-	</script>
+</script>
+
 </html>
