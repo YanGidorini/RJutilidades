@@ -443,7 +443,8 @@ section.produtos{
 .produtos .headerProdutos{
     width: 90%;
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    margin: 10px auto 0;
     justify-content: space-between;    
 }
 
@@ -465,6 +466,14 @@ section.produtos{
     background: #000; 
     margin: 0 0 0 4px;
     clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+
+.headerProdutos .filtro ul{
+    display: none;
+}
+.headerProdutos .filtro p:focus ~ ul {
+    display: block;
 }
 
 .headerProdutos svg{
@@ -511,6 +520,22 @@ section.produtos{
     column-gap: 25px;
     row-gap: 35px;
     justify-content: center;
+}
+
+@media all and (max-width: 768px) {
+    .produtos .headerProdutos{
+        flex-direction: column;
+    }
+    .headerProdutos .barra-pesquisa{
+        margin-top: 10px;
+        align-self: center;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .headerProdutos .barra-pesquisa{
+        width: 95%;
+    }
 }
 
 /* Menu flutuante de redes sociais */
