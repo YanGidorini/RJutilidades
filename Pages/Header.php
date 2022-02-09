@@ -3,7 +3,8 @@
     header {
         display: grid;
         grid-template-areas:
-            "logo nav";
+            "logo nav"
+            "frase frase";
         grid-template-columns: 1fr 1fr;
     }
 
@@ -49,7 +50,7 @@
 
         height: 130px;
         background-color: #ff0000;
-        background-image: url(../RJutilidades/Assets/IMG/enfeite.svg);
+        background-image: url(../RJutilidades/Assets/IMG/FormaEnfeite.png);
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
@@ -80,6 +81,7 @@
         line-height: 26px;
         letter-spacing: 0.05em;
     }
+
 
     header #enfeite nav #btnMobile {
         display: none;
@@ -119,6 +121,8 @@
     header #enfeite nav #btnMobile span::before {
         border-radius: 4px;
     }
+
+
 
     header #enfeite nav ul.menu {
         display: flex;
@@ -228,6 +232,8 @@
     }
 
     @media all and (max-width: 1080px) {
+
+
         header #enfeite nav {
             justify-content: flex-end;
         }
@@ -357,6 +363,14 @@
         header #enfeite {
             height: 130px;
         }
+
+        header h1 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            justify-self: left;
+            margin-left: 80px;
+            font-size: 40px;
+        }
     }
 
     @media all and (max-width: 620px) {
@@ -364,6 +378,11 @@
             grid-template-areas:
                 "logo nav"
                 "frase frase";
+        }
+
+        header h1 {
+            margin: 40px 10px 40px 30px;
+            font-size: 36px;
         }
 
         header #enfeite {
@@ -434,4 +453,3 @@
     </div>
 </header>
 <script src="Assets/JS/script.js"></script>
-

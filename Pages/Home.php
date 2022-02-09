@@ -15,7 +15,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -27,7 +30,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -39,7 +45,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -51,7 +60,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -63,7 +75,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -75,7 +90,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -87,7 +105,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -99,7 +120,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -111,7 +135,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -123,7 +150,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -135,7 +165,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -147,7 +180,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -159,7 +195,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -171,7 +210,10 @@
                     <div class="imgProduto">
                         <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                     </div>
-                    <i class="far fa-heart"></i>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                     <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                     <span>R$ 14,80</span>
@@ -224,17 +266,25 @@
             <p>Ordenar por: Menor Preço</p>
         </div>
         <div class="barra-pesquisa">
-            <i class="fas fa-search" style="color: #bfbfbf;"></i>
+            <svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="searchIconTitle">
+                <title id="searchIconTitle">Search</title>
+                <path d="M14.4121122,14.4121122 L20,20"></path>
+                <circle cx="10" cy="10" r="6"></circle>
+            </svg>
             <input type="text" placeholder="Buscar">
         </div>
     </div>
+
     <div class="containerProdutos">
         <div class="product-card">
             <div class="card-content">
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                 </div>
-                <i class="far fa-heart"></i>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
@@ -246,7 +296,40 @@
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                 </div>
-                <i class="far fa-heart"></i>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
+        </div>
+
+        <div class="product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
+                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                <span>R$ 14,80</span>
+            </div>
+        </div>
+
+        <div class="product-card ">
+            <div class="card-content">
+                <div class="imgProduto">
+                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                </div>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
@@ -258,7 +341,10 @@
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                 </div>
-                <i class="far fa-heart"></i>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
@@ -270,7 +356,10 @@
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                 </div>
-                <i class="far fa-heart"></i>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
@@ -282,31 +371,10 @@
                 <div class="imgProduto">
                     <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
                 </div>
-                <i class="far fa-heart"></i>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
-            </div>
-        </div>
-
-        <div class=" product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
-                </div>
-                <i class="far fa-heart"></i>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
-            </div>
-        </div>
-
-        <div class=" product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
-                </div>
-                <i class="far fa-heart"></i>
+                <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <title id="favouriteIconTitle">Favourite</title>
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>

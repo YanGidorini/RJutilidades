@@ -71,7 +71,6 @@
 
 </body>
 
-<script src="https://kit.fontawesome.com/280b8f0274.js" crossorigin="anonymous"></script>
 <!-- Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
