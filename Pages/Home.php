@@ -227,8 +227,10 @@
     </div>
 </section>
 
+
+
 <section class="localizacao">
-    <img src="Assets/IMG/Curvas.svg" alt="">
+<img src="../RJutilidades/Assets/IMG/Curvas.png" alt="">
     <div class="containerMapa">
         <div class="blocoMapa">
             <div class="mapa">

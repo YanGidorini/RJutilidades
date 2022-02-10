@@ -223,12 +223,12 @@ svg.heart {
 .localizacao{
     width: 100%;
     position: relative;
+    height: 520px;
 }
 .localizacao > img{
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     z-index: -1;
 }
 
@@ -438,6 +438,7 @@ svg.heart {
 /* Seção produtos */
 section.produtos{
     max-width: 100%;
+    margin-top: 20px;
 }
 
 .produtos .headerProdutos{
