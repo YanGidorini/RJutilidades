@@ -1,5 +1,5 @@
-/* categorias */
-nav.categorias{
+/* categories */
+nav.categories{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -11,7 +11,7 @@ nav.categorias{
     position: relative;
 }
 
-nav.categorias a{
+nav.categories a{
     font-family: 'Red Hat Text', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -27,7 +27,7 @@ nav.categorias a{
     box-shadow: 8px 5px 20px rgba(0, 0, 0, 0.3);
     position: relative;
 }
-nav.categorias a:first-child::before{
+nav.categories a:first-child::before{
     content: "";
     display: block;
     position: absolute;
@@ -40,7 +40,7 @@ nav.categorias a:first-child::before{
     background-repeat: no-repeat;
     background-size: contain;
 }
-nav.categorias a:nth-child(2)::before{
+nav.categories a:nth-child(2)::before{
     content: "";
     display: block;
     position: absolute;
@@ -53,7 +53,7 @@ nav.categorias a:nth-child(2)::before{
     background-repeat: no-repeat;
     background-size: contain;
 }
-nav.categorias a:nth-child(3)::before{
+nav.categories a:nth-child(3)::before{
     content: "";
     display: block;
     position: absolute;
@@ -66,7 +66,7 @@ nav.categorias a:nth-child(3)::before{
     background-repeat: no-repeat;
     background-size: contain;
 }
-nav.categorias a:last-child::before{
+nav.categories a:last-child::before{
     content: "";
     display: block;
     position: absolute;
@@ -80,25 +80,25 @@ nav.categorias a:last-child::before{
     background-size: contain;
 }
 @media all and (max-width: 811px){
-    nav.categorias{
+    nav.categories{
         transform: translateY(0px);
         z-index: -1;
     }
 }
 
 @media all and (max-width: 620px) {
-    nav.categorias{
+    nav.categories{
         transform: translateY(0px);
         z-index: -1;
     }
-    nav.categorias a:nth-child(2)::before{
+    nav.categories a:nth-child(2)::before{
         top: -15px;
         right: -35px;
         left: auto;
         width: 65px;
         height: 72px;
     }
-    nav.categorias a:nth-child(3)::before{
+    nav.categories a:nth-child(3)::before{
         top: -15px;
         left: -30px;
         right: auto;
@@ -106,14 +106,14 @@ nav.categorias a:last-child::before{
 }
 
 @media all and (max-width: 368px) {
-    nav.categorias a{
+    nav.categories a{
         font-size: 14px;
         width: 250px;
     }
 }
 
-/*  amostras */
-section.amostras{
+/* highlights */
+section.highlights{
     position: relative;
     display: flex;  
     flex-flow: row wrap;
@@ -121,7 +121,7 @@ section.amostras{
     height: auto;
     justify-content: center;
 }
-.amostras .container{
+.highlights .container{
     width: 100%;
     padding: 45px 30px;
 }
@@ -130,31 +130,31 @@ section.amostras{
     background-color: #fff;
     box-shadow: 9.12338px 18.2468px 45.6169px rgba(0, 0, 0, 0.05);
 }
-.card-content{
+.content-card{
     display: flex;
     flex-direction: column;
     padding: 20px;
     position: relative;
 }
-.imgProduto{
+.product-img{
     max-width: 280px;
     height: 260px;
     background-color: #fff;
     align-self: center;
 }
-.imgProduto img{
+.product-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.card-content i{
+.content-card i{
     position: absolute;
     top: 30px;
     right: 30px;
 }
 
-.amostras h2, 
-.produtos h2{
+.highlights h2, 
+.products h2{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     line-height: 27px;
@@ -163,8 +163,8 @@ section.amostras{
     align-self: center;
 }
 
-.amostras p,
-.produtos p{
+.highlights p,
+.products p{
     font-family: 'Red Hat Text', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -174,9 +174,9 @@ section.amostras{
     align-self: center;
 }
 
-.card-content span,
-.amostras span,
-.produtos span{
+.content-card span,
+.highlights span,
+.products span{
     font-family: 'Red Hat Text', sans-serif;
     font-size: 28px;
     font-weight: 700;
@@ -219,12 +219,12 @@ svg.heart {
     cursor: pointer;
 }
 
-/* mapa */
-.localizacao{
+/* map */
+.localization{
     width: 100%;
     position: relative;
 }
-.localizacao > img{
+.localization > img{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -232,25 +232,25 @@ svg.heart {
     z-index: -1;
 }
 
-.localizacao .containerMapa{
+.localization .map-container{
     max-width: 1440px;
     height: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-areas: 
-    "mapa botoes"
-    "mapa ilustracoes";
+    "map buttons"
+    "map ilustrations";
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
     align-items: center;
     justify-items: center;
 }
 
-.containerMapa .blocoMapa{
-    grid-area: mapa;
+.map-container .map-block{
+    grid-area: map;
 }
 
-.blocoMapa .mapa{
+.map-block .map{
     max-width: 870px;
     max-height: 373px;
     padding: 20px 40px;
@@ -260,7 +260,7 @@ svg.heart {
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
 }
 
-.blocoMapa .mapa h2{
+.map-block .map h2{
     font-family: 'Red Hat Display', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -268,7 +268,7 @@ svg.heart {
     letter-spacing: 2px;
 }
 
-.blocoMapa .mapa div{
+.map-block .map div{
     width: 490px;
     width: 80%;
     background-color: #fff;
@@ -279,7 +279,7 @@ svg.heart {
     margin: 0 auto;
 }
 
-.blocoMapa .mapa div p{
+.map-block .map div p{
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     font-weight: 400;
@@ -288,12 +288,12 @@ svg.heart {
     color: #6D6D6D;
 }
 
-.blocoMapa .mapa img{
+.map-block .map img{
     max-width: 100%;
 }
 
-.containerMapa .botoes{
-    grid-area: botoes;
+.map-container .buttons{
+    grid-area: buttons;
     align-self: end;
     justify-self: start;
     display: grid;
@@ -303,7 +303,7 @@ svg.heart {
     margin: 0 0 10px 15px;
 }
 
-.containerMapa .botoes .imgApp{
+.map-container .buttons .img-app{
     width: 40px;
     background-color: #fff;
     border-radius: 8px;
@@ -312,7 +312,7 @@ svg.heart {
     justify-content: center;
 }
 
-.containerMapa .botoes p{
+.map-container .buttons p{
     padding: 5px 10px;
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 22px;
@@ -322,125 +322,125 @@ svg.heart {
     border-radius: 5px;
 }
 
-.containerMapa .ilustracoes{
-    grid-area: ilustracoes;
+.map-container .ilustrations{
+    grid-area: ilustrations;
     display: flex;
 }
 
-.containerMapa .ilustracoes img{
+.map-container .ilustrations img{
     max-width: 440px;
     height: 300px;
 }
 
-.ilustracoes img:nth-of-type(2){
+.ilustrations img:nth-of-type(2){
     transform: translateX(-120px);
 }
 
 @media all and (max-width: 1440px) {
-    .localizacao .containerMapa{
+    .localization .map-container{
         max-width: 1280px;
     }
-    .blocoMapa .mapa{
+    .map-block .map{
         transform: scale(0.99);
     }
-    .containerMapa .botoes{
+    .map-container .buttons{
         transform: scale(0.99);
     }
-    .containerMapa .ilustracoes{
-        grid-area: ilustracoes;
+    .map-container .ilustrations{
+        grid-area: ilustrations;
         display: flex;
     }
 }
 
 @media all and (max-width: 1280px) {
-    .localizacao .containerMapa{
+    .localization .map-container{
         max-width: 1080px;
         grid-template-areas: 
-        "mapa"
-        "botoes";
+        "map"
+        "buttons";
         grid-template-columns: 1fr;
         grid-template-rows: minmax(385px, 400px) 50px;
         align-items: center;
         justify-items: center;
     }
-    .containerMapa .botoes{
+    .map-container .buttons{
         justify-self: center;
         display: flex;
     }
-    .containerMapa .botoes .imgApp{
+    .map-container .buttons .img-app{
         box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);
     }
-    .containerMapa .botoes p{
+    .map-container .buttons p{
         box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.25);  
     }
 
-    .containerMapa .ilustracoes{
+    .map-container .ilustrations{
         display: none;
     }
 }
 
 @media all and (max-width: 812px) {
-    .localizacao .containerMapa{
+    .localization .map-container{
         grid-template-columns: 100%;
         grid-template-rows: minmax(250px, 380px) 50px;
     }
-    .blocoMapa .mapa{
+    .map-block .map{
         max-width: 80%;
         margin: 0 auto;
     }
-    .blocoMapa .mapa h2{
+    .map-block .map h2{
         font-size: 28px;
     }
-    .blocoMapa .mapa div{
+    .map-block .map div{
         width: 80%;
     } 
-    .blocoMapa .mapa div p{
+    .map-block .map div p{
         font-size: 14px;
     }  
-    .containerMapa .botoes p{
+    .map-container .buttons p{
         font-size: 16px;
     }
     
 }
 
 @media all and (max-width: 620px) {
-    .localizacao .containerMapa{
+    .localization .map-container{
         grid-template-columns: 100%;
         grid-template-rows: minmax(250px, 300px) 50px;
     }
-    .blocoMapa .mapa{
+    .map-block .map{
         max-width: 90%;
         padding: 10px 20px;
     }
-    .blocoMapa .mapa div{
+    .map-block .map div{
         width: 90%;
     } 
-    .blocoMapa .mapa div p{
+    .map-block .map div p{
         font-size: 9px;
     } 
 }
 
 @media all and (max-width: 450px) {
-    .localizacao .containerMapa{
+    .localization .map-container{
         grid-template-rows: 250px 50px;
     }
 }
 
 @media all and (max-width: 336px) {
-    .blocoMapa .mapa h2{
+    .map-block .map h2{
         font-size: 24px;
     }
-    .containerMapa .botoes p{
+    .map-container .buttons p{
         font-size: 14px;
     }
 }
 
-/* Seção produtos */
-section.produtos{
+/* section products */
+section.products{
     max-width: 100%;
 }
 
-.produtos .headerProdutos{
+.products .products-header{
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -448,7 +448,7 @@ section.produtos{
     justify-content: space-between;    
 }
 
-.headerProdutos .filtro p{
+.products-header .filter p{
     font-family: 'Red Hat Display', sans-serif;;
     font-size: 16px;
     font-weight: 700;
@@ -458,7 +458,7 @@ section.produtos{
     cursor: pointer;
 }
 
-.headerProdutos .filtro p::after{
+.products-header .filter p::after{
     content: "";
     width: 10px;
     height: 10px;
@@ -469,14 +469,14 @@ section.produtos{
 }
 
 
-.headerProdutos .filtro ul{
+.products-header .filter ul{
     display: none;
 }
-.headerProdutos .filtro p:focus ~ ul {
+.products-header .filter p:focus ~ ul {
     display: block;
 }
 
-.headerProdutos svg{
+.products-header svg{
     width: 28px;
     height: 28px;
     stroke: #bfbfbf;
@@ -489,7 +489,7 @@ section.produtos{
     margin-left: 10px;
 }
 
-.headerProdutos .barra-pesquisa{
+.products-header .src-bar{
     display: flex;
     align-items: center;
     width: 380px;
@@ -499,7 +499,7 @@ section.produtos{
     box-shadow: 0px -5px 50px rgba(0, 0, 0, 0.07);
 }
 
-.headerProdutos .barra-pesquisa input{
+.products-header .src-bar input{
     max-width: 80%;
     height: 100%;
     outline: 0;
@@ -512,7 +512,7 @@ section.produtos{
     color: #b3b3b3;
 }
 
-.produtos .containerProdutos{
+.products .products-container{
     margin: 50px auto;
     max-width: 1275px;
     display: grid;
@@ -522,23 +522,68 @@ section.produtos{
     justify-content: center;
 }
 
+.products-footer{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    justify-content: center;
+}
+
+.products-footer .page-ind{
+    font-family: 'Red Hat Display', sans-serif;;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #FF9E9E;
+    box-shadow: inset 0px 3px 3px rgba(0, 0, 0, .1);
+    border-radius: 25px;
+}
+
+.products-footer .next-page{
+    font-family: 'Red Hat Display', sans-serif;;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    color: #232323;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, .1);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.products-footer .next-page::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: #000; 
+    margin-left: 8px;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+}
+
 @media all and (max-width: 768px) {
-    .produtos .headerProdutos{
+    .products .products-header{
         flex-direction: column;
     }
-    .headerProdutos .barra-pesquisa{
+    .products-header .src-bar{
         margin-top: 10px;
         align-self: center;
     }
 }
 
 @media all and (max-width: 420px) {
-    .headerProdutos .barra-pesquisa{
+    .products-header .src-bar{
         width: 95%;
     }
 }
 
-/* Menu flutuante de redes sociais */
+/* float menu and social medias */
 .social-media{
     display: flex;
     align-items: center;
@@ -590,7 +635,7 @@ section.produtos{
 .social-media li:last-child a div{
     height: 43px;
     width: 43px;
-    background-image: url(../IMG/1024px-Facebook_icon.png);
+    background-image: url(../IMG/facebook.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

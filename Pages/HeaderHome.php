@@ -4,11 +4,11 @@
         display: grid;
         grid-template-areas:
             "logo nav"
-            "frase nav";
+            "phrase nav";
         grid-template-columns: 1fr 1fr;
     }
 
-    header #container-logo {
+    header #logo-container {
         grid-area: logo;
         display: flex;
         align-items: center;
@@ -22,13 +22,13 @@
         transform: translateY(15px);
     }
 
-    header #container-logo img {
+    header #logo-container img {
         margin-left: 30px;
         width: 120px;
         height: 65px;
     }
 
-    header #container-logo p {
+    header #logo-container p {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 500;
         font-size: 20px;
@@ -41,7 +41,7 @@
     }
 
     header h1 {
-        grid-area: frase;
+        grid-area: phrase;
         justify-self: center;
         margin: 0px 10px 80px 30px;
         font-family: 'Red Hat Display', sans-serif;
@@ -54,17 +54,16 @@
         background: #fff;
     }
 
-    header #enfeite {
+    header #ornament {
         -webkit-box-sizing: border-box;
         /* Safari/Chrome, other WebKit */
         -moz-box-sizing: border-box;
         /* Firefox, other Gecko */
         box-sizing: border-box;
         grid-area: nav;
-
         height: 550px;
         background-color: #ff0000;
-        background-image: url(../RJutilidades/Assets/IMG/enfeite.png);
+        background-image: url(../RJutilidades/Assets/IMG/ornament.png);
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
@@ -73,7 +72,7 @@
         transform: translateX(-15px);
     }
 
-    header #enfeite nav {
+    header #ornament nav {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -83,16 +82,16 @@
     }
 
     header nav svg {
-          width: 38px;
-          height: 38px;
-          stroke: none;
-          stroke-width: 1;
-          stroke-linecap: square;
-          stroke-linejoin: miter;
-          fill: #FFF;
+        width: 38px;
+        height: 38px;
+        stroke: none;
+        stroke-width: 1;
+        stroke-linecap: square;
+        stroke-linejoin: miter;
+        fill: #FFF;
     }
 
-    header #enfeite nav ul.menu>li:last-child a span {
+    header #ornament nav ul.menu>li:last-child a span {
         display: none;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
@@ -103,7 +102,7 @@
     }
 
 
-    header #enfeite nav #btnMobile {
+    header #ornament #btn-mobile {
         display: none;
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
@@ -117,7 +116,7 @@
         cursor: pointer;
     }
 
-    header #enfeite nav #btnMobile span {
+    header #ornament nav #btn-mobile span {
         width: 20px;
         border-top: 4px solid;
         color: #fff;
@@ -125,8 +124,8 @@
 
     }
 
-    header #enfeite nav #btnMobile span::after,
-    header #enfeite nav #btnMobile span::before {
+    header #ornament nav #btn-mobile span::after,
+    header #ornament nav #btn-mobile span::before {
         content: "";
         width: 20px;
         height: 4px;
@@ -138,20 +137,20 @@
         border-radius: 0px 0px 4px 4px;
     }
 
-    header #enfeite nav #btnMobile span::before {
+    header #ornament nav #btn-mobile span::before {
         border-radius: 4px;
     }
 
 
 
-    header #enfeite nav ul.menu {
+    header #ornament nav ul.menu {
         display: flex;
         align-items: center;
         column-gap: 70px;
     }
 
-    header #enfeite nav ul.menu li,
-    header #enfeite nav ul.menu li a {
+    header #ornament nav ul.menu li,
+    header #ornament nav ul.menu li a {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 900;
         font-size: 20px;
@@ -161,28 +160,28 @@
         color: #fff;
     }
 
-    header #enfeite nav a[href="favoritos"] {
+    header #ornament nav a[href="favoritos"] {
         font-size: 35px;
     }
 
-    header #enfeite nav ul.menu>li:nth-child(2) {
+    header #ornament nav ul.menu>li:nth-child(2) {
         position: relative;
         padding: 15px;
         border-radius: 15px 15px 0px 0px;
         transition: background-color .4s ease-in-out;
     }
 
-    header #enfeite nav ul.menu>li:nth-child(2):hover {
+    header #ornament nav ul.menu>li:nth-child(2):hover {
         background-color: rgba(255, 255, 255, 0.33);
         box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
     }
 
-    header #enfeite nav ul.menu>li:nth-child(2):hover .submenu {
+    header #ornament nav ul.menu>li:nth-child(2):hover .submenu {
         opacity: 1;
         pointer-events: auto;
     }
 
-    header #enfeite nav ul.submenu {
+    header #ornament nav ul.submenu {
         transition: opacity .2s ease-in-out;
         opacity: 0;
         pointer-events: none;
@@ -196,24 +195,24 @@
         box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
     }
 
-    header #enfeite nav ul.submenu li {
+    header #ornament nav ul.submenu li {
         border-bottom: solid 1px #dfdfdf;
     }
 
-    header #enfeite nav ul.submenu li:hover a {
+    header #ornament nav ul.submenu li:hover a {
         font-size: 20px;
     }
 
-    header #enfeite nav ul.submenu li:hover {
+    header #ornament nav ul.submenu li:hover {
         background-color: rgba(0, 0, 0, 0.02);
         cursor: pointer;
     }
 
-    header #enfeite nav ul.submenu li:last-child {
+    header #ornament nav ul.submenu li:last-child {
         border: none;
     }
 
-    header #enfeite nav ul.submenu li a {
+    header #ornament nav ul.submenu li a {
         display: inline-block;
         font-family: 'Red Hat Text';
         font-style: normal;
@@ -230,23 +229,23 @@
             margin: 0 auto;
         }
 
-        header #container-logo {
+        header #logo-container {
             border-radius: 30px;
         }
     }
 
     @media all and (max-width: 1440px) {
-        header #enfeite nav ul.menu {
+        header #ornament nav ul.menu {
             column-gap: 50px;
         }
     }
 
     @media all and (max-width: 1280px) {
-        header #container-logo {
+        header #logo-container {
             width: 100%;
         }
 
-        header #enfeite nav ul.menu {
+        header #ornament nav ul.menu {
             column-gap: 40px;
         }
     }
@@ -254,23 +253,23 @@
     @media all and (max-width: 1080px) {
 
 
-        header #enfeite nav {
+        header #ornament nav {
             justify-content: flex-end;
         }
 
-        header nav svg{
-            fill:#000;
+        header nav svg {
+            fill: #000;
         }
 
-        header #enfeite nav ul.menu {
+        header #ornament nav ul.menu {
             display: none;
         }
 
-        header #enfeite nav ul.menu li {
+        header #ornament nav ul.menu li {
             width: 100%;
         }
 
-        header #enfeite nav ul.menu li a {
+        header #ornament nav ul.menu li a {
             box-sizing: border-box;
             display: block;
             width: 100%;
@@ -278,31 +277,31 @@
             padding: 10px;
         }
 
-        header #enfeite nav ul.menu li:nth-child(2) {
+        header #ornament nav ul.menu li:nth-child(2) {
             /* cor do PRODUTOS */
             color: #000;
         }
 
-        header #enfeite nav ul.menu>li:first-child a:hover {
+        header #ornament nav ul.menu>li:first-child a:hover {
             background-color: #dfdfdf;
             border-radius: 15px 15px 0px 0px;
         }
 
-        header #enfeite nav ul.menu>li:nth-child(3) a:hover {
+        header #ornament nav ul.menu>li:nth-child(3) a:hover {
             background-color: #dfdfdf;
         }
 
-        header #enfeite nav ul.menu>li:last-child a:hover {
+        header #ornament nav ul.menu>li:last-child a:hover {
             background-color: #dfdfdf;
             border-radius: 0px 0px 15px 15px;
         }
 
-        header #enfeite nav ul.menu>li:last-child a span {
+        header #ornament nav ul.menu>li:last-child a span {
             display: inline-block;
             color: #000;
         }
 
-        header #enfeite nav ul.menu>li:last-child a {
+        header #ornament nav ul.menu>li:last-child a {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -312,7 +311,7 @@
             font-size: 25px;
         }
 
-        header #enfeite nav.menuAtivo ul.menu {
+        header #ornament nav.active-menu ul.menu {
             position: absolute;
             top: calc(100% - 30px);
             right: 10px;
@@ -323,34 +322,34 @@
             box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
         }
 
-        header #enfeite nav #btnMobile {
+        header #ornament nav #btn-mobile {
             display: flex;
             align-items: center;
             margin-right: 40px;
         }
 
-        header #enfeite nav.menuAtivo #btnMobile span {
+        header #ornament nav.active-menu #btn-mobile span {
             border-top-color: transparent;
         }
 
-        header #enfeite nav.menuAtivo #btnMobile span::after {
+        header #ornament nav.active-menu #btn-mobile span::after {
             transform: rotate(135deg);
             top: -9px;
             border-radius: 4px;
         }
 
-        header #enfeite nav.menuAtivo #btnMobile span::before {
+        header #ornament nav.active-menu #btn-mobile span::before {
             transform: rotate(-135deg);
         }
 
-        header #enfeite nav ul.menu>li:nth-child(2) {
+        header #ornament nav ul.menu>li:nth-child(2) {
             padding: 5px 0px 0px 10px;
             box-sizing: border-box;
             border-radius: 5px;
             transition: none;
         }
 
-        header #enfeite nav ul.submenu {
+        header #ornament nav ul.submenu {
             transition: none;
             opacity: 1;
             pointer-events: none;
@@ -364,15 +363,15 @@
             box-shadow: none;
         }
 
-        header #enfeite nav ul.menu li:nth-child(2):hover {
+        header #ornament nav ul.menu li:nth-child(2):hover {
             box-shadow: none;
         }
 
-        header #enfeite nav ul.submenu li:hover {
+        header #ornament nav ul.submenu li:hover {
             background-color: #dfdfdf;
         }
 
-        header #enfeite nav ul.submenu li:hover a {
+        header #ornament nav ul.submenu li:hover a {
             font-size: 18px;
         }
     }
@@ -381,10 +380,10 @@
         header {
             grid-template-areas:
                 "logo nav"
-                "frase frase";
+                "phrase phrase";
         }
 
-        header #enfeite {
+        header #ornament {
             height: 130px;
         }
 
@@ -401,7 +400,7 @@
         header {
             grid-template-areas:
                 "logo nav"
-                "frase frase";
+                "phrase phrase";
         }
 
         header h1 {
@@ -409,7 +408,7 @@
             font-size: 36px;
         }
 
-        header #enfeite {
+        header #ornament {
             transform: translateX(0px);
             height: 100px;
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
@@ -417,7 +416,7 @@
             margin: 10px 15px 0px 0px;
         }
 
-        header #container-logo {
+        header #logo-container {
             justify-content: center;
             width: 100%;
             transform: translateY(0px);
@@ -427,30 +426,28 @@
             margin: 10px 0px 0px 15px;
         }
 
-        header #container-logo img {
+        header #logo-container img {
             width: 109px;
             height: 59px;
             margin: 0px;
         }
 
-        header #container-logo p {
+        header #logo-container p {
             display: none;
         }
 
-        header #enfeite nav {
+        header #ornament nav {
             transform: translateY(0px);
 
         }
     }
-
-    
 </style>
 
 
 <title>Home</title>
 <header>
-    <div id="container-logo">
-        <a href="home"><img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades"></a>
+    <div id="logo-container">
+        <a href="home"><img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades"></a>
         <p>Papelaria, escritório, utilidades, miudezas...</p>
     </div>
 
@@ -458,9 +455,9 @@
     <h1>Tudo o que precisa, encontra aqui!</h1>
 
 
-    <div id="enfeite">
+    <div id="ornament">
         <nav>
-            <button id="btnMobile">MENU<span></span></button>
+            <button id="btn-mobile">MENU<span></span></button>
             <ul class="menu">
                 <li><a href="home">INÍCIO</a></li>
                 <li>PRODUTOS

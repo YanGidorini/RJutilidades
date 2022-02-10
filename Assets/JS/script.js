@@ -1,9 +1,9 @@
-const btnMobile = document.querySelector("#btnMobile");
+const btnMobile = document.querySelector("#btn-mobile");
 
 function toggleMenu(event) {
     if (event.type === 'touchstart') event.preventDefault();
     const nav = document.querySelector("nav");
-    nav.classList.toggle("menuAtivo");
+    nav.classList.toggle("active-menu");
 }
 
 btnMobile.addEventListener('click', toggleMenu);

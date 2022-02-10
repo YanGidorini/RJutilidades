@@ -41,7 +41,7 @@
 
 	<ul class="social-media">
 		<li>
-			<img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades">
+			<img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades">
 		</li>
 		<li>
 			<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank" title="Whatsapp da loja">
@@ -89,26 +89,26 @@
 			prevEl: ".swiper-button-prev",
 		},
 		breakpoints: {
-		480: {
-			slidesPerView: 1,
-			spaceBetween: 30,
-		},
-		640: {
-			slidesPerView: 2,
-			spaceBetween: 15,
-      	},
-		900: {
-			slidesPerView: 3,
-			spaceBetween: 30,
-		},
-		1280: {
-			slidesPerView: 4,
-			spaceBetween: 30,
-		}, 
-		1366: {
-			slidesPerView: 5,
-			spaceBetween: 30,
-		}
+			480: {
+				slidesPerView: 1,
+				spaceBetween: 30,
+			},
+			640: {
+				slidesPerView: 2,
+				spaceBetween: 15,
+			},
+			900: {
+				slidesPerView: 3,
+				spaceBetween: 30,
+			},
+			1280: {
+				slidesPerView: 4,
+				spaceBetween: 30,
+			},
+			1366: {
+				slidesPerView: 5,
+				spaceBetween: 30,
+			}
 		}
 	});
 </script>

@@ -1,19 +1,19 @@
-<nav class="categorias">
+<nav class="categories">
     <a href="Papelaria">Papelaria, Escritório e Escolar</a>
     <a href="Artigos-Festa">Artigos de Festa e Brinquedos</a>
     <a href="Utensilios-Cozinha">Utensílios de Cozinha</a>
     <a href="Miudezas">Miudezas</a>
 </nav>
 
-<section class="amostras">
+<section class="highlights">
 
     <div class=" swiper mySwiper container">
         <div class="swiper-wrapper content">
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -26,9 +26,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -41,9 +41,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -56,9 +56,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -71,9 +71,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -86,9 +86,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -101,9 +101,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -116,9 +116,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -131,9 +131,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -146,9 +146,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -161,9 +161,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -176,9 +176,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -191,9 +191,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -206,9 +206,9 @@
             </div>
 
             <div class="swiper-slide product-card ">
-                <div class="card-content">
-                    <div class="imgProduto">
-                        <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+                <div class="content-card">
+                    <div class="product-img">
+                        <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                     </div>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <title id="favouriteIconTitle">Favourite</title>
@@ -227,42 +227,42 @@
     </div>
 </section>
 
-<section class="localizacao">
-    <img src="Assets/IMG/Curvas.svg" alt="">
-    <div class="containerMapa">
-        <div class="blocoMapa">
-            <div class="mapa">
+<section class="localization">
+    <img src="Assets/IMG/curves.svg" alt="">
+    <div class="map-container">
+        <div class="map-block">
+            <div class="map">
                 <h2>Visite nossa loja!</h2>
                 <div>
                     <p>Rua Jair de Godóy, nº56 - Vila Açoreana - Poá/SP</p>
                 </div>
-                <img src="Assets/IMG/mapa.png" alt="Endereço R&J Utilidades">
+                <img src="Assets/IMG/map.png" alt="Endereço R&J Utilidades">
             </div>
         </div>
 
-        <div class="botoes">
-            <div class="imgApp">
+        <div class="buttons">
+            <div class="img-app">
                 <img src="Assets/IMG/maps.svg" alt="Google Maps">
                 <!-- https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192 -->
             </div>
             <p>Ver no Maps</p>
 
-            <div class="imgApp">
+            <div class="img-app">
                 <img src="Assets/IMG/waze.svg" alt="Waze">
                 <!-- https://www.waze.com/pt-BR/live-map/directions/brasil/sao-paulo/rua-jair-de-godoy,-56?navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJHS-Iwxh7zpQRv5dYienT7tA -->
             </div>
             <p>Ver no Waze</p>
         </div>
 
-        <div class="ilustracoes">
-            <img src="Assets/IMG/cesta-presente.png" alt="">
+        <div class="ilustrations">
+            <img src="Assets/IMG/ilustration.png" alt="">
         </div>
     </div>
 </section>
 
-<section class="produtos">
-    <div class="headerProdutos">
-        <div class="filtro">
+<section class="products">
+    <div class="products-header">
+        <div class="filter">
             <p>Ordenar por: Menor Preço</p>
             <ul>
                 <li>Maior Preço</li>
@@ -270,7 +270,7 @@
                 <li>Recentes</li>
             </ul>
         </div>
-        <div class="barra-pesquisa">
+        <div class="src-bar">
             <svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="searchIconTitle">
                 <title id="searchIconTitle">Search</title>
                 <path d="M14.4121122,14.4121122 L20,20"></path>
@@ -280,11 +280,11 @@
         </div>
     </div>
 
-    <div class="containerProdutos">
+    <div class="products-container">
         <div class="product-card">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -297,9 +297,9 @@
         </div>
 
         <div class="product-card">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -312,9 +312,9 @@
         </div>
 
         <div class="product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -327,9 +327,9 @@
         </div>
 
         <div class="product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -342,9 +342,9 @@
         </div>
 
         <div class=" product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -357,9 +357,9 @@
         </div>
 
         <div class=" product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -372,9 +372,9 @@
         </div>
 
         <div class=" product-card ">
-            <div class="card-content">
-                <div class="imgProduto">
-                    <img src="../RJutilidades/Assets/IMG/foto.png" alt="imagem produto">
+            <div class="content-card">
+                <div class="product-img">
+                    <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
                 </div>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <title id="favouriteIconTitle">Favourite</title>
@@ -385,5 +385,9 @@
                 <span>R$ 14,80</span>
             </div>
         </div>
+    </div>
+    <div class="products-footer">
+        <span class="page-ind">1 | 3</span>
+        <span class="next-page">Próxima Página</span>
     </div>
 </section>
