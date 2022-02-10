@@ -228,7 +228,7 @@
 </section>
 
 <section class="localization">
-    <img src="Assets/IMG/curves.svg" alt="">
+    <img src="Assets/IMG/curves.png" alt="">
     <div class="map-container">
         <div class="map-block">
             <div class="map">
