@@ -420,7 +420,7 @@
 <title>Home</title>
 <header>
     <div id="logo-container">
-        <a href="home"><img src="Assets/IMG/Logo Vermelho - Fundo Branco 1.png" alt="logo da R&J Utilidades"></a>
+        <a href="home"><img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades"></a>
         <p>Papelaria, escritório, utilidades, miudezas...</p>
     </div>
 

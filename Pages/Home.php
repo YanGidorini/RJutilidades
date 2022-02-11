@@ -276,12 +276,12 @@
                 <path d="M14.4121122,14.4121122 L20,20"></path>
                 <circle cx="10" cy="10" r="6"></circle>
             </svg>
-            <input type="text" placeholder="Buscar">
+            <input type="text" name="search" id="search-bar" placeholder="Buscar" onkeyup="searchProduct()">
         </div>
     </div>
 
     <div class="products-container">
-        <div class="product-card">
+        <div class="product-card" title="Lápis de Escrever Faber-Castell 60 cores">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -296,7 +296,7 @@
             </div>
         </div>
 
-        <div class="product-card">
+        <div class="product-card" title="Caneta Bic Azul">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -305,13 +305,13 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Caneta Bic Azul</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
         </div>
 
-        <div class="product-card ">
+        <div class="product-card" title="Borracha Cis">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -320,13 +320,13 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Borracha Cis</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
         </div>
 
-        <div class="product-card ">
+        <div class="product-card" title="Papel Sulfite">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -335,13 +335,13 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Papel Sulfite</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
         </div>
 
-        <div class=" product-card ">
+        <div class="product-card" title="Caderneta 150 folhas">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -350,13 +350,13 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Caderneta 150 folhas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
         </div>
 
-        <div class=" product-card ">
+        <div class="product-card" title="Lapiseira 0,5mm">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -365,13 +365,13 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Lapiseira 0,5mm</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
         </div>
 
-        <div class=" product-card ">
+        <div class="product-card" title="Caderno 15 matérias 350 folhas">
             <div class="content-card">
                 <div class="product-img">
                     <img src="../RJutilidades/Assets/IMG/photo.png" alt="imagem produto">
@@ -380,7 +380,7 @@
                     <title id="favouriteIconTitle">Favourite</title>
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
                 </svg>
-                <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                <h2>Caderno 15 matérias 350 folhas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
                 <span>R$ 14,80</span>
             </div>
