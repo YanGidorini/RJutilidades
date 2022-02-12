@@ -393,6 +393,14 @@
             justify-self: left;
             margin-left: 80px;
             font-size: 40px;
+            line-height: 50px;
+        }
+    }
+
+    @media all and (max-width: 752px){
+        header #logo-container p{
+            font-size: 18px;
+            line-height: 21px;
         }
     }
 
@@ -401,19 +409,21 @@
             grid-template-areas:
                 "logo nav"
                 "phrase phrase";
+            margin-top: 10px;
         }
 
         header h1 {
             margin: 40px 10px 40px 30px;
             font-size: 36px;
+            line-height: 45px;
         }
 
         header #ornament {
-            transform: translateX(0px);
             height: 100px;
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
             border-radius: 0px 20px 20px 0px;
-            margin: 10px 15px 0px 0px;
+            margin-right: 15px;
+            transform: translateX(0px);
         }
 
         header #logo-container {
@@ -423,9 +433,12 @@
             box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
             z-index: 0;
             border-radius: 20px 0px 0px 20px;
-            margin: 10px 0px 0px 15px;
+            margin-left: 15px;
         }
 
+        header #logo-container a{
+            margin-right: 15px;
+        }
         header #logo-container img {
             width: 109px;
             height: 59px;

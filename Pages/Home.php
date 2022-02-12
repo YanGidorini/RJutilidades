@@ -229,36 +229,44 @@
 
 <section class="localization">
     <img src="Assets/IMG/curves.png" alt="">
+
     <div class="map-container">
-        <div class="map-block">
-            <div class="map">
-                <h2>Visite nossa loja!</h2>
-                <div>
-                    <p>Rua Jair de Godóy, nº56 - Vila Açoreana - Poá/SP</p>
-                </div>
+        <div class="map">
+            <h2>Visite nossa loja!</h2>
+            <div class="address">
+                <p>Rua Jair de Godóy, Nº56 - Vila Açoreana - Poá/SP</p>
+                <span>Rua Jair de Godóy, N°56</span>
+                <span>Vila Açoreana - Poá/SP</span>
+            </div>
+
+            <div class="map-img">
                 <img src="Assets/IMG/map.png" alt="Endereço R&J Utilidades">
             </div>
+            
         </div>
+        
 
         <div class="buttons">
-            <div class="img-app">
-                <img src="Assets/IMG/maps.svg" alt="Google Maps">
-                <!-- https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192 -->
-            </div>
-            <p>Ver no Maps</p>
+            <a href="https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192" target="_blank" rel="noreferrer">
+                <div class="img-app">                
+                    <img src="Assets/IMG/maps.svg" alt="Google Maps">        
+                </div>
+                <p>Ver no Maps</p>
+            </a>
 
-            <div class="img-app">
-                <img src="Assets/IMG/waze.svg" alt="Waze">
-                <!-- https://www.waze.com/pt-BR/live-map/directions/brasil/sao-paulo/rua-jair-de-godoy,-56?navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJHS-Iwxh7zpQRv5dYienT7tA -->
-            </div>
-            <p>Ver no Waze</p>
+            <a href="https://www.waze.com/pt-BR/live-map/directions/brasil/sao-paulo/rua-jair-de-godoy,-56?navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJHS-Iwxh7zpQRv5dYienT7tA" target="_blank" rel="noreferrer">
+                <div class="img-app">
+                    <img src="Assets/IMG/waze.svg" alt="Waze"> 
+                </div>
+                <p>Ver no Waze</p>
+            </a>
         </div>
 
-        <div class="ilustrations">
-            <img src="Assets/IMG/ilustration.png" alt="">
-        </div>
+        <img class="ilustration"src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
     </div>
+    
 </section>
+
 
 <section class="products">
     <div class="products-header">

@@ -16,8 +16,8 @@
 	<!-- swiper slider -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/style.css">
 </head>
 
 <body>
@@ -64,7 +64,7 @@
 		<ul>
 			<li>Empresa: J. da S. N. Santana Limpeza - ME</li>
 			<li>CNPJ: 29.588.052/0001-02</li>
-			<li>Rua Jair de Godoy n° 56</li>
+			<li>Rua Jair de Godoy, N°56</li>
 			<li>Vila Açoreana - Poá / São Paulo</li>
 		</ul>
 	</footer>
