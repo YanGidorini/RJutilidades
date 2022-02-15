@@ -242,29 +242,29 @@
             <div class="map-img">
                 <img src="Assets/IMG/map.png" alt="Endereço R&J Utilidades">
             </div>
-            
+
         </div>
-        
+
 
         <div class="buttons">
             <a href="https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192" target="_blank" rel="noreferrer">
-                <div class="img-app">                
-                    <img src="Assets/IMG/maps.svg" alt="Google Maps">        
+                <div class="img-app">
+                    <img src="Assets/IMG/maps.svg" alt="Google Maps">
                 </div>
                 <p>Ver no Maps</p>
             </a>
 
             <a href="https://www.waze.com/pt-BR/live-map/directions/brasil/sao-paulo/rua-jair-de-godoy,-56?navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJHS-Iwxh7zpQRv5dYienT7tA" target="_blank" rel="noreferrer">
                 <div class="img-app">
-                    <img src="Assets/IMG/waze.svg" alt="Waze"> 
+                    <img src="Assets/IMG/waze.svg" alt="Waze">
                 </div>
                 <p>Ver no Waze</p>
             </a>
         </div>
 
-        <img class="ilustration"src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
+        <img class="ilustration" src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
     </div>
-    
+
 </section>
 
 
@@ -399,3 +399,22 @@
         <span class="next-page">Próxima Página</span>
     </div>
 </section>
+
+
+<div class="contact-container" id="contact">
+    <div class="contact-block">
+        <button class="exit">X</button>
+        <div class="favorites">
+            <h2>Aqui estão os produtos que curtiu:</h2>
+        </div>
+        <div class="form">
+            <h3>Informe seus dados e vamos entrar em contato contigo!</h3>
+            <form>
+                <input type="text" name="name" placeholder="Nome">
+                <input type="email" name="email" placeholder="WhatsApp ou E-mail">
+                <button type="submit">Pronto!</button>
+            </form>
+            <p>Seus produtos curtidos são enviados para nós junto com seu nome e contato, assim podemos te atender de forma especial!</p>
+        </div>
+    </div>
+</div>

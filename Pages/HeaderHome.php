@@ -397,8 +397,8 @@
         }
     }
 
-    @media all and (max-width: 752px){
-        header #logo-container p{
+    @media all and (max-width: 752px) {
+        header #logo-container p {
             font-size: 18px;
             line-height: 21px;
         }
@@ -436,9 +436,10 @@
             margin-left: 15px;
         }
 
-        header #logo-container a{
+        header #logo-container a {
             margin-right: 15px;
         }
+
         header #logo-container img {
             width: 109px;
             height: 59px;
@@ -481,7 +482,7 @@
                         <li><a href="Miudezas">Miudezas</a></li>
                     </ul>
                 </li>
-                <li><a href="contato">CONTATO</a></li>
+                <li><a href="contato" id="contact-button">CONTATO</a></li>
                 <li>
                     <a href="favoritos">
                         <span>FAVORITOS</span>
@@ -495,4 +496,3 @@
         </nav>
     </div>
 </header>
-<script src="Assets/JS/script.js"></script>

@@ -437,7 +437,7 @@
                         <li><a href="Miudezas">Miudezas</a></li>
                     </ul>
                 </li>
-                <li><a href="contato">CONTATO</a></li>
+                <li><a href="contato" id="contact-button">CONTATO</a></li>
                 <li>
                     <a href="favoritos">
                         <span>FAVORITOS</span>
@@ -448,4 +448,3 @@
         </nav>
     </div>
 </header>
-<script src="Assets/JS/script.js"></script>

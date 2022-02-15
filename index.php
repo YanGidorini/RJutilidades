@@ -112,5 +112,6 @@
 		}
 	});
 </script>
+<script src="Assets/JS/script.js"></script>
 
 </html>
