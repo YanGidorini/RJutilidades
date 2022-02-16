@@ -403,20 +403,3 @@
 </section>
 
 
-<div class="contact-container" id="contact">
-    <div class="contact-block">
-        <button class="exit">X</button>
-        <div class="favorites">
-            <h2>Aqui estão os produtos que curtiu:</h2>
-        </div>
-        <div class="form">
-            <h3>Informe seus dados e vamos entrar em contato contigo!</h3>
-            <form>
-                <input type="text" name="name" placeholder="Nome">
-                <input type="email" name="email" placeholder="WhatsApp ou E-mail">
-                <button type="submit">Pronto!</button>
-            </form>
-            <p>Seus produtos curtidos são enviados para nós junto com seu nome e contato, assim podemos te atender de forma especial!</p>
-        </div>
-    </div>
-</div>
