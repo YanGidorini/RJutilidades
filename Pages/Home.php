@@ -1,3 +1,5 @@
+<title>Home</title>
+
 <nav class="categories">
     <a href="Papelaria">Papelaria, Escritório e Escolar</a>
     <a href="Artigos-Festa">Artigos de Festa e Brinquedos</a>
@@ -238,13 +240,9 @@
                 <span>Rua Jair de Godóy, N°56</span>
                 <span>Vila Açoreana - Poá/SP</span>
             </div>
-
-            <div class="map-img">
-                <img src="Assets/IMG/map.png" alt="Endereço R&J Utilidades">
-            </div>
-
+            
+            <img src="Assets/IMG/map.png" alt="Endereço R&J Utilidades">            
         </div>
-
 
         <div class="buttons">
             <a href="https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192" target="_blank" rel="noreferrer">
@@ -264,27 +262,29 @@
 
         <img class="ilustration" src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
     </div>
-
 </section>
 
 
 <section class="products">
+
     <div class="products-header">
-        <div class="filter">
-            <p>Ordenar por: Menor Preço</p>
-            <ul>
+         <div class="filter">
+            <p>Ordenar por: &nbsp; <span class="option">Menor Preço</span> </p>
+            <ul id="filters" >
+                <li>Menor Preço</li> 
                 <li>Maior Preço</li>
                 <li>Populares</li>
                 <li>Recentes</li>
             </ul>
         </div>
+        
         <div class="src-bar">
             <svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="searchIconTitle">
                 <title id="searchIconTitle">Search</title>
                 <path d="M14.4121122,14.4121122 L20,20"></path>
                 <circle cx="10" cy="10" r="6"></circle>
             </svg>
-            <input type="text" name="search" id="search-bar" placeholder="Buscar" onkeyup="searchProduct()">
+            <input type="text" name="search" id="search-bar" placeholder="Buscar" onkeydown="searchProduct()">
         </div>
     </div>
 
@@ -398,6 +398,8 @@
         <span class="page-ind">1 | 3</span>
         <span class="next-page">Próxima Página</span>
     </div>
+
+    <!-- fazer sistema que inclui mais produtos aqui -->
 </section>
 
 
