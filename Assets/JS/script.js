@@ -35,3 +35,12 @@ function initContact(event){
 const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
+ 
+
+
+document.querySelector(".option").addEventListener('click', dropdown);
+document.querySelector("#filters").children[0].addEventListener('click', dropdown);
+
+function dropdown(){
+    document.querySelector("#filters").classList.toggle("visible");    
+}
