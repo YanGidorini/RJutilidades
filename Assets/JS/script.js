@@ -38,9 +38,64 @@ contactButton.addEventListener('click', initContact);
  
 
 
-document.querySelector(".option").addEventListener('click', dropdown);
-document.querySelector("#filters").children[0].addEventListener('click', dropdown);
-
 function dropdown(){
-    document.querySelector("#filters").classList.toggle("visible");    
+    filters.classList.toggle("visible");    
 }
+
+const filters = document.querySelector("#filters");
+let chosen = document.querySelector(".option");
+
+chosen.addEventListener('click', dropdown);
+
+filters.addEventListener('click', (e) => {
+    console.log(e.target.textContent);
+    let contentCard = document.querySelector(".products-container").querySelectorAll(".content-card");
+
+    let precosDesordered = [];
+    contentCard.forEach((item) => {
+        precosDesordered.push(item.children[4].textContent.replace("R$ ", "").replace(",", "."));
+    })
+
+    let tmp = precosDesordered;
+    
+    let precosOrdered = precosDesordered.sort((a,b) => a - b);
+
+    console.log(tmp);
+    console.log(precosOrdered);
+    
+    switch (e.target.textContent){
+        case 'Maior Preço':
+            chosen.textContent = e.target.textContent;
+            let precosOrdered = precosOrdered.reverse();
+
+
+
+
+
+
+
+            // let precosText = precos.map((item) =>{
+            //    item = "R$ ".concat(item); 
+            //    return item.replace(",", ".");
+            // })
+
+            // console.log(precosText);
+            
+            // let spans = [];
+            // contentCard.forEach((item =>{
+            //     spans.push(item.children[4])
+            // }))
+
+   
+
+
+            dropdown();
+        break;
+
+        case 'Menor Preço':
+            chosen.innerHTML = e.target.textContent;
+
+            dropdown();
+        break;
+    }
+})
