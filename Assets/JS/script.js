@@ -10,13 +10,13 @@ btnMobile.addEventListener('touchstart', toggleMenu);
 
 function searchProduct(){
     let input = document.querySelector("#search-bar").value.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "");
-    let products = document.querySelector(".products-container").querySelectorAll(".product-card");
+    let titles = document.querySelector(".products-container").querySelectorAll("h2");
 
-    for (let i = 0; i < products.length; i++) {
-        if (!products[i].getAttribute("title").normalize("NFD").replace(/[^a-zA-Zs]/g, "").toLowerCase().includes(input)) {
-            products[i].style.display = "none";
+    for (let i = 0; i < titles.length; i++) {
+        if (!titles[i].innerHTML.normalize("NFD").replace(/[^a-zA-Zs]/g, "").toLowerCase().includes(input)) {
+            titles[i].parentElement.parentElement.style.display = "none";
         } else {
-            products[i].style.display = "block";
+            titles[i].parentElement.parentElement.style.display = "block";
         }   
     }
 }
