@@ -74,8 +74,6 @@
                 <ul id="filters" >
                     <li>Menor Preço</li> 
                     <li>Maior Preço</li>
-                    <li>Populares</li>
-                    <li>Recentes</li>
                 </ul>
             </div>
             

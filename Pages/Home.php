@@ -273,8 +273,6 @@
             <ul id="filters">
                 <li>Menor Preço</li>
                 <li>Maior Preço</li>
-                <li>Populares</li>
-                <li>Recentes</li>
             </ul>
         </div>
 
@@ -300,7 +298,7 @@
                 </svg>
                 <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 13,80</span>
             </div>
         </div>
 
@@ -315,7 +313,7 @@
                 </svg>
                 <h2>Caneta Bic Azul</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 10,80</span>
             </div>
         </div>
 
@@ -330,7 +328,7 @@
                 </svg>
                 <h2>Borracha Cis</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 9,80</span>
             </div>
         </div>
 
@@ -345,7 +343,7 @@
                 </svg>
                 <h2>Papel Sulfite</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 57,80</span>
             </div>
         </div>
 
@@ -360,7 +358,7 @@
                 </svg>
                 <h2>Caderneta 150 folhas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 1,80</span>
             </div>
         </div>
 
@@ -375,7 +373,7 @@
                 </svg>
                 <h2>Lapiseira 0,5mm</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 6,80</span>
             </div>
         </div>
 
@@ -390,7 +388,7 @@
                 </svg>
                 <h2>Caderno 15 matérias 350 folhas</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                <span>R$ 14,80</span>
+                <span>R$ 4,80</span>
             </div>
         </div>
     </div>

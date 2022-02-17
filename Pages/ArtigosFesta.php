@@ -17,12 +17,6 @@
         background-image: url(../RJutilidades/Assets/IMG/ornament-form.png);
     }
 
-    @media all and (max-width: 620px){
-        header #ornament {
-            height: 100px;
-        }
-    }
-
     @media all and (max-width: 960px){
         .banner span{
             width: 480px;
@@ -34,8 +28,15 @@
             font-size: 26px;
             width: 430px;
         }
+        header #ornament {
+            height: 100px;
+        }
+        nav.categories a[href="Papelaria"]::before{
+            left: auto;
+            right: -40px;
+            transform: scaleX(-1);
+        }
     }
-
 
     @media all and (max-width: 480px){
         .banner span{
@@ -73,8 +74,6 @@
                 <ul id="filters" >
                     <li>Menor Preço</li> 
                     <li>Maior Preço</li>
-                    <li>Populares</li>
-                    <li>Recentes</li>
                 </ul>
             </div>
             
