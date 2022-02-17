@@ -551,14 +551,14 @@ nav.categories a[href="Miudezas"]::before{
         transform: translateY(0px);
         z-index: -1;
     }
-    nav.categories a:nth-child(2)::before{
+    nav.categories a[href="Artigos-Festa"]::before{
         top: -15px;
         right: -35px;
         left: auto;
         width: 65px;
         height: 72px;
     }
-    nav.categories a:nth-child(3)::before{
+    nav.categories a[href="Utensilios-Cozinha"]::before{
         top: -8px;
         left: -30px;
         right: auto;
@@ -939,7 +939,7 @@ section.products{
     justify-content: space-between;    
     position: relative;
 }
-.products .filter{
+ .filter{
     position: relative;
     width: max-content;
 }
@@ -1101,11 +1101,14 @@ section.products{
 
 @media all and (max-width: 768px) {
     .products-header{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .products-header .src-bar{
         margin-top: 10px;
         align-self: center;
+    }
+    .filter{
+        margin-top: 20px;
     }
 }
 

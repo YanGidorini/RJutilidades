@@ -20,6 +20,10 @@
         header #ornament {
             height: 100px;
         }
+        nav.categories a[href="Miudezas"]::before{
+            left: -25px;
+            right: auto;
+        }
     }
 </style>
 
@@ -44,8 +48,6 @@
                 <ul id="filters" >
                     <li>Menor Preço</li> 
                     <li>Maior Preço</li>
-                    <li>Populares</li>
-                    <li>Recentes</li>
                 </ul>
             </div>
             
