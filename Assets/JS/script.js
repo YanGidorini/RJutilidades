@@ -46,54 +46,44 @@ const filters = document.querySelector("#filters");
 let chosen = document.querySelector(".option");
 
 chosen.addEventListener('click', dropdown);
-
 filters.addEventListener('click', (e) => {
     console.log(e.target.textContent);
     let contentCard = document.querySelector(".products-container").querySelectorAll(".content-card");
 
-    let precosDesordered = [];
+    let precos = [];
     contentCard.forEach((item) => {
-        precosDesordered.push(item.children[4].textContent.replace("R$ ", "").replace(",", "."));
+        precos.push(item.children[4].textContent.replace("R$ ", "").replace(",", "."));
     })
-
-    let tmp = precosDesordered;
     
-    let precosOrdered = precosDesordered.sort((a,b) => a - b);
-
-    console.log(tmp);
-    console.log(precosOrdered);
+    precos.sort((a,b) => a - b);
     
     switch (e.target.textContent){
         case 'Maior Preço':
             chosen.textContent = e.target.textContent;
-            let precosOrdered = precosOrdered.reverse();
+            precos.reverse();
 
+            let precosText = precos.map((item) =>{
+               item = "R$ ".concat(item); 
+               return item.replace(".", ",");
+            })
 
-
-
-
-
-
-            // let precosText = precos.map((item) =>{
-            //    item = "R$ ".concat(item); 
-            //    return item.replace(",", ".");
-            // })
-
-            // console.log(precosText);
-            
-            // let spans = [];
-            // contentCard.forEach((item =>{
-            //     spans.push(item.children[4])
-            // }))
-
-   
-
-
+            let spans = [];
+            contentCard.forEach((item =>{
+                spans.push(item.children[4])
+            }))
+                      
+            for(let i = 0; i <= spans.length; i++){
+                precosText.forEach((item, index) =>{
+                    if(spans[i].textContent.includes(item)){
+                        spans[i].parentElement.parentElement.style.order = index;
+                    } 
+                })
+            }
             dropdown();
         break;
 
         case 'Menor Preço':
-            chosen.innerHTML = e.target.textContent;
+            chosen.textContent = e.target.textContent;
 
             dropdown();
         break;

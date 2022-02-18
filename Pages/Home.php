@@ -269,7 +269,7 @@
 
     <div class="products-header">
         <div class="filter">
-            <p>Ordenar por: &nbsp; <span class="option">Menor Preço</span></p>
+            <p>Ordenar por: &nbsp;<span class="option">Menor Preço</span></p>
             <ul id="filters">
                 <li>Menor Preço</li>
                 <li>Maior Preço</li>
