@@ -47,44 +47,45 @@ let chosen = document.querySelector(".option");
 
 chosen.addEventListener('click', dropdown);
 filters.addEventListener('click', (e) => {
-    console.log(e.target.textContent);
-    let contentCard = document.querySelector(".products-container").querySelectorAll(".content-card");
 
+    let contentCard = document.querySelector(".products-container").querySelectorAll(".content-card");
     let precos = [];
     contentCard.forEach((item) => {
         precos.push(item.children[4].textContent.replace("R$ ", "").replace(",", "."));
     })
-    
     precos.sort((a,b) => a - b);
+
+    function order(){
+        let precosText = precos.map((item) =>{
+            item = "R$ ".concat(item); 
+            return item.replace(".", ",");
+         })
+
+         let spans = [];
+         contentCard.forEach((item =>{
+             spans.push(item.children[4])
+         }))
+                   
+        for(let i = 0; i < spans.length; i++){
+            precosText.forEach((item, index) =>{
+                if(spans[i].textContent.includes(item)){
+                    spans[i].parentElement.parentElement.style.order = index;
+                } 
+            })
+        }
+    }
     
     switch (e.target.textContent){
         case 'Maior Preço':
             chosen.textContent = e.target.textContent;
             precos.reverse();
-
-            let precosText = precos.map((item) =>{
-               item = "R$ ".concat(item); 
-               return item.replace(".", ",");
-            })
-
-            let spans = [];
-            contentCard.forEach((item =>{
-                spans.push(item.children[4])
-            }))
-                      
-            for(let i = 0; i <= spans.length; i++){
-                precosText.forEach((item, index) =>{
-                    if(spans[i].textContent.includes(item)){
-                        spans[i].parentElement.parentElement.style.order = index;
-                    } 
-                })
-            }
+            order();
             dropdown();
         break;
 
         case 'Menor Preço':
             chosen.textContent = e.target.textContent;
-
+            order();
             dropdown();
         break;
     }
