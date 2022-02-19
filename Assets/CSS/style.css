@@ -171,7 +171,7 @@ header #ornament nav ul.menu>li:nth-child(2) {
     position: relative;
     padding: 15px;
     border-radius: 15px 15px 0px 0px;
-    transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-out;
 }
 
 header #ornament nav ul.menu>li:nth-child(2):hover {
@@ -185,37 +185,47 @@ header #ornament nav ul.menu>li:nth-child(2):hover .submenu {
 }
 
 header #ornament nav ul.submenu {
-    transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease;
     opacity: 0;
     pointer-events: none;
     position: absolute;
     background-color: #fff;
     width: max-content;
-    padding: 10px 25px;
     left: 0px;
     top: 80%;
     border-radius: 15px;
     box-shadow: 0px 15px 80px 20px rgba(0, 0, 0, 0.26);
+    overflow: hidden;
 }
 
-header #ornament nav ul.submenu li {
-    border-bottom: solid 1px #dfdfdf;
+header #ornament nav ul.submenu li{
+    padding: 10px 25px;
+    position: relative;
 }
-
-header #ornament nav ul.submenu li:hover a {
-    font-size: 19px;
+header #ornament nav ul.submenu li:first-child {
+    padding-top: 15px;
+}
+header #ornament nav ul.submenu li:last-child {
+    padding-bottom: 15px;
+}
+header #ornament nav ul.submenu li:not(:first-child)::before {
+    content: "";
+    display: block;
+    width: calc(100% - 30px);
+    height: 1px;
+    background-color: #dfdfdf;
+    position: absolute;
+    bottom: 100%;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 header #ornament nav ul.submenu li:hover {
-    background-color: rgba(0, 0, 0, 0.02);
-    cursor: pointer;
+    background-color: rgba(223, 223, 223, .9);
 }
 
-header #ornament nav ul.submenu li:last-child {
-    border: none;
-}
-
-header #ornament nav ul.submenu li a {
+header #ornament nav ul.submenu li a{
     display: inline-block;
     font-family: 'Red Hat Text';
     font-style: normal;
@@ -223,7 +233,6 @@ header #ornament nav ul.submenu li a {
     font-size: 18px;
     line-height: 24px;
     color: #000;
-    padding: 10px 0px 10px 0px;
 }
 
 @media all and (min-width: 1920px) {
@@ -266,10 +275,12 @@ header #ornament nav ul.submenu li a {
 
     header #ornament nav ul.menu {
         display: none;
+        overflow: hidden;
     }
 
-    header #ornament nav ul.menu li {
+    header #ornament nav ul.menu > li {
         width: 100%;
+        padding: 10px;
     }
 
     header #ornament nav ul.menu li a {
@@ -277,7 +288,6 @@ header #ornament nav ul.submenu li a {
         display: block;
         width: 100%;
         color: #000;
-        padding: 10px;
     }
 
     header #ornament nav ul.menu li:nth-child(2) {
@@ -285,29 +295,30 @@ header #ornament nav ul.submenu li a {
         color: #000;
     }
 
-    header #ornament nav ul.menu>li:first-child a:hover {
-        background-color: #dfdfdf;
-        border-radius: 15px 15px 0px 0px;
-    }
-
-    header #ornament nav ul.menu>li:nth-child(3) a:hover {
+    header #ornament nav ul.menu > li:hover{
         background-color: #dfdfdf;
     }
 
-    header #ornament nav ul.menu>li:last-child a:hover {
-        background-color: #dfdfdf;
-        border-radius: 0px 0px 15px 15px;
+    header #ornament nav ul.menu > li:nth-child(2):hover {
+        background-color: none;
+    }
+    header #ornament nav ul.menu > li:nth-child(3) {
+        padding-top: 0px;
     }
 
-    header #ornament nav ul.menu>li:last-child a span {
+    header #ornament nav ul.menu > li:last-child a span {
         display: inline-block;
         color: #000;
     }
 
-    header #ornament nav ul.menu>li:last-child a {
+    header #ornament nav ul.menu > li:last-child a {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+    header nav svg{
+        width: 26px;
+        height: 26px;
     }
 
     .fa-heart::before {
@@ -357,25 +368,27 @@ header #ornament nav ul.submenu li a {
         opacity: 1;
         pointer-events: none;
         position: relative;
-        background: none;
-        padding: 10px;
-        padding-left: 0px;
-        left: 0px;
         top: 0px;
-        border-radius: 0px;
+        padding: 0px 10px;
+        padding-left: 0px;
+    
+        background: none;
         box-shadow: none;
+        border-radius: 0px;
     }
 
     header #ornament nav ul.menu li:nth-child(2):hover {
         box-shadow: none;
     }
 
-    header #ornament nav ul.submenu li:hover {
-        background-color: #dfdfdf;
+    header #ornament nav ul.submenu li{
+        padding: 10px 10px;
     }
-
-    header #ornament nav ul.submenu li:hover a {
-        font-size: 18px;
+    header #ornament nav ul.submenu li:first-child {
+        padding-top: 10px;
+    }
+    header #ornament nav ul.submenu li:last-child {
+        padding-bottom: 10px;
     }
 }
 
@@ -456,6 +469,17 @@ header #ornament nav ul.submenu li a {
 
     header #ornament nav {
         transform: translateY(0px);
+    }
+
+    header #ornament nav ul.menu > li,
+    header #ornament nav ul.menu > li a {
+        font-size: 18px;
+    }
+    header #ornament nav ul.menu > li:last-child a span{
+        font-size: 18px;
+    }
+    header #ornament nav ul.submenu li a{
+        font-size: 16px;
     }
 }
 
@@ -588,7 +612,9 @@ section.highlights{
 .product-card{
     border-radius: 5px;
     background-color: #fff;
-    box-shadow: 9.12338px 18.2468px 45.6169px rgba(0, 0, 0, 0.05);
+    box-shadow: 9px 9px 20px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 15px;
 }
 .content-card{
     display: flex;
@@ -596,6 +622,7 @@ section.highlights{
     padding: 20px;
     position: relative;
     height: 100%;
+    overflow: hidden;
 }
 .product-img{
     max-width: 280px;
@@ -622,7 +649,7 @@ section.highlights{
     line-height: 27px;
     max-width: 260px;
     margin: 10px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .highlights p,
@@ -951,7 +978,11 @@ section.products{
     letter-spacing: 2px;
     color: #232323;
     cursor: pointer;
+}
 
+.option{
+    display: inline-block;
+    width: 157.5px;
 }
 
 .products-header .filter span::after,
@@ -986,18 +1017,28 @@ section.products{
     font-weight: 700;
     line-height: 27px;
     letter-spacing: 2px;
-    padding: 0px 10px;
+    overflow: hidden;
     cursor: pointer;
 }
 
 .products-header .filter ul.visible li{
-    padding: 8px 0px;
+    padding: 8px 10px;
+    position: relative;
+}
+.products-header .filter ul.visible li:not(:first-child)::before {
+    content: "";
+    display: block;
+    width: calc(100% - 15px);
+    height: 1px;
+    background-color: #dfdfdf;
+    position: absolute;
+    bottom: 100%;
+    align-self: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .products-header .filter ul.visible li:hover{
-    background-color: rgba(223, 223, 223, 0.1);
-}
-.products-header .filter ul.visible li:not(:first-child){
-    border-top: 1px solid #e6e6e6;
+    background-color: rgba(223, 223, 223, .4);
 }
 
 .products-header svg{
@@ -1041,6 +1082,10 @@ section.products{
     color: #b3b3b3;
 }
 
+.products-header .focused {
+    background-image: linear-gradient(#fff, #fff), linear-gradient(165deg, rgba(240,240,240,1) 0%, rgba(150,0,0,.5) 100%);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
 .products .products-container{
     margin: 50px auto;
     max-width: 1275px;

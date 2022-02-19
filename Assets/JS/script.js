@@ -36,18 +36,23 @@ const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
  
-
-
-function dropdown(){
-    filters.classList.toggle("visible");    
-}
-
 const filters = document.querySelector("#filters");
 let chosen = document.querySelector(".option");
 
-chosen.addEventListener('click', dropdown);
-filters.addEventListener('click', (e) => {
+function dropdown(){
+    filters.classList.toggle("visible");   
+}
+function switchColor(){
+    if(chosen.textContent == filters.children[0].textContent){
+        filters.children[0].style.backgroundColor = "rgba(223, 223, 223, .8)";
+        filters.children[1].style.backgroundColor = "#fff";
+    } else {
+        filters.children[0].style.backgroundColor = "#fff";
+        filters.children[1].style.backgroundColor = "rgba(223, 223, 223, .8)";
+    }
+}
 
+function completeOrder(e) {
     let contentCard = document.querySelector(".products-container").querySelectorAll(".content-card");
     let precos = [];
     contentCard.forEach((item) => {
@@ -81,12 +86,27 @@ filters.addEventListener('click', (e) => {
             precos.reverse();
             order();
             dropdown();
+            switchColor();
         break;
 
         case 'Menor Preço':
             chosen.textContent = e.target.textContent;
             order();
             dropdown();
+            switchColor();
         break;
     }
-})
+ }
+
+chosen.addEventListener('click', dropdown);
+filters.addEventListener('click', completeOrder);
+
+
+let inputSearch = document.querySelector("#search-bar");
+
+inputSearch.addEventListener('focusin', (e) =>{
+    document.querySelector(".src-bar").classList.add("focused");
+});
+inputSearch.addEventListener('focusout', (e) =>{
+    document.querySelector(".src-bar").classList.remove("focused");
+});
