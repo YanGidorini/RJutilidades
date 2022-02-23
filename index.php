@@ -25,7 +25,12 @@
 		
 		<header>
 			<div id="logo-container">
-				<a href="home"><img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades"></a>
+				<a href="home">
+					<picture>
+						<source srcset="Assets/IMG/red-logo-white-bg.webp" type="image/webp">
+						<img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades"> 
+					</picture>
+				</a>
 				<p>Papelaria, escritório, utilidades, miudezas...</p>
 			</div>
 
@@ -44,7 +49,7 @@
 								<li><a href="Miudezas">Miudezas</a></li>
 							</ul>
 						</li>
-						<li><a href="contato" id="contact-button">CONTATO</a></li>
+						<li><a id="contact-button">CONTATO</a></li>
 						<li>
 							<a href="favoritos">
 								<span>FAVORITOS</span>
@@ -74,7 +79,10 @@
 
 		<ul class="social-media">
 			<li>
-				<img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades">
+				<picture>
+					<source srcset="Assets/IMG/red-logo-white-bg.webp" type="image/webp">
+					<img src="Assets/IMG/red-logo-white-bg.png" alt="logo da R&J Utilidades"> 
+				</picture>
 			</li>
 			<li>
 				<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank" title="Whatsapp da loja">
@@ -88,7 +96,7 @@
 			</li>
 			<li>
 				<a rel="noreferrer" href="">
-					<div></div>
+					<div alt="Facebook da loja"></div>
 				</a>
 			</li>
 		</ul>
@@ -122,6 +130,7 @@
 
 
 </body>
+
 
 <script src="Assets/JS/script.js"></script>
 <!-- Swiper JS -->

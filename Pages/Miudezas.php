@@ -14,6 +14,16 @@
     header #ornament{
         height: 130px;
         background-image: url(../RJutilidades/Assets/IMG/ornament-form.png);
+        background-image:
+            -webkit-image-set(
+                url(../RJutilidades/Assets/IMG/ornament-form.webp)  type("image/webp"),
+                url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
+            );
+        background-image:
+            image-set(
+                url(../RJutilidades/Assets/IMG/ornament-form.webp)  type("image/webp"),
+                url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
+            );
     }
 
     @media all and (max-width: 620px){
@@ -56,7 +66,7 @@
 <div class="box">
     <div class="banner">
         <span>Miudezas</span>
-        <img  src="../RJutilidades/Assets/IMG/banners/miudezas.png">
+        <img srcset="" src="../RJutilidades/Assets/IMG/banners/miudezas.png">
     </div>
             
     <div class="box2">
@@ -68,7 +78,7 @@
 
         <div class="products-header">
             <div class="filter">
-                <p>Ordenar por: &nbsp; <span class="option">Menor Preço</span> </p>
+                <p>Ordenar por: &nbsp;<span class="option">Menor Preço</span> </p>
                 <ul id="filters" >
                     <li>Menor Preço</li> 
                     <li>Maior Preço</li>
