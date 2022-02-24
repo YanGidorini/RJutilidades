@@ -722,7 +722,6 @@ section.highlights{
     opacity: 0.5;
     font-weight: bolder;
     transition: all .1s ease-in-out;
-    
 }
 .swiper-button-next:hover, 
 .swiper-button-prev:hover{
@@ -1164,6 +1163,10 @@ section.products{
     justify-content: center;
 }
 
+.products-container .product-card{
+    height: 525px;
+}
+
 .products-footer{
     display: flex;
     flex-wrap: wrap;
@@ -1431,9 +1434,23 @@ footer ul li{
     border-radius: 20px;
     padding: 20px;
     background-color: #fff;
-    display: grid;
-    grid-template-columns: 1.3fr 1fr;
+    display: flex;
     position: relative;
+}
+
+.favorites{
+    width: 500px;
+    max-height: 500px;
+}
+.contact-block .favorite-items{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.favorite-items .product-card{
+    transform: scale(.8);
+    height: 500px;
 }
 
 .contact-block .exit{
@@ -1517,6 +1534,67 @@ footer ul li{
     letter-spacing: 1px;
     color: #757575;
     margin: 40px 0 30px 0;
+}
+
+@media all and (max-width: 1280px){
+    .contact-container .contact-block{
+        flex-direction: column;
+    }
+    .favorites{
+        width: 90%;
+        max-height: 500px;
+        margin: 0 auto;
+    }
+    
+    .favorite-items .product-card{
+        transform: scale(.6);
+        height: 500px;
+    }  
+}
+
+@media all and (max-width: 640px){
+    .contact-container .contact-block{
+        width: 90%;
+    }
+    .contact-block h2{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    
+    .contact-block h3{
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .contact-block .form input{
+        width: 90%;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 20px;
+    }
+    
+    .contact-block .form button{    
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 135px;
+    }
+    
+    .contact-block .form p{
+        font-size: 14px;
+        line-height: 20px; 
+    }
+   
+    .favorites{
+        width: 90%;
+        max-height: 500px;
+        margin: 0 auto;
+    }
+    
+    .favorite-items .product-card{
+        transform: scale(.6);
+        height: 500px;
+    }  
 }
 
 /* base das demais páginas */
