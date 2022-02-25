@@ -16,7 +16,7 @@
         height: 130px;
         background-image: url(../RJutilidades/Assets/IMG/ornament-form.png);
         background-image:
-            -webkit-image-set(
+            image-set(
                 url(../RJutilidades/Assets/IMG/ornament-form.webp)  type("image/webp"),
                 url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
             );
