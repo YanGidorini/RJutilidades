@@ -29,7 +29,7 @@
 
     @media all and (max-width: 620px){
         header #ornament {
-            height: 100px;
+            height: 80px;
         }
     }
 
@@ -51,6 +51,7 @@
         .banner span{
             font-size: 19px;
             width: 330px;
+            padding: 8px;
         }
     }
 

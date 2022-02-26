@@ -39,7 +39,7 @@
             width: 430px;
         }
         header #ornament {
-            height: 100px;
+            height: 80px;
         }
         nav.categories a[href="Papelaria"]::before{
             left: auto;

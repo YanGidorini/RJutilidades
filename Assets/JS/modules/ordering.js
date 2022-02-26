@@ -4,7 +4,6 @@ let chosen = document.querySelector(".option");
 filters.addEventListener('click', completeOrder);
 chosen.addEventListener('click', dropdown);
 
-
 function dropdown(){
     filters.classList.toggle("visible");   
 }

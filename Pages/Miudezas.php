@@ -28,7 +28,7 @@
 
     @media all and (max-width: 620px){
         header #ornament {
-            height: 100px;
+            height: 80px;
         }
     }
 
