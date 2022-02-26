@@ -1,47 +1,14 @@
-const btnMobile = document.querySelector("#btn-mobile");
-function toggleMenu(event) {
-    if (event.type === 'touchstart') event.preventDefault();
-    const nav = document.querySelector("nav");
-    nav.classList.toggle("active-menu");
-}
-
-btnMobile.addEventListener('click', toggleMenu);
-btnMobile.addEventListener('touchstart', toggleMenu);
-
-function searchProduct(){
-    let input = document.querySelector("#search-bar").value.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "");
-    let titles = document.querySelector(".products-container").querySelectorAll("h2");
-
-    for (let i = 0; i < titles.length; i++) {
-        if (!titles[i].innerHTML.normalize("NFD").replace(/[^a-zA-Zs]/g, "").toLowerCase().includes(input)) {
-            titles[i].parentElement.parentElement.style.display = "none";
-        } else {
-            titles[i].parentElement.parentElement.style.display = "block";
-        }   
-    }
-}
-
-
-function initContact(event){
-    event.preventDefault()
-    const contactContainer = document.getElementById('contact');
-    contactContainer.classList.add('show');
-    contactContainer.addEventListener('click', (e) => {
-        if (e.target.className == 'exit' || e.target.id == 'contact') {
-            contactContainer.classList.remove('show')
-        }
-    })
-}
-const contactButton = document.getElementById("contact-button");
-contactButton.addEventListener('click', initContact);
-
- 
 const filters = document.querySelector("#filters");
 let chosen = document.querySelector(".option");
+
+filters.addEventListener('click', completeOrder);
+chosen.addEventListener('click', dropdown);
+
 
 function dropdown(){
     filters.classList.toggle("visible");   
 }
+
 function switchColor(){
     if(chosen.textContent == filters.children[0].textContent){
         filters.children[0].style.backgroundColor = "rgba(223, 223, 223, .8)";
@@ -96,17 +63,6 @@ function completeOrder(e) {
             switchColor();
         break;
     }
- }
+}
 
-chosen.addEventListener('click', dropdown);
-filters.addEventListener('click', completeOrder);
-
-
-let inputSearch = document.querySelector("#search-bar");
-
-inputSearch.addEventListener('focusin', (e) =>{
-    document.querySelector(".src-bar").classList.add("focused");
-});
-inputSearch.addEventListener('focusout', (e) =>{
-    document.querySelector(".src-bar").classList.remove("focused");
-});
+export {filters, chosen, dropdown, switchColor, completeOrder};

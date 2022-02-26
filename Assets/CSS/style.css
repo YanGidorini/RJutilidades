@@ -556,7 +556,7 @@ nav.categories a[href="Papelaria"]::before{
     background-size: contain;
 }
 nav.categories a[href="Papelaria"]:hover::before{
-    animation: shakeclip .5s ease-in-out;
+    animation: shakeclip 1s ease-in-out;
 }
 
 @keyframes shakeclip{
@@ -592,7 +592,7 @@ nav.categories a[href="Artigos-Festa"]::before{
     background-size: contain;
 }
 nav.categories a[href="Artigos-Festa"]:hover::before{
-    animation: shakepong .5s ease-in-out;
+    animation: shakepong 1s ease-in-out;
 }
 @keyframes shakepong{
     0%, 100%{
@@ -628,7 +628,7 @@ nav.categories a[href="Utensilios-Cozinha"]::before{
     background-size: contain;
 }
 nav.categories a[href="Utensilios-Cozinha"]:hover::before{
-    animation: shakecozinha .5s ease-in-out;
+    animation: shakecozinha 1s ease-in-out;
 }
 @keyframes shakecozinha{
     0%, 100%{
@@ -663,7 +663,7 @@ nav.categories a[href="Miudezas"]::before{
     background-size: contain;
 }
 nav.categories a[href="Miudezas"]:hover::before{
-    animation: shakecozinha .5s ease-in-out;
+    animation: shakecozinha 1s ease-in-out;
 }
 @media all and (max-width: 812px){
     nav.categories{

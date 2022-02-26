@@ -217,7 +217,7 @@
                 <path d="M14.4121122,14.4121122 L20,20"></path>
                 <circle cx="10" cy="10" r="6"></circle>
             </svg>
-            <input type="text" name="search" id="search-bar" placeholder="Buscar" onkeyup="searchProduct()">
+            <input type="text" name="search" id="search-bar" placeholder="Buscar">
         </div>
     </div>
 

@@ -345,6 +345,6 @@
 		}
 	});
 </script>
-<script src="Assets/JS/script.js"></script>
+<script type="module" src="./Assets/JS/main.js"></script>
 
 </html>
