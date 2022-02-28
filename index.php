@@ -76,7 +76,7 @@
 		include 'Pages/Home.php';
 	}
 	?>
-	
+
 	<ul class="social-media">
 		<li>
 			<picture>
@@ -269,8 +269,9 @@
 				<h3>Informe seus dados e vamos entrar em contato contigo!</h3>
 				<form>
 					<input type="text" name="name" placeholder="Nome">
-					<input type="email" name="email" placeholder="WhatsApp ou E-mail">
-					<button type="submit">Pronto!</button>
+					<input type="text" name="phone-number" placeholder="WhatsApp">
+					<button type="submit">Enviar por WhatsApp</button>
+					<p>Enviar por E-mail</p>
 				</form>
 				<p>Seus produtos curtidos são enviados para nós junto com seu nome e contato, assim podemos te atender de forma especial!</p>
 			</div>

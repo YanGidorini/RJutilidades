@@ -1592,6 +1592,7 @@ footer ul li:last-child{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    width: max-content;
 }
 
 .contact-block .form input{
@@ -1617,13 +1618,25 @@ footer ul li:last-child{
     font-weight: 800;
     line-height: 23px;
     letter-spacing: 2px;
-    max-width: 135px;
+    width: fit-content;
     padding: 5px 20px;
     border-radius: 10px;
     color: #fff;
     background: #75CC67;
     border: 2px solid #66B859;
     margin-top: 20px;
+}
+
+.contact-block .form form p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #757575;
+    margin: 10px 0;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .contact-block .form p{
@@ -1639,6 +1652,7 @@ footer ul li:last-child{
 @media all and (max-width: 1280px){
     .contact-container .contact-block{
         flex-direction: column;
+        width: 80%;
     }
     .favorites{
         width: 90%;
@@ -1647,27 +1661,61 @@ footer ul li:last-child{
     }
     
     .favorite-items .product-card{
-        transform: scale(.6);
+        transform: scale(.8);
         height: 500px;
     }  
+
+    .form{
+        width: 400px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form form{
+        position: relative;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    .form form button{
+        margin: 0 auto;
+    }
+
+    .contact-block .form p{
+        margin-top: 10px;
+    }
 }
 
-@media all and (max-width: 640px){
+@media all and (max-width: 768px){
     .contact-container .contact-block{
         width: 90%;
     }
     .contact-block h2{
         font-size: 20px;
         line-height: 27px;
+        text-align: center;
     }
-    
+    .contact-block h2::after{
+        content: '';
+        display: block;
+        width: 70%;
+        height: 2px;
+        background-color: #ccc;
+        margin: 20px auto;
+    }
+    .contact-block h2 a{
+        color: #D91919;
+    }
+
     .contact-block h3{
         font-size: 20px;
         line-height: 27px;
     }
 
+    .contact-block .form form{ 
+        width: 100%;
+    }
+
     .contact-block .form input{
-        width: 90%;
+        width: 100%;
         height: 40px;
         font-size: 14px;
         font-weight: 800;
@@ -1677,7 +1725,6 @@ footer ul li:last-child{
     .contact-block .form button{    
         font-size: 14px;
         line-height: 20px;
-        max-width: 135px;
     }
     
     .contact-block .form p{
@@ -1685,16 +1732,15 @@ footer ul li:last-child{
         line-height: 20px; 
     }
    
-    .favorites{
-        width: 90%;
-        max-height: 500px;
-        margin: 0 auto;
+    .favorites .favorite-items{
+        display: none;
     }
-    
-    .favorite-items .product-card{
-        transform: scale(.6);
-        height: 500px;
-    }  
+}
+
+@media all and (max-width: 500px){
+    .contact-block .form{ 
+        width: 100%;
+    }
 }
 
 /* base das demais páginas */

@@ -11,4 +11,10 @@ function initContact(event){
 const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
-export {initContact, contactButton};
+function titleReplace(){
+    if(window.matchMedia("(max-width: 768px)").matches){
+        document.querySelector(".favorites h2").innerHTML = "<a href='./Pages/Favoritos.php'>Clique aqui</a> para conferir os produtos curtidos."
+    }
+}
+
+export {initContact, contactButton, titleReplace};

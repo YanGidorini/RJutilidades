@@ -13,6 +13,7 @@ arrange.chosen;
 menu.btnMobile;
 
 contact.contactButton;
+contact.titleReplace();
 
 favs.hearts;
 favs.activeFavorite();
