@@ -15,8 +15,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
 	<!-- swiper slider -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-	<!-- slick slider -->
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
 	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/style.css">
@@ -56,7 +54,7 @@
 						<a href="favoritos">
 							<span>FAVORITOS</span>
 							<svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
-								<title id="favouriteIconTitle">Favourite</title>
+								<title id="favouriteIconTitle">Salve seus itens favoritos</title>
 								<path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
 							</svg>
 						</a>
@@ -78,8 +76,7 @@
 		include 'Pages/Home.php';
 	}
 	?>
-	https://api.whatsapp.com/send?phone=5511994105195&text=Nome%3A%20Yan%20%7C%20Tel%3A%20994105195%20%7C%20Interesse%20em%3A%20L%C3%A1pis%2C%20Cis%2C%20Folhas
-
+	
 	<ul class="social-media">
 		<li>
 			<picture>
@@ -110,6 +107,7 @@
 			<li>CNPJ: 29.588.052/0001-02</li>
 			<li>Rua Jair de Godoy, N°56</li>
 			<li>Vila Açoreana - Poá / São Paulo</li>
+			<li>Todos os direitos reservados ©</li>
 		</ul>
 	</footer>
 

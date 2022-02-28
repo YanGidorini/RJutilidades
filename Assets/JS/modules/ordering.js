@@ -24,7 +24,7 @@ function completeOrder(e) {
     contentCard.forEach((item) => {
         precos.push(item.children[4].textContent.replace("R$ ", "").replace(",", "."));
     })
-    precos.sort((a,b) => a - b);
+    precos.sort((a,b) => a - b); //ordenar crescente
 
     function order(){
         let precosText = precos.map((item) =>{

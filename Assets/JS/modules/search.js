@@ -2,10 +2,10 @@ let inputSearch = document.querySelector("#search-bar");
 inputSearch.addEventListener('keyup', searchProduct);
 
 function focus() {
-    inputSearch.addEventListener('focusin', (e) =>{
+    inputSearch.addEventListener('focusin', () =>{
         document.querySelector(".src-bar").classList.add("focused");
     });
-    inputSearch.addEventListener('focusout', (e) =>{
+    inputSearch.addEventListener('focusout', () =>{
         document.querySelector(".src-bar").classList.remove("focused");
     });
 }

@@ -1,3 +1,4 @@
+<title>Favoritos</title>
 <style>
     header h1{
         display: none;
@@ -45,5 +46,72 @@
             width: 280px;
         }
     }
+
+    .fav-title{
+        margin: 30px 30px 0px 30px;
+    }
+    .fav-title::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 100%;
+        background-color: #dfdfdf;
+        margin: 30px 0px;
+    }
+    .fav-title h2{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+    .fav-title p{
+        font-family: 'Red Hat Text', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: rgba(0, 0, 0, .3);
+    }
+
+    section.products{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .products .products-container{
+        margin: 0 auto;
+    }
+    .products .products-container .no-itens{
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 2px;
+        font-size: 45px;
+    }
+
+
 </style>
+
+<div class="fav-title">
+    <h2>Itens salvos</h2>
+    <p><span class="length"></span> Produtos favoritados</p>
+</div>
+
+<section class="products">
+    <div class="products-container">
+        <div class="no-itens">
+            <h1>Nenhum produto salvo</h1>
+        </div>
+    </div>
+</section>
+
+<script type="module">
+    import {loadFavorite, removeFavorite} from "./Assets/JS/modules/unfavorite.js";
+    import * as menu from './Assets/JS/modules/mobileMenu.js';
+    import * as contact from './Assets/JS/modules/contact.js';
+
+    loadFavorite();
+    removeFavorite();
+
+    menu.btnMobile;
+    contact.contactButton;
+</script>
 
