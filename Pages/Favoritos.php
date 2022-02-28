@@ -12,41 +12,6 @@
                 url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
             );
     }
-
-    @media all and (max-width: 620px){
-        header #ornament {
-            height: 80px;
-        }
-    }
-
-    @media all and (max-width: 960px){
-        .banner span{
-            width: 480px;
-        }
-    }
-
-    @media all and (max-width: 620px){
-        .banner span{
-            font-size: 26px;
-            width: 380px;
-        }
-    }
-
-
-    @media all and (max-width: 480px){
-        .banner span{
-            font-size: 19px;
-            width: 300px;
-        }
-    }
-
-    @media all and (max-width: 370px){
-        .banner span{
-            font-size: 18px;
-            width: 280px;
-        }
-    }
-
     .fav-title{
         margin: 30px 30px 0px 30px;
     }
@@ -84,10 +49,53 @@
         font-weight: 700;
         line-height: 60px;
         letter-spacing: 2px;
-        font-size: 45px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    @media all and (max-width: 960px){
+        .banner span{
+            width: 480px;
+        }
+    }
+
+    @media all and (max-width: 812px){
+        .fav-title h2{
+            font-size: 40px;
+        }
+    }
+
+    @media all and (max-width: 620px){
+        header #ornament {
+            height: 80px;
+        }
+        .banner span{
+            font-size: 26px;
+            width: 380px;
+        }
+
+        .fav-title h2{
+            font-size: 36px;
+        }
     }
 
 
+    @media all and (max-width: 480px){
+        .banner span{
+            font-size: 19px;
+            width: 300px;
+        }
+        .fav-title::after{
+            margin: 20px 0px;
+        }
+    }
+
+    @media all and (max-width: 370px){
+        .banner span{
+            font-size: 18px;
+            width: 280px;
+        }
+    }
 </style>
 
 <div class="fav-title">

@@ -30,7 +30,16 @@ function removeFavorite(){
 
 function noFavorites(){
     let noItens = document.querySelector(".no-itens");
-    localStorage.length == 0 ? noItens.style.display = "block" : noItens.style.display = "none"; 
+    let productsContainer = document.querySelector(".products-container");
+    if(localStorage.length == 0){
+        noItens.style.display = "block";
+        productsContainer.style.display = "flex";
+        productsContainer.style.height = "300px";
+        productsContainer.style.alignItems = "center";
+    } else {
+        noItens.style.display = "none";
+    }
+
 }
 
 function itensLength(){
