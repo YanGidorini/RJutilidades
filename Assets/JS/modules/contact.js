@@ -12,8 +12,8 @@ const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
 function titleReplace(){
-    if(window.matchMedia("(max-width: 768px)").matches){
-        document.querySelector(".favorites h2").innerHTML = "<a href='./Pages/Favoritos.php'>Clique aqui</a> para conferir os produtos curtidos."
+    if(window.matchMedia("(max-width: 912px)").matches){
+        document.querySelector(".favorites h2").innerHTML = "<a href='favoritos'>Clique aqui</a> para conferir os produtos curtidos."
     }
 }
 

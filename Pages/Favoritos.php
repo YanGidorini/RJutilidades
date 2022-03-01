@@ -117,9 +117,8 @@
     import * as contact from './Assets/JS/modules/contact.js';
 
     loadFavorite();
-    removeFavorite();
+    removeFavorite();   
 
-    menu.btnMobile;
-    contact.contactButton;
+    contact.titleReplace();
 </script>
 

@@ -246,17 +246,6 @@ header #ornament nav ul.submenu li a{
     color: #000;
 }
 
-@media all and (min-width: 1920px) {
-    header {
-        max-width: 1920px;
-        margin: 0 auto;
-    }
-
-    header #logo-container {
-        border-radius: 30px;
-    }
-}
-
 @media all and (max-width: 1440px) {
     header #ornament nav ul.menu {
         -moz-column-gap: 50px;
@@ -440,17 +429,13 @@ header #ornament nav ul.submenu li a{
 
     header #logo-container {
         justify-content: center;
-        width: 100%;
+        width: auto;
         transform: translateY(0px);
         box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
         z-index: 0;
         border-radius: 20px 0px 0px 20px;
         margin-left: 15px;
         height: 80px;
-    }
-
-    header #logo-container a {
-        margin-right: 15px;
     }
 
     header #logo-container img {
@@ -651,6 +636,12 @@ nav.categories a[href="Miudezas"]:hover::before{
     }
 }
 
+@media all and (max-width: 680px){
+    nav.categories a{
+        font-size: 16px;
+    }
+}
+
 @media all and (max-width: 620px) {
     nav.categories{
         transform: translateY(0px);
@@ -796,7 +787,8 @@ svg.heart {
 }
 
 svg.active-heart{
-    fill: #000;
+    fill: #DC4747;
+    stroke: rgba(161, 0, 0, 0.75);
 }
 
 /* map */
@@ -1185,7 +1177,7 @@ section.products{
 }
 
 .products-header .src-bar input{
-    max-width: 80%;
+    width: 80%;
     height: 100%;
     outline: 0;
     padding-left: 10px;
@@ -1532,12 +1524,13 @@ footer ul li:last-child{
 }
 
 .contact-container .contact-block{
-    width: 70%;
+    width: min-content;
     border-radius: 20px;
     padding: 20px;
     background-color: #fff;
     display: flex;
     position: relative;
+    column-gap: 15px;
 }
 
 .favorites{
@@ -1548,12 +1541,31 @@ footer ul li:last-child{
     display: flex;
     flex-direction: row;
     max-width: 100%;
+    height: calc(100% - 48px);
+    padding: 15px 20px 15px 0px;
+}
+.favorite-items .product-card{
+    width: max-content;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.favorite-items .product-card .content-card .product-img{
+    height: 180px;
 }
 
-.favorite-items .product-card{
-    transform: scale(.8);
-    height: 500px;
+.favorite-items .product-card .content-card h2{
+    font-size: 20px;
+    line-height: 20px;
 }
+.favorite-items .swiper-wrapper{
+    height: auto;
+}
+
+.favorite-items .product-card:hover{
+    transform: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 .contact-block .exit{
     font-size: 28px;
@@ -1651,49 +1663,30 @@ footer ul li:last-child{
     margin: 40px 0 30px 0;
 }
 
-@media all and (max-width: 1280px){
+@media all and (max-width: 912px){
+    .favorites{
+        width: auto;
+    }
     .contact-container .contact-block{
         flex-direction: column;
-        width: 80%;
-    }
-    .favorites{
-        width: 90%;
-        max-height: 500px;
-        margin: 0 auto;
-    }
-    
-    .favorite-items .product-card{
-        transform: scale(.8);
-        height: 500px;
-    }  
-
-    .form{
-        width: 400px;
-        margin: 0 auto;
+        width: 70%;
         text-align: center;
     }
-    .form form{
-        position: relative;
-        transform: translateX(-50%);
-        left: 50%;
+    .contact-container .contact-block .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .form form button{
-        margin: 0 auto;
-    }
-
-    .contact-block .form p{
-        margin-top: 10px;
-    }
-}
-
-@media all and (max-width: 768px){
-    .contact-container .contact-block{
-        width: 90%;
+    .contact-container .contact-block .form form{
+        justify-content: center;
+        align-items: center;
     }
     .contact-block h2{
         font-size: 20px;
         line-height: 27px;
         text-align: center;
+        margin: 0 auto;
     }
     .contact-block h2::after{
         content: '';
@@ -1725,13 +1718,14 @@ footer ul li:last-child{
     }
     
     .contact-block .form button{    
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
     
     .contact-block .form p{
         font-size: 14px;
-        line-height: 20px; 
+        line-height: 20px;
+        margin: 20px 0;
     }
    
     .favorites .favorite-items{
