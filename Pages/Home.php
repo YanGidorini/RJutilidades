@@ -1,5 +1,19 @@
 <title>Home</title>
 
+<style>
+	header #ornament nav ul.menu li:first-child::before{
+		content: "";
+		position: absolute;
+		top: 50%; right: calc(100% + 5px);
+		transform: translateY(-50%);
+        display: block;
+        height: 6px;
+        width: 20px;
+        background-color: #fff;
+		border-radius: 50px;
+	}
+</style>
+
 <nav class="categories">
     <a href="Papelaria">Papelaria, Escritório e Escolar</a>
     <a href="Artigos-Festa">Artigos de Festa e Brinquedos</a>

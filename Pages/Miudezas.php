@@ -24,7 +24,20 @@
                 url(../RJutilidades/Assets/IMG/ornament-form.webp)  type("image/webp"),
                 url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
             );
-    }
+    
+        }
+    header #ornament nav ul.menu li:nth-child(2)::before{
+		content: "";
+		position: absolute;
+		top: 50%; right: 94%;
+		transform: translateY(-50%);
+        display: block;
+        height: 6px;
+        width: 20px;
+        background-color: #fff;
+		border-radius: 50px;
+        z-index: -1;
+	}
 
     @media all and (max-width: 620px){
         header #ornament {

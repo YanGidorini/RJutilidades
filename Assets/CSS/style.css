@@ -168,7 +168,9 @@ header #ornament nav ul.menu li a {
     line-height: 26px;
     letter-spacing: 0.05em;
     color: #fff;
+    position: relative;
 }
+
 
 header #ornament nav a[href="favoritos"] {
     font-size: 35px;
