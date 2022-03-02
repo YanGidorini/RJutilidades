@@ -9,6 +9,7 @@ searchBar.focus();
 
 arrange.filters;
 arrange.chosen;
+arrange.recent();
 
 menu.btnMobile;
 
@@ -17,4 +18,5 @@ contact.titleReplace();
 
 favs.hearts;
 favs.activeFavorite();
+
 

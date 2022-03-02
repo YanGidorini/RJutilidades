@@ -67,10 +67,11 @@
 
         <div class="products-header">
             <div class="filter">
-                <p>Ordenar por: &nbsp;<span class="option">Menor Preço</span> </p>
-                <ul id="filters" >
-                    <li>Menor Preço</li> 
-                    <li>Maior Preço</li>
+                <p>Ordenar por: &nbsp;&nbsp;<span class="option">Recentes</span></p>
+                <ul id="filters">
+                    <li>Recentes</li>
+                    <li>Menor Preço</li>
+                    <li>Maior Preço</li> 
                 </ul>
             </div>
             
