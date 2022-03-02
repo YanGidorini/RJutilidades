@@ -30,8 +30,7 @@ function completeOrder(e) {
 
         case 'Maior Preço':
             chosen.textContent = e.target.textContent;
-            decreasing = true;
-            orderByPrice(decreasing);
+            orderByPrice(!decreasing);
             dropdown();
 
             filters.children[0].style.backgroundColor = "#fff";

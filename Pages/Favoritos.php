@@ -53,6 +53,10 @@
         text-align: center;
     }
 
+    .products .products-container .no-itens h1{
+        padding: 0 15px;
+    }
+
     @media all and (max-width: 960px){
         .banner span{
             width: 480px;
@@ -76,6 +80,9 @@
 
         .fav-title h2{
             font-size: 36px;
+        }
+        .products .products-container .no-itens{
+            font-size: 32px;
         }
     }
 
