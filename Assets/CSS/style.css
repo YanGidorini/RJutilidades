@@ -1098,7 +1098,8 @@ section.products{
     height: 10px;
     display: inline-block;
     background: #000; 
-    margin: 0 0 0 4px;
+    position: relative;
+    right: -8px;
     -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
             clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
@@ -1109,16 +1110,15 @@ section.products{
 .products-header .filter ul.visible{
     display: block;
     position: absolute;
-    top: -8px; right: -10px;
+    top: -8px; right: -32.5px;
     border-radius: 10px 10px;
     box-shadow: 0px 4px 6px 1.5px rgba(0, 0, 0, 0.25);
     width: -webkit-max-content;
-    width: -moz-max-content;
     width: max-content;
+    width: 200px;
     height: auto;
     z-index: 1;
     background-color: #fff;
-
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -1278,8 +1278,12 @@ section.products{
         text-align: center;
     }
     .products-header .filter ul.visible{
+        width: 170px;
         font-size: 18px;
-        right: -4px;
+        right: -5px;
+    }
+    .products-header .src-bar input{
+        width: 78%;
     }
 }
 
@@ -1565,8 +1569,6 @@ footer ul li:last-child{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .contact-block .exit{
     font-size: 28px;
     font-family: 'Red Hat Display', sans-serif;
@@ -1736,6 +1738,12 @@ footer ul li:last-child{
 @media all and (max-width: 500px){
     .contact-block .form{ 
         width: 100%;
+    }
+    .contact-block .exit{
+        font-size: 24px;
+        top: -15px;
+        right: -15px;
+        padding: 8px 15px;
     }
 }
 
