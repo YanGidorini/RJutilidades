@@ -1,8 +1,10 @@
 const filters = document.querySelector("#filters");
 let chosen = document.querySelector(".option");
 
-filters.addEventListener('click', completeOrder);
-chosen.addEventListener('click', dropdown);
+if(filters && chosen){
+    filters.addEventListener('click', completeOrder);
+    chosen.addEventListener('click', dropdown);
+}
 
 function completeOrder(e) {
     let decreasing = false;

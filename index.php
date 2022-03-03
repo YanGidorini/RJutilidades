@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA_Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Tudo o que precisa, encontra aqui! Papelaria, escritório, utilidades, miudezas...">
-	<meta name="theme-color" content="#fff"/>
+	<meta name="theme-color" content="#fff" />
 	<link rel="apple-touch-icon" href="">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,16 +66,16 @@
 	</header>
 
 	<?php
-		$url = (isset($_GET['url'])) ? $_GET['url'] : 'Home';
-		$url = str_replace('-', '', array_filter(explode('/', $url)));
+	$url = (isset($_GET['url'])) ? $_GET['url'] : 'Home';
+	$url = str_replace('-', '', array_filter(explode('/', $url)));
 
-		$file = 'Pages/' . ucfirst($url[0]) . '.php'; //define o filename
+	$file = 'Pages/' . ucfirst($url[0]) . '.php'; //define o filename
 
-		if (is_file($file)) {
-			include $file;
-		} else {
-			include 'Pages/Home.php';
-		}
+	if (is_file($file)) {
+		include $file;
+	} else {
+		include 'Pages/Home.php';
+	}
 	?>
 
 	<ul class="social-media">
@@ -125,7 +125,7 @@
 					<div class="swiper-button-prev"></div>
 				</div>
 			</div>
-			
+
 			<div class="form">
 				<h3>Informe seus dados e vamos entrar em contato contigo!</h3>
 				<form>
@@ -178,15 +178,6 @@
 				slidesPerView: 5,
 				spaceBetween: 30,
 			}
-		}
-	});
-
-	var swiper2 = new Swiper(".mySwiper2", {
-		slidesPerView: 2,
-		spaceBetween: 10,
-		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
 		}
 	});
 </script>

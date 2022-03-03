@@ -50,7 +50,9 @@ function itensLength(){
     } else {
         badge.classList.remove("badge-active");
     }
-
-    document.querySelector(".length").textContent = localStorage.length;
+    let length = document.querySelector(".length");
+    if (length) {
+        length.textContent = localStorage.length;
+    }
 }
 export {loadFavorite, removeFavorite, itensLength};

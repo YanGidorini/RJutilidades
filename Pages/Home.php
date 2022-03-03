@@ -1,17 +1,18 @@
 <title>Home</title>
 
 <style>
-	header #ornament nav ul.menu li:first-child::before{
-		content: "";
-		position: absolute;
-		top: 50%; right: calc(100% + 5px);
-		transform: translateY(-50%);
+    header #ornament nav ul.menu li:first-child::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: calc(100% + 5px);
+        transform: translateY(-50%);
         display: block;
         height: 6px;
         width: 20px;
         background-color: #fff;
-		border-radius: 50px;
-	}
+        border-radius: 50px;
+    }
 </style>
 
 <nav class="categories">
@@ -99,7 +100,7 @@
             <div class="swiper-slide product-card" data-id="6h" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <source srcset="" type="image/webp">    
+                        <source srcset="" type="image/webp">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
@@ -164,7 +165,7 @@
 </section>
 
 <section class="localization">
-    <img srcset="Assets/IMG/curves.webp" src="Assets/IMG/curves.png" alt="" >
+    <img srcset="Assets/IMG/curves.webp" src="Assets/IMG/curves.png" alt="">
 
     <div class="map-container">
         <div class="map">
@@ -195,12 +196,12 @@
                 <p>Ver no Waze</p>
             </a>
         </div>
-        
+
         <picture>
             <source srcset="../RJutilidades/Assets/IMG/ilustration.webp" type="image/webp">
             <img class="ilustration" src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
         </picture>
-        
+
     </div>
 </section>
 
@@ -213,7 +214,7 @@
             <ul id="filters">
                 <li>Recentes</li>
                 <li>Menor Preço</li>
-                <li>Maior Preço</li> 
+                <li>Maior Preço</li>
             </ul>
         </div>
 
@@ -334,5 +335,4 @@
         <span class="next-page">Próxima Página</span>
     </div>
 
-    <!-- fazer sistema que inclui mais produtos aqui -->
 </section>
