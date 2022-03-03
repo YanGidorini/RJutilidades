@@ -100,6 +100,25 @@ header nav svg {
     fill: #FFF;
 }
 
+header nav .badge{
+    display: none;
+}
+
+header nav .badge-active{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 100;
+    top: -17px; right: 0px;
+}
+
 header #ornament nav ul.menu>li:last-child a span {
     display: none;
     font-family: 'Red Hat Display', sans-serif;

@@ -43,6 +43,14 @@ function noFavorites(){
 }
 
 function itensLength(){
+    let badge = document.querySelector(".badge");
+    if(localStorage.length > 0){
+        badge.classList.add("badge-active");
+        badge.innerHTML = localStorage.length;
+    } else {
+        badge.classList.remove("badge-active");
+    }
+
     document.querySelector(".length").textContent = localStorage.length;
 }
-export {loadFavorite, removeFavorite};
+export {loadFavorite, removeFavorite, itensLength};

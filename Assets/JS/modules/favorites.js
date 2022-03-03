@@ -1,3 +1,5 @@
+import {itensLength} from "./unfavorite.js";
+
 let hearts = document.querySelectorAll(".heart");
 
 hearts.forEach((item) =>{
@@ -15,6 +17,7 @@ function favorite(e){
     } else {
         localStorage.removeItem(productCard.dataset.id, productCard.outerHTML);
     }
+    itensLength();
 }
 
 function activeFavorite(){
@@ -27,4 +30,4 @@ function activeFavorite(){
     });
 }
 
-export {hearts, favorite, activeFavorite};
+export {hearts, favorite, activeFavorite, itensLength};
