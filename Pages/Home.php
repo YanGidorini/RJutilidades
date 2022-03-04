@@ -30,7 +30,7 @@
             <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -44,7 +44,7 @@
             <div class="swiper-slide product-card" data-id="1" data-date="2021, 4, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -58,7 +58,7 @@
             <div class="swiper-slide product-card" data-id="1" data-date="2022, 5, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -72,7 +72,7 @@
             <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -86,22 +86,7 @@
             <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
-                    </picture>
-                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
-                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
-                    </svg>
-                    <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
-                    <span>R$ 14,80</span>
-                </div>
-            </div>
-
-            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
-                <div class="content-card">
-                    <picture class="product-img">
-                        <source srcset="" type="image/webp">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -116,7 +101,22 @@
                 <div class="content-card">
                     <picture class="product-img">
                         <source srcset="" type="image/webp">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    </picture>
+                    <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
+                        <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
+                    </svg>
+                    <h2>Lápis de Escrever Faber-Castell 60 cores</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu nisi quis dui facilisis faucibus et fermentum urna. Vivamus finibus.</p>
+                    <span>R$ 14,80</span>
+                </div>
+            </div>
+
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
+                <div class="content-card">
+                    <picture class="product-img">
+                        <source srcset="" type="image/webp">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -130,8 +130,8 @@
             <div class="swiper-slide product-card" data-id="2" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
-                        <source srcset="../RJutilidades/Assets/IMG/produtos/photo.webp" type="image/webp">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <source srcset="./Assets/IMG/produtos/photo.webp" type="image/webp">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -146,7 +146,7 @@
                 <div class="content-card">
                     <picture class="product-img">
                         <source srcset="" type="image/webp">
-                        <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                        <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                     </picture>
                     <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                         <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -198,8 +198,8 @@
         </div>
 
         <picture>
-            <source srcset="../RJutilidades/Assets/IMG/ilustration.webp" type="image/webp">
-            <img class="ilustration" src="../RJutilidades/Assets/IMG/ilustration.png" alt="ilustração">
+            <source srcset="./Assets/IMG/ilustration.webp" type="image/webp">
+            <img class="ilustration" src="../Assets/IMG/ilustration.png" alt="ilustração">
         </picture>
 
     </div>
@@ -233,7 +233,7 @@
             <div class="content-card">
                 <picture class="product-img">
                     <source srcset="" type="image/webp">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -247,8 +247,8 @@
         <div class="product-card" data-id="2" data-date="2021, 6, 15">
             <div class="content-card">
                 <picture class="product-img">
-                    <source srcset="../RJutilidades/Assets/IMG/produtos/photo.webp" type="image/webp">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <source srcset="./Assets/IMG/produtos/photo.webp" type="image/webp">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -262,7 +262,7 @@
         <div class="product-card" data-id="3" data-date="2021, 6, 17">
             <div class="content-card">
                 <picture class="product-img">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -276,7 +276,7 @@
         <div class="product-card" data-id="4" data-date="2022, 1, 20">
             <div class="content-card">
                 <picture class="product-img">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -290,7 +290,7 @@
         <div class="product-card" data-id="5" data-date="2022, 2, 15">
             <div class="content-card">
                 <picture class="product-img">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -304,7 +304,7 @@
         <div class="product-card" data-id="6" data-date="2022, 3, 1">
             <div class="content-card">
                 <picture class="product-img">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
@@ -318,7 +318,7 @@
         <div class="product-card" data-id="7" data-date="2021, 11, 2">
             <div class="content-card">
                 <picture class="product-img">
-                    <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
+                    <img src="./Assets/IMG/produtos/photo.png" alt="imagem produto">
                 </picture>
                 <svg class="heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
                     <path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>

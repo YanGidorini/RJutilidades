@@ -16,8 +16,8 @@
 	<!-- swiper slider -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 
-	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/reset.css">
-	<link rel="stylesheet" type="text/css" href="../RJutilidades/Assets/CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="./Assets/CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
 </head>
 
 <body>

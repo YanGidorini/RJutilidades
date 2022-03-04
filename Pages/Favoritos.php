@@ -6,10 +6,10 @@
 
     header #ornament {
         height: 130px;
-        background-image: url(../RJutilidades/Assets/IMG/ornament-form.png);
+        background-image: url(./Assets/IMG/ornament-form.png);
         background-image:
-            image-set(url(../RJutilidades/Assets/IMG/ornament-form.webp) type("image/webp"),
-                url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png"));
+            image-set(url(./Assets/IMG/ornament-form.webp) type("image/webp"),
+                url(./Assets/IMG/ornament-form.png) type("image/png"));
     }
 
     .fav-title {
