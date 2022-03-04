@@ -1,21 +1,22 @@
 <title>Favoritos</title>
 <style>
-    header h1{
+    header h1 {
         display: none;
     }
-    header #ornament{
+
+    header #ornament {
         height: 130px;
         background-image: url(../RJutilidades/Assets/IMG/ornament-form.png);
         background-image:
-            image-set(
-                url(../RJutilidades/Assets/IMG/ornament-form.webp)  type("image/webp"),
-                url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png")               
-            );
+            image-set(url(../RJutilidades/Assets/IMG/ornament-form.webp) type("image/webp"),
+                url(../RJutilidades/Assets/IMG/ornament-form.png) type("image/png"));
     }
-    .fav-title{
+
+    .fav-title {
         margin: 30px 30px 0px 30px;
     }
-    .fav-title::after{
+
+    .fav-title::after {
         content: "";
         display: block;
         height: 2px;
@@ -23,28 +24,32 @@
         background-color: #dfdfdf;
         margin: 30px 0px;
     }
-    .fav-title h2{
+
+    .fav-title h2 {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 700;
         line-height: 60px;
         letter-spacing: 2px;
         font-size: 45px;
     }
-    .fav-title p{
+
+    .fav-title p {
         font-family: 'Red Hat Text', sans-serif;
         font-weight: 700;
         font-size: 18px;
         color: rgba(0, 0, 0, .3);
     }
 
-    section.products{
+    section.products {
         margin-top: 10px;
         margin-bottom: 40px;
     }
-    .products .products-container{
+
+    .products .products-container {
         margin: 0 auto;
     }
-    .products .products-container .no-itens{
+
+    .products .products-container .no-itens {
         font-family: 'Red Hat Display', sans-serif;
         font-weight: 700;
         line-height: 60px;
@@ -53,52 +58,55 @@
         text-align: center;
     }
 
-    .products .products-container .no-itens h1{
+    .products .products-container .no-itens h1 {
         padding: 0 15px;
     }
 
-    @media all and (max-width: 960px){
-        .banner span{
+    @media all and (max-width: 960px) {
+        .banner span {
             width: 480px;
         }
     }
 
-    @media all and (max-width: 812px){
-        .fav-title h2{
+    @media all and (max-width: 812px) {
+        .fav-title h2 {
             font-size: 40px;
         }
     }
 
-    @media all and (max-width: 620px){
+    @media all and (max-width: 620px) {
         header #ornament {
             height: 80px;
         }
-        .banner span{
+
+        .banner span {
             font-size: 26px;
             width: 380px;
         }
 
-        .fav-title h2{
+        .fav-title h2 {
             font-size: 36px;
         }
-        .products .products-container .no-itens{
+
+        .products .products-container .no-itens {
             font-size: 32px;
         }
     }
 
 
-    @media all and (max-width: 480px){
-        .banner span{
+    @media all and (max-width: 480px) {
+        .banner span {
             font-size: 19px;
             width: 300px;
         }
-        .fav-title::after{
+
+        .fav-title::after {
             margin: 20px 0px;
         }
     }
 
-    @media all and (max-width: 370px){
-        .banner span{
+    @media all and (max-width: 370px) {
+        .banner span {
             font-size: 18px;
             width: 280px;
         }
@@ -119,13 +127,15 @@
 </section>
 
 <script type="module">
-    import {loadFavorite, removeFavorite} from "./Assets/JS/modules/unfavorite.js";
+    import {
+        loadFavorite,
+        removeFavorite
+    } from "./Assets/JS/modules/unfavorite.js";
     import * as menu from './Assets/JS/modules/mobileMenu.js';
     import * as contact from './Assets/JS/modules/contact.js';
 
     loadFavorite();
-    removeFavorite();   
+    removeFavorite();
 
     contact.titleReplace();
 </script>
-

@@ -18,12 +18,21 @@ function initContact(event){
 		}
 	});
     
+    const swiperWapper = document.querySelector(".favorites").querySelector(".swiper-wrapper");
+
     Object.keys(localStorage).forEach((item) =>{
-        document.querySelector(".favorites").querySelector(".swiper-wrapper").innerHTML += localStorage.getItem(item);
+        swiperWapper.innerHTML += localStorage.getItem(item);
         
-        document.querySelector(".favorites").querySelector(".swiper-wrapper").querySelectorAll(".product-card").forEach((product) =>{
+        swiperWapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
             product.classList.add("swiper-slide");
-        })
+
+            if(array.length == 1){
+                swiperWapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
+                document.querySelector(".contact-block").style.paddingBottom = "50px"
+            } else {
+                document.querySelector(".contact-block").style.paddingBottom = "0px"
+            }
+        }) 
     });
 }
 const contactButton = document.getElementById("contact-button");

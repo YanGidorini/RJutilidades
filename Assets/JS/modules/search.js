@@ -1,5 +1,7 @@
 let inputSearch = document.querySelector("#search-bar");
-inputSearch.addEventListener('keyup', searchProduct);
+if (inputSearch) {
+    inputSearch.addEventListener('keyup', searchProduct);
+}
 
 function focus() {
     inputSearch.addEventListener('focusin', () =>{
