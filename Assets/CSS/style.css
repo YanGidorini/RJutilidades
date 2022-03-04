@@ -295,6 +295,9 @@ header #ornament nav ul.submenu li a{
     header nav svg {
         fill: #000;
     }
+    header nav .badge-active{
+        display: none;
+    }
 
     header #ornament nav ul.menu {
         display: none;
@@ -1106,7 +1109,7 @@ section.products{
 
 .option{
     display: inline-block;
-    width: 157.5px;
+    width: max-content;
 }
 
 .products-header .filter span::after,

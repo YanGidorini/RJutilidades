@@ -21,7 +21,9 @@ function initContact(event){
     const swiperWapper = document.querySelector(".favorites").querySelector(".swiper-wrapper");
 
     Object.keys(localStorage).forEach((item) =>{
-        swiperWapper.innerHTML += localStorage.getItem(item);
+        if(!isNaN(item)){
+            swiperWapper.innerHTML += localStorage.getItem(item);
+        }
         
         swiperWapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
             product.classList.add("swiper-slide");

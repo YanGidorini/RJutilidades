@@ -27,7 +27,7 @@
     <div class="swiper mySwiper container">
         <div class="swiper-wrapper content">
 
-            <div class="swiper-slide product-card" data-id="1h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="2h" data-date="2021, 4, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2021, 4, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="3h" data-date="2022, 5, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 5, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
@@ -69,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="4h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="5h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <img src="../RJutilidades/Assets/IMG/produtos/photo.png" alt="imagem produto">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="6h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <source srcset="" type="image/webp">
@@ -112,7 +112,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="7h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <source srcset="" type="image/webp">
@@ -142,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="swiper-slide product-card" data-id="9h" data-date="2022, 3, 2">
+            <div class="swiper-slide product-card" data-id="1" data-date="2022, 3, 2">
                 <div class="content-card">
                     <picture class="product-img">
                         <source srcset="" type="image/webp">
@@ -330,9 +330,9 @@
         </div>
     </div>
 
-    <div class="products-footer">
+    <!-- <div class="products-footer">
         <span class="page-ind">1 | 3</span>
         <span class="next-page">Próxima Página</span>
-    </div>
+    </div> -->
 
 </section>
