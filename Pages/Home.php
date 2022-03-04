@@ -211,9 +211,9 @@
         <div class="filter">
             <p>Ordenar por: &nbsp;&nbsp;<span class="option">Recentes</span></p>
             <ul id="filters">
-                <li>Recentes</li>
                 <li>Menor Preço</li>
-                <li>Maior Preço</li> 
+                <li>Maior Preço</li>
+                <li>Recentes</li> 
             </ul>
         </div>
 

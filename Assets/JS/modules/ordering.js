@@ -8,24 +8,16 @@ function completeOrder(e) {
     let decreasing = false;
 
     switch (e.target.textContent){
-        case 'Recentes':
-            chosen.textContent = e.target.textContent;
-            recent();
-            dropdown();
-
-            filters.children[0].style.backgroundColor = "rgba(223, 223, 223, .8)";
-            filters.children[1].style.backgroundColor = "#fff";
-            filters.children[2].style.backgroundColor = "#fff";
-        break;
-
         case 'Menor Preço':
             chosen.textContent = e.target.textContent;
             orderByPrice(decreasing);
             dropdown();
             
-            filters.children[0].style.backgroundColor = "#fff";
-            filters.children[1].style.backgroundColor = "rgba(223, 223, 223, .8)";
+            filters.children[0].style.backgroundColor = "rgba(223, 223, 223, .8)";
+            filters.children[1].style.backgroundColor = "#fff";
             filters.children[2].style.backgroundColor = "#fff";
+
+
         break;
 
         case 'Maior Preço':
@@ -34,9 +26,20 @@ function completeOrder(e) {
             dropdown();
 
             filters.children[0].style.backgroundColor = "#fff";
+            filters.children[1].style.backgroundColor = "rgba(223, 223, 223, .8)";
+            filters.children[2].style.backgroundColor = "#fff";
+        break;
+
+        case 'Recentes':
+            chosen.textContent = e.target.textContent;
+            recent();
+            dropdown();
+
+            filters.children[0].style.backgroundColor = "#fff";
             filters.children[1].style.backgroundColor = "#fff";
             filters.children[2].style.backgroundColor = "rgba(223, 223, 223, .8)";
         break;
+
     }
 }
 

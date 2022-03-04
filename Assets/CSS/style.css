@@ -1121,6 +1121,7 @@ section.products{
     right: -8px;
     -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
             clip-path: polygon(50% 100%, 0 0, 100% 0);
+    margin-right: 5px;
 }
 
 .products-header .filter ul{
@@ -1129,12 +1130,12 @@ section.products{
 .products-header .filter ul.visible{
     display: block;
     position: absolute;
-    top: -8px; right: -32.5px;
+    top: -8px; left: 154px;
     border-radius: 10px 10px;
     box-shadow: 0px 4px 6px 1.5px rgba(0, 0, 0, 0.25);
     width: -webkit-max-content;
     width: max-content;
-    width: 200px;
+    /* width: 200px; */
     height: auto;
     z-index: 1;
     background-color: #fff;
