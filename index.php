@@ -96,7 +96,7 @@
 			</a>
 		</li>
 		<li>
-			<a rel="noreferrer" href="">
+			<a rel="noreferrer" href="https://web.facebook.com/rjutilidadess/?ref=page_internal&_rdc=1&_rdr" target="_blank" title="Facebook da loja">
 				<div alt="Facebook da loja"></div>
 			</a>
 		</li>
