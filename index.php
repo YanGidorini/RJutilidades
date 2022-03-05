@@ -23,7 +23,7 @@
 <body>
 
 
-	<header>
+	<header id="header">
 		<div id="logo-container">
 			<a href="home">
 				<picture>
@@ -138,6 +138,10 @@
 			</div>
 		</div>
 	</div>
+
+	<a href="#header" class="arrow" title="Retornar para o menu">
+		<img src="./Assets/IMG/icones/arrow.png" alt="Retornar para o menu">
+	</a>
 </body>
 
 <!-- Swiper JS -->

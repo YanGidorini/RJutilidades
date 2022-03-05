@@ -1770,6 +1770,27 @@ footer ul li:last-child{
     }
 }
 
+.arrow{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    cursor: pointer;
+    position: fixed;
+    left: 3%;
+    bottom: 1%;
+    transform: rotate(-90deg);
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+@media all and (max-width: 600px){
+    .arrow{
+        left: auto;
+        right: 3%;
+    }
+}
+
 /* base das demais páginas */
 .box{
     transform: translateY(-131px);
