@@ -36,7 +36,11 @@ function initContact(event){
             }
         }) 
     });
+
+    const submitButton = document.querySelector("#submitButton");
+    submitButton.addEventListener('click', sendProduct);
 }
+
 const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
@@ -46,4 +50,36 @@ function titleReplace(){
     }
 }
 
-export {initContact, contactButton, titleReplace};
+
+const phone = document.querySelector("#phone");
+phone.addEventListener('keyup', phoneMask);
+
+function phoneMask(){
+    let v = phone.value;
+    console.log(v);
+
+    let r = v.replace(/\D/g, "");
+    r = r.replace(/^0/, "");
+  
+    if (r.length > 11) {
+      r = r.replace(/^(\d\d)(\d{5})(\d{4}).*/, "($1) $2-$3");
+    } else if (r.length > 7) {
+      r = r.replace(/^(\d\d)(\d{5})(\d{0,4}).*/, "($1) $2-$3");
+    } else if (r.length > 2) {
+      r = r.replace(/^(\d\d)(\d{0,5})/, "($1) $2");
+    } else if (v.trim() !== "") {
+      r = r.replace(/^(\d*)/, "($1");
+    }
+    phone.value = r;
+}
+
+function sendProduct(e){
+    e.preventDefault();
+    let name = document.querySelector("#name").value;
+    let phone = document.querySelector("#phone").value;
+
+    document.querySelectorAll(".favorite .product-card .content-card h2");
+
+}
+
+export {initContact, contactButton, titleReplace, phone, phoneMask};
