@@ -1,74 +1,78 @@
 <style>
-    .banner span{
+    .banner span {
         color: #000;
-        background-image: linear-gradient(rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.45) 100%), linear-gradient(135deg, rgba(255,252,245,1) 0%, rgba(232,220,190,1) 100%);
+        background-image: linear-gradient(rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.45) 100%), linear-gradient(135deg, rgba(255, 252, 245, 1) 0%, rgba(232, 220, 190, 1) 100%);
     }
-    .products-header{
-       margin-top: 50px;
+
+    .products-header {
+        margin-top: 50px;
     }
-    nav.categories{
+
+    nav.categories {
         transform: translateY(0px);
     }
-    header h1{
+
+    header h1 {
         display: none;
     }
-    header #ornament{
+
+    header #ornament {
         height: 130px;
         background-image: url(./Assets/IMG/ornament-form.png);
         background-image:
-            -webkit-image-set(
-                url(./Assets/IMG/ornament-form.webp)  type("image/webp"),
-                url(./Assets/IMG/ornament-form.png) type("image/png")               
-            );
+            -webkit-image-set(url(./Assets/IMG/ornament-form.webp) type("image/webp"),
+                url(./Assets/IMG/ornament-form.png) type("image/png"));
         background-image:
-            image-set(
-                url(./Assets/IMG/ornament-form.webp)  type("image/webp"),
-                url(./Assets/IMG/ornament-form.png) type("image/png")               
-            );
+            image-set(url(./Assets/IMG/ornament-form.webp) type("image/webp"),
+                url(./Assets/IMG/ornament-form.png) type("image/png"));
     }
-    header #ornament nav ul.menu li:nth-child(2)::before{
-		content: "";
-		position: absolute;
-		top: 50%; right: 94%;
-		transform: translateY(-50%);
+
+    header #ornament nav ul.menu li:nth-child(2)::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 94%;
+        transform: translateY(-50%);
         display: block;
         height: 6px;
         width: 20px;
         background-color: #fff;
-		border-radius: 50px;
+        border-radius: 50px;
         z-index: -1;
-	}
+    }
 
-    @media all and (max-width: 960px){
-        .banner span{
+    @media all and (max-width: 960px) {
+        .banner span {
             width: 480px;
         }
     }
 
-    @media all and (max-width: 620px){
-        .banner span{
+    @media all and (max-width: 620px) {
+        .banner span {
             font-size: 26px;
             width: 430px;
         }
+
         header #ornament {
             height: 80px;
         }
-        nav.categories a[href="Papelaria"]::before{
+
+        nav.categories a[href="Papelaria"]::before {
             left: auto;
             right: -40px;
             transform: scaleX(-1);
         }
     }
 
-    @media all and (max-width: 480px){
-        .banner span{
+    @media all and (max-width: 480px) {
+        .banner span {
             font-size: 19px;
             width: 330px;
         }
     }
 
-    @media all and (max-width: 370px){
-        .banner span{
+    @media all and (max-width: 370px) {
+        .banner span {
             font-size: 16px;
             width: 280px;
         }
@@ -78,11 +82,12 @@
 <title>Artigos de Festa e Brinquedos</title>
 
 <div class="box">
-    <div class="banner">
+    <picture class="banner">
         <span>Artigos de Festa e Brinquedos</span>
-        <img srcset="" src="./Assets/IMG/banners/festa.png">
-    </div>
-            
+        <source srcset="./Assets/IMG/banners/festa.webp" type="image/webp">
+        <img src="./Assets/IMG/banners/festa.png">
+    </picture>
+
     <div class="box2">
         <nav class="categories">
             <a href="Papelaria">Papelaria, Escritório e Escolar</a>
@@ -97,10 +102,10 @@
                     <ul id="filters">
                         <li>Menor Preço</li>
                         <li>Maior Preço</li>
-                        <li>Recentes</li>  
+                        <li>Recentes</li>
                     </ul>
                 </div>
-                
+
                 <div class="src-bar">
                     <svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="searchIconTitle">
                         <title id="searchIconTitle">Search</title>
@@ -183,7 +188,7 @@
                         <span>R$ 1,80</span>
                     </div>
                 </div>
-                
+
                 <div class="product-card" data-id="6" data-date="2022, 3, 1">
                     <div class="content-card">
                         <picture class="product-img">
@@ -211,9 +216,9 @@
                         <span>R$ 4,80</span>
                     </div>
                 </div>
-                    <!-- aqui vão os produtos -->
-                </div>
+                <!-- aqui vão os produtos -->
             </div>
-        </section>
     </div>
+    </section>
+</div>
 </div>

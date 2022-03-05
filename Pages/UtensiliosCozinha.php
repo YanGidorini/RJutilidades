@@ -53,10 +53,11 @@
 <title>Cozinha</title>
 
 <div class="box">
-    <div class="banner">
+    <picture class="banner">
         <span>Utensílios de Cozinha</span>
-        <img srcset="" src="./Assets/IMG/banners/cozinha.png">
-    </div>
+        <source srcset="./Assets/IMG/banners/cozinha.webp" type="image/webp">
+        <img src="./Assets/IMG/banners/cozinha.png">
+    </picture>
         
     <div class="box2">
         <nav class="categories">

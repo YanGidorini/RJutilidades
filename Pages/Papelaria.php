@@ -80,10 +80,11 @@
 <title>Papelaria, Escritório e Escolar</title>
 
 <div class="box">
-    <div class="banner">
+    <picture class="banner">
         <span>Papelaria, Escritório e Escolar</span>
-        <img srcset="" src="./Assets/IMG/banners/papelaria.png">
-    </div>
+        <source srcset="./Assets/IMG/banners/papelaria.webp" type="image/webp">
+        <img src="./Assets/IMG/banners/papelaria.png">
+    </picture>
             
     <div class="box2">
         <nav class="categories">

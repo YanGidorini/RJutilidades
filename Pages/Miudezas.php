@@ -77,10 +77,11 @@
 <title>Miudezas</title>
 
 <div class="box">
-    <div class="banner">
+    <picture class="banner">
         <span>Miudezas</span>
-        <img srcset="" src="./Assets/IMG/banners/miudezas.png">
-    </div>
+        <source srcset="./Assets/IMG/banners/miudezas.webp" type="image/webp">
+        <img src="./Assets/IMG/banners/miudezas.png">
+    </picture>
             
     <div class="box2">
         <nav class="categories">

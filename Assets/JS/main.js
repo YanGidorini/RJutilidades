@@ -16,7 +16,8 @@ arrange.recent();
 menu.btnMobile;
 
 contact.contactButton;
-contact.titleReplace();
+contact.titleReplace()
+contact.phone;
 
 favs.hearts;
 favs.activeFavorite();
