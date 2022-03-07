@@ -139,9 +139,7 @@
 		</div>
 	</div>
 
-	<a href="#header" class="arrow" title="Retornar para o menu">
-		<img src="./Assets/IMG/icones/arrow.png" alt="Retornar para o menu">
-	</a>
+	<a href="#header" class="arrow" title="Retornar para o menu"><span></span></a>
 </body>
 
 <!-- Swiper JS -->

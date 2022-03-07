@@ -495,7 +495,7 @@ nav.categories{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    row-gap: 20px;
+    gap: 20px;
     max-width: 1920px;
     margin: 0 auto;
     transform: translateY(-90px);
@@ -509,8 +509,6 @@ nav.categories a{
     text-align: center;
     text-decoration: none;
     width: 300px;
-    margin-left: 20px;
-    margin-right: 20px;
     padding: 20px 0;
     color: #fff;
     background-color: #D91919;
@@ -521,7 +519,6 @@ nav.categories a{
 nav.categories a:hover{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 
 nav.categories a[href="Papelaria"]::before{
     content: "";
@@ -651,6 +648,13 @@ nav.categories a[href="Miudezas"]::before{
 nav.categories a[href="Miudezas"]:hover::before{
     animation: shakecozinha 1s ease-in-out;
 }
+
+@media all and (max-width: 1280px){
+    nav.categories{
+        flex-flow: row wrap;
+    }
+}
+
 @media all and (max-width: 812px){
     nav.categories{
         transform: translateY(0px);
@@ -659,15 +663,12 @@ nav.categories a[href="Miudezas"]:hover::before{
 }
 
 @media all and (max-width: 680px){
-    nav.categories a{
-        font-size: 16px;
-    }
-}
-
-@media all and (max-width: 620px) {
     nav.categories{
         transform: translateY(0px);
         z-index: -1;
+    }
+    nav.categories a{
+        font-size: 16px;
     }
     nav.categories a[href="Artigos-Festa"]::before{
         top: -15px;
@@ -1778,10 +1779,33 @@ footer ul li:last-child{
     position: fixed;
     left: 3%;
     bottom: 1%;
-    transform: rotate(-90deg);
     background: #fff;
     border-radius: 50%;
     z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.arrow span{
+    width: 20px;
+    height: 4px;
+    background-color: red;
+    transform: rotate(-45deg);
+    margin-right: 25%;
+    border-radius: 5px;
+}
+.arrow span::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 4px;
+    background-color: inherit;
+    transform: rotate(90deg);
+    position: relative;
+    top: 8px;
+    left: 8px;
+    border-radius: 5px;
 }
 
 @media all and (max-width: 600px){
@@ -1819,7 +1843,7 @@ footer ul li:last-child{
     box-shadow: 0px 15px 23px -5px rgba(0, 0, 0, 0.25);
     border-radius: 70px;
 
-    font-family: Red Hat Text;
+    font-family: "Red Hat Text";
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
