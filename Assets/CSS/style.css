@@ -1788,23 +1788,23 @@ footer ul li:last-child{
 }
 
 .arrow span{
-    width: 20px;
+    width: 12px;
     height: 4px;
     background-color: red;
     transform: rotate(-45deg);
-    margin-right: 25%;
+    margin-right: 12.5%;
     border-radius: 5px;
 }
 .arrow span::after{
     content: "";
     display: block;
-    width: 20px;
+    width: 12px;
     height: 4px;
     background-color: inherit;
     transform: rotate(90deg);
     position: relative;
-    top: 8px;
-    left: 8px;
+    top: 4px;
+    left: 4px;
     border-radius: 5px;
 }
 
