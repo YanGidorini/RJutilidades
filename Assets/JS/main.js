@@ -3,6 +3,9 @@ import * as arrange from './modules/ordering.js';
 import * as menu from './modules/mobileMenu.js';
 import * as contact from './modules/contact.js';
 import * as favs from './modules/favorites.js';
+import backToTop from './modules/backToTop.js';
+
+backToTop();
 
 searchBar.inputSearch;
 if(searchBar.inputSearch){

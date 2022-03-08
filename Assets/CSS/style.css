@@ -1773,11 +1773,11 @@ footer ul li:last-child{
 .arrow{
     width: 42px;
     height: 42px;
-    display: flex;
+    display: none;
     cursor: pointer;
     position: fixed;
-    left: 3%;
-    bottom: 1%;
+    right: 2%;
+    bottom: 16%;
     background: #fff;
     border-radius: 50%;
     z-index: 1000;
@@ -1807,9 +1807,18 @@ footer ul li:last-child{
     border-radius: 5px;
 }
 
+@media all and (max-width: 920px){
+    .arrow{
+        bottom: 10%;
+        right: 4%;
+    }
+}
+
+
 @media all and (max-width: 600px){
     .arrow{
         left: auto;
+        bottom: 2%;
         right: 3%;
     }
 }
