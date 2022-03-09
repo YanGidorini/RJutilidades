@@ -56,7 +56,6 @@ phone.addEventListener('keyup', phoneMask);
 
 function phoneMask(){
     let v = phone.value;
-    console.log(v);
 
     let r = v.replace(/\D/g, "");
     r = r.replace(/^0/, "");
@@ -77,8 +76,28 @@ function sendProduct(e){
     e.preventDefault();
     let name = document.querySelector("#name").value;
     let phone = document.querySelector("#phone").value;
+    
+    if (name != '' && phone != '') {
+        phone = phone.replace(/\D/g,'');
+        if (phone.length < 13) {
+            phone = "55" + phone;
+        }
 
-    document.querySelectorAll(".favorite .product-card .content-card h2");
+        let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos:`
+        document.querySelectorAll(".contact-block .content-card h2").forEach(item => {
+            text = text + '\n' + item.textContent;
+        })
+
+        text = window.encodeURIComponent(text);
+
+        let urlApi = "https://web.whatsapp.com/send";
+
+        if(window.matchMedia("(max-width: 720px)").matches){
+            urlApi = "https://api.whatsapp.com/send";
+        }
+
+        window.open(urlApi + "?phone=" + phone + "&text=" + text, "_blank");
+    }
 
 }
 
