@@ -21,7 +21,6 @@ function favorite(e){
         //não sei como isso resolveu tudo. Tive um insight que já esqueci e não estou entendo o funcionamento disso. FAVOR NÂO MEXER!!!
         let gambiarra = document.querySelectorAll(".product-card");
         gambiarra.forEach((item)=>{
-            console.log(item.children[0].children[1])
             item.children[0].children[1].classList.remove("active-heart");
         })
             

@@ -1627,6 +1627,23 @@ footer ul li:last-child{
     max-width: 380px;
 }
 
+.nothingSaved{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 2px;
+    color: #b3b3b3;
+}
+.nothingSaved::before{
+    content: "";
+    height: 2px;
+    width: 180px;
+    margin: 0 auto 15px;
+    background-color: #dfdfdf;
+    display: block;
+}
+
 .contact-block .form form{
     display: flex;
     flex-direction: column;

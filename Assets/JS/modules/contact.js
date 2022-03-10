@@ -18,24 +18,34 @@ function initContact(event){
 		}
 	});
     
-    const swiperWapper = document.querySelector(".favorites").querySelector(".swiper-wrapper");
+    const swiperWrapper = document.querySelector(".favorites").querySelector(".swiper-wrapper");
 
-    Object.keys(localStorage).forEach((item) =>{
-        if(!isNaN(item)){
-            swiperWapper.innerHTML += localStorage.getItem(item);
-        }
-        
-        swiperWapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
-            product.classList.add("swiper-slide");
-
-            if(array.length == 1){
-                swiperWapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
-                document.querySelector(".contact-block").style.paddingBottom = "50px"
-            } else {
-                document.querySelector(".contact-block").style.paddingBottom = "0px"
+    if (localStorage.length != 0) {
+        Object.keys(localStorage).forEach((item) =>{
+            if(!isNaN(item)){
+                swiperWrapper.innerHTML += localStorage.getItem(item);
             }
-        }) 
-    });
+            
+            swiperWrapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
+                product.classList.add("swiper-slide");
+    
+                if(array.length == 1){
+                    swiperWrapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
+                    document.querySelector(".contact-block").style.paddingBottom = "50px"
+                } else {
+                    document.querySelector(".contact-block").style.paddingBottom = "0px"
+                }
+            }) 
+        });
+    } else {
+        if (!document.querySelector('.nothingSaved')) {
+            const h3 = document.createElement('h3')
+            h3.textContent = "Nenhum produto salvo"
+            h3.classList.add('nothingSaved');
+            h3.style.color = "rgba(0,0,0,.5)";
+            swiperWrapper.appendChild(h3);
+        }
+    }
 
     const submitButton = document.querySelector("#submitButton");
     submitButton.addEventListener('click', sendProduct);
@@ -83,9 +93,9 @@ function sendProduct(e){
             phone = "55" + phone;
         }
 
-        let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos:`
+        let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos:\n`
         document.querySelectorAll(".contact-block .content-card h2").forEach(item => {
-            text = text + '\n' + item.textContent;
+            text = `${text}\n- ${item.textContent}`;
         })
 
         text = window.encodeURIComponent(text);
