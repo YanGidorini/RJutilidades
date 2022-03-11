@@ -35,10 +35,7 @@ function itensLength(){
     let qtdItens = document.querySelector(".qtd");
 
     if(localStorage.length > 0){
-        Object.keys(localStorage).forEach((item, index) =>{
-            itens[index] = item; 
-            itens = itens.filter(Number);
-        });
+        itens = Object.keys(localStorage).filter(Number)
 
         if (itens.length > 0){
             badge.innerHTML = itens.length;

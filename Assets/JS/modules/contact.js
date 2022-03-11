@@ -19,32 +19,36 @@ function initContact(event){
 	});
     
     const swiperWrapper = document.querySelector(".favorites").querySelector(".swiper-wrapper");
+    let productsSaved = Object.keys(localStorage).filter(Number);
 
-    if (localStorage.length != 0) {
-        Object.keys(localStorage).forEach((item) =>{
+    if (localStorage.length > 0) {
+        Object.keys(localStorage).forEach(item => {
             if(!isNaN(item)){
                 swiperWrapper.innerHTML += localStorage.getItem(item);
-            }
-            
-            swiperWrapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
-                product.classList.add("swiper-slide");
-    
-                if(array.length == 1){
-                    swiperWrapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
-                    document.querySelector(".contact-block").style.paddingBottom = "50px"
-                } else {
-                    document.querySelector(".contact-block").style.paddingBottom = "0px"
-                }
-            }) 
+
+                swiperWrapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
+                    product.classList.add("swiper-slide");
+        
+                    if(array.length == 1){
+                        swiperWrapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
+                        document.querySelector(".contact-block").style.paddingBottom = "50px"
+                    } else {
+                        document.querySelector(".contact-block").style.paddingBottom = "0px"
+                    }
+                }); 
+            }    
         });
-    } else {
-        if (!document.querySelector('.nothingSaved')) {
-            const h3 = document.createElement('h3')
-            h3.textContent = "Nenhum produto salvo"
-            h3.classList.add('nothingSaved');
-            h3.style.color = "rgba(0,0,0,.5)";
-            swiperWrapper.appendChild(h3);
+        
+        if (productsSaved.length == 0) {
+            if (!document.querySelector('.nothingSaved')) {
+                const h3 = document.createElement('h3')
+                h3.textContent = "Nenhum produto salvo"
+                h3.classList.add('nothingSaved');
+                h3.style.color = "rgba(0,0,0,.5)";
+                swiperWrapper.appendChild(h3);
+            }
         }
+        
     }
 
     const submitButton = document.querySelector("#submitButton");
