@@ -116,7 +116,6 @@
 			<li>CNPJ: 29.588.052/0001-02</li>
 			<li>Rua Jair de Godoy, N°56</li>
 			<li>Vila Açoreana - Poá / São Paulo</li>
-			<li>Todos os direitos reservados ©</li>
 		</ul>
 	</footer>
 

@@ -84,14 +84,12 @@ function phoneMask(){
 
 function sendProduct(e){
     e.preventDefault();
-    let name = document.querySelector("#name").value;
+    let name = document.querySelector("#name").value.trim();
     let phone = document.querySelector("#phone").value;
     
-    if (name != '' && phone != '') {
+    if (name != '' && phone.length == 15) {
         phone = phone.replace(/\D/g,'');
-        if (phone.length < 13) {
-            phone = "55" + phone;
-        }
+        phone = "55" + phone;
 
         let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos:\n`
         document.querySelectorAll(".contact-block .content-card h2").forEach(item => {
@@ -107,6 +105,8 @@ function sendProduct(e){
         }
 
         window.open(urlApi + "?phone=5511994105195" + "&text=" + text, "_blank");
+    } else {
+        alert("Nome vazio ou telefone incompleto");
     }
 
 }
