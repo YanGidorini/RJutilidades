@@ -25,4 +25,3 @@ contact.phone;
 favs.hearts;
 favs.activeFavorite();
 favs.itensLength();
-

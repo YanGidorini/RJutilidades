@@ -1,6 +1,6 @@
 export default function backToTop(){
     let btn = document.querySelector('.arrow')
-    if (window.scrollY > 600) {
+    if (window.scrollY > 800) {
         btn.style.display = "flex"
     } else {
         btn.style.display = "none"

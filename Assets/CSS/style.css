@@ -79,6 +79,8 @@ header #ornament {
     box-shadow: -10px 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
     transform: translateX(-15px);
+    display: flex;
+    justify-content: flex-end;
 }
 
 header #ornament nav {
@@ -86,7 +88,7 @@ header #ornament nav {
     align-items: center;
     justify-content: center;
     height: 100px;
-    width: 100%;
+    width: 93%;
     transform: translateY(15px);
 }
 
@@ -101,12 +103,8 @@ header nav svg {
 }
 
 header nav .badge{
-    display: none;
-}
-
-header nav .badge-active{
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     border-radius: 50%;
     background-color: #000;
@@ -117,6 +115,10 @@ header nav .badge-active{
     font-size: 10px;
     font-weight: 100;
     top: -17px; right: 0px;
+}
+
+header nav a .badge-active{
+    display: flex;
 }
 
 header #ornament nav ul.menu>li:last-child a span {
@@ -169,13 +171,39 @@ header #ornament nav #btn-mobile span::before {
     border-radius: 4px;
 }
 
-
-
 header #ornament nav ul.menu {
     display: flex;
     align-items: center;
     -moz-column-gap: 70px;
          column-gap: 70px;
+}
+a.mobile-favorite{
+    position: relative;
+}
+.mobile-heart{
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    display: none;
+    margin-right: 30px;
+}
+
+header nav a.mobile-favorite .badge-active{
+    display: none;
+}
+header nav .mobile-badge{
+    position: absolute;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 100;
+    top: -3px; left: 22px;
+    display: none;
 }
 
 header #ornament nav ul.menu li,
@@ -273,11 +301,7 @@ header #ornament nav ul.submenu li a{
 }
 
 @media all and (max-width: 1280px) {
-    header #logo-container {
-        width: 100%;
-    }
-
-    header #ornament nav ul.menu {
+     header #ornament nav ul.menu {
         -moz-column-gap: 40px;
              column-gap: 40px;
     }
@@ -294,9 +318,6 @@ header #ornament nav ul.submenu li a{
 
     header nav svg {
         fill: #000;
-    }
-    header nav .badge-active{
-        display: none;
     }
 
     header #ornament nav ul.menu {
@@ -320,21 +341,10 @@ header #ornament nav ul.submenu li a{
         background-color: #dfdfdf;
     }
 
-    header #ornament nav ul.menu > li:last-child a span {
-        display: inline-block;
-        color: #000;
-        margin-right: 10px;
+    header #ornament nav ul.menu li:last-child {
+        display: none;
     }
 
-    header #ornament nav ul.menu > li:last-child a {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    header nav svg{
-        width: 26px;
-        height: 26px;
-    }
 
     .fa-heart::before {
         font-size: 25px;
@@ -351,6 +361,15 @@ header #ornament nav ul.submenu li a{
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
     }
 
+    .mobile-heart{
+        width: 30px;
+        height: 30px;
+        fill: #fff;
+        display: block;
+    }
+    header nav a.mobile-favorite .badge-active{
+        display: flex;
+    }
     header #ornament nav #btn-mobile {
         display: flex;
         align-items: center;
@@ -397,7 +416,6 @@ header #ornament nav ul.submenu li a{
                 url(../IMG/ornament-form.webp) type("image/webp"),
                 url(../IMG/ornament-form.png) type("image/png")
             );
-        border-radius: 25px;
     }
 
     header h1 {

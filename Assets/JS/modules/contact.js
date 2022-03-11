@@ -106,7 +106,7 @@ function sendProduct(e){
             urlApi = "https://api.whatsapp.com/send";
         }
 
-        window.open(urlApi + "?phone=" + phone + "&text=" + text, "_blank");
+        window.open(urlApi + "?phone=5511994105195" + "&text=" + text, "_blank");
     }
 
 }

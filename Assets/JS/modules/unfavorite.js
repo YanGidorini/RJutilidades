@@ -30,25 +30,29 @@ function removeFavorite(){
 
 function itensLength(){
     let badge = document.querySelector(".badge");
+    let mobileBadge = document.querySelector(".mobile-badge");
     let itens = [];
     let qtdItens = document.querySelector(".qtd");
 
     if(localStorage.length > 0){
         Object.keys(localStorage).forEach((item, index) =>{
-            if(!isNaN(item)){
-                itens[index] = item; 
-                itens = itens.filter(Number);
-            }
+            itens[index] = item; 
+            itens = itens.filter(Number);
         });
 
         if (itens.length > 0){
             badge.innerHTML = itens.length;
             badge.classList.add("badge-active");
+
+            mobileBadge.innerHTML = itens.length;
+            mobileBadge.classList.add("badge-active");
         } else {
             badge.classList.remove("badge-active");
+            mobileBadge.classList.remove("badge-active");
         }
     } else {
         badge.classList.remove("badge-active");
+        mobileBadge.classList.remove("badge-active");
     }
 
     if (qtdItens) {
