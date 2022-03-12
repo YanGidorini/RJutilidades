@@ -1,6 +1,8 @@
 export default function backToTop(){
     let btn = document.querySelector('.arrow')
-    if (window.scrollY > 800) {
+    let screenHeight = document.body.clientHeight;
+
+    if (window.scrollY > (screenHeight/10)) {
         btn.style.display = "flex"
     } else {
         btn.style.display = "none"
@@ -8,3 +10,4 @@ export default function backToTop(){
 }
 
 window.addEventListener('scroll', backToTop);
+
