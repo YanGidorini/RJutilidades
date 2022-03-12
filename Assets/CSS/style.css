@@ -1343,9 +1343,12 @@ section.products{
     .products-header .src-bar input{
         width: 78%;
     }
-}
-@media all and (max-width: 420px){
-
+    .products .products-container{
+        grid-template-columns: repeat(auto-fill, minmax(auto, 80%));
+    }
+    .products-container .product-card {
+        height: max-content;
+    }
 }
 
 /* float menu and social medias */
@@ -1607,7 +1610,7 @@ svg.mail{
 }
 
 .favorites{
-    width: 500px;
+    width: 650px;
     max-height: 500px;
 }
 .contact-block .favorite-items{
@@ -1674,12 +1677,14 @@ svg.mail{
 }
 
 .nothingSaved{
+    width: 100%;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 2px;
     color: #b3b3b3;
+    text-align: center;
 }
 .nothingSaved::before{
     content: "";

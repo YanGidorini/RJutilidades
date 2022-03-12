@@ -38,6 +38,7 @@ function initContact(event){
                 }); 
             }    
         });
+    }
         
         if (productsSaved.length == 0) {
             if (!document.querySelector('.nothingSaved')) {
@@ -49,7 +50,6 @@ function initContact(event){
             }
         }
         
-    }
 
     const submitButton = document.querySelector("#submitButton");
     submitButton.addEventListener('click', sendProduct);
