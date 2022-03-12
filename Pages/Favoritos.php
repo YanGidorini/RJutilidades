@@ -115,7 +115,7 @@
 
 <div class="fav-title">
     <h2>Itens salvos</h2>
-    <p><span class="qtd"></span> Produtos favoritados</p>
+    <p><span class="qtd"></span> Produtos</p>
 </div>
 
 <section class="products">

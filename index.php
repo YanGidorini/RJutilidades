@@ -21,9 +21,8 @@
 </head>
 
 <body>
-
-
-	<header id="header">
+	<div id="top-of-site"></div>
+	<header>
 		<div id="logo-container">
 			<a href="home">
 				<picture>
@@ -116,6 +115,16 @@
 			<li>CNPJ: 29.588.052/0001-02</li>
 			<li>Rua Jair de Godoy, N°56</li>
 			<li>Vila Açoreana - Poá / São Paulo</li>
+			<li>        
+				<svg class="mail" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="envelopeIconTitle">
+					<title id="envelopeIconTitle">Envelope</title>
+					<rect width="20" height="14" x="2" y="5"></rect>
+					<path stroke-linecap="round" d="M2 5l10 9 10-9"></path>
+					<path stroke-linecap="round" d="M2 19l6.825-7.8"></path>
+					<path stroke-linecap="round" d="M22 19l-6.844-7.822"></path>
+				</svg>
+				rjutilidadess@gmail.com
+			</li>
 		</ul>
 	</footer>
 
@@ -146,7 +155,7 @@
 		</div>
 	</div>
 
-	<a href="#header" class="arrow" title="Retornar para o menu"><span></span></a>
+	<a href="#top-of-site" class="arrow" title="Retornar para o menu"><span></span></a>
 </body>
 
 <!-- Swiper JS -->

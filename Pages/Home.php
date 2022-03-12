@@ -1,4 +1,4 @@
-<title>Home</title>
+<title>Início</title>
 
 <style>
     header #ornament nav ul.menu li:first-child::before {
