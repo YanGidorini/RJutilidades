@@ -333,7 +333,7 @@ header #ornament nav ul.submenu li a{
     header #ornament nav ul.menu > li:first-child{
         padding-bottom: 5px;
     }
-    header #ornament nav ul.menu > li:last-child{
+    header #ornament nav ul.menu > li:nth-child(3){
         padding-top: 5px;
     }
 
