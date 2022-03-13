@@ -97,7 +97,7 @@ function sendProduct(e){
         phone = phone.replace(/\D/g,'');
         phone = "55" + phone;
 
-        let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos:\n`
+        let text = `Olá, sou o(a) ${name} e gostei dos seguintes produtos do site:\n`
         document.querySelectorAll(".contact-block .content-card h2").forEach(item => {
             text = `${text}\n- ${item.textContent}`;
         })
@@ -110,7 +110,7 @@ function sendProduct(e){
             urlApi = "https://api.whatsapp.com/send";
         }
 
-        window.open(urlApi + "?phone=5511994105195" + "&text=" + text, "_blank");
+        window.open(urlApi + "?phone=5511952950248" + "&text=" + text, "_blank");
     } else {
         alert("Nome vazio ou telefone incompleto");
     }
