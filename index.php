@@ -15,9 +15,18 @@
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap" rel="stylesheet">
 	<!-- swiper slider -->
 	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-
 	<link rel="stylesheet" type="text/css" href="./Assets/CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="./Assets/CSS/style.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTX5XPBK30"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-BTX5XPBK30');
+	</script>
 </head>
 
 <body>
