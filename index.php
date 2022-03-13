@@ -204,7 +204,11 @@
 			1366: {
 				slidesPerView: 5,
 				spaceBetween: 30,
-			}
+			},
+			autoplay: {
+				delay: 4000,
+				disableOnInteraction: true,
+			},
 		}
 	});
 </script>
