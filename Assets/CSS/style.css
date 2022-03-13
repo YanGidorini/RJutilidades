@@ -1051,7 +1051,7 @@ svg.active-heart{
     }
     .map{
         padding-left: 5px;
-        padding-right: px;
+        padding-right: 5px;
     }
 }
 
@@ -1078,6 +1078,23 @@ svg.active-heart{
    .map .address span{
        display: block;
    }
+   .products .products-container .product-card {
+        height: max-content;
+    }
+    .highlights h2, 
+    .products h2{
+        font-size: 24px;
+        margin: 10px 0;
+    }
+    .content-card span, 
+    .highlights span, 
+    .products .products-container span{
+        font-size: 24px;
+    }
+    .highlights p, 
+    .products .products-container p{
+        margin: 0 0 10px 0;
+    }
 }
 
 @media all and (max-width: 600px){
@@ -1346,9 +1363,6 @@ section.products{
     .products .products-container{
         grid-template-columns: repeat(auto-fill, minmax(auto, 80%));
     }
-    .products-container .product-card {
-        height: max-content;
-    }
 }
 
 /* float menu and social medias */
@@ -1610,8 +1624,8 @@ svg.mail{
 }
 
 .favorites{
-    width: 650px;
-    max-height: 500px;
+    width: 500px;
+    /* max-height: 500px; */
 }
 .contact-block .favorite-items{
     display: flex;

@@ -53,7 +53,7 @@ function itensLength(){
     }
 
     if (qtdItens) {
-        qtdItens.textContent = itens.length;
+        qtdItens.textContent = itens.length + " Produtos";
     }
 
     noFavorites(itens);

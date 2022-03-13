@@ -31,6 +31,7 @@
         line-height: 60px;
         letter-spacing: 2px;
         font-size: 45px;
+        width: fit-content;
     }
 
     .fav-title p {
@@ -38,6 +39,26 @@
         font-weight: 700;
         font-size: 18px;
         color: rgba(0, 0, 0, .3);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .fav-title p span{
+        align-self: end;
+    }
+    .fav-title button{
+        font-family: 'Red Hat Display', sans-serif;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 23px;
+        letter-spacing: 2px;
+        width: fit-content;
+        padding: 5px 20px;
+        border-radius: 10px;
+        color: #fff;
+        background: #75CC67;
+        border: 2px solid #66B859;
+        cursor: pointer;
     }
 
     section.products {
@@ -103,6 +124,15 @@
         .fav-title::after {
             margin: 20px 0px;
         }
+        .fav-title p{
+            flex-direction: column;
+        }
+        .fav-title p span{
+            align-self: flex-start;
+        }
+        .fav-title p button{
+            margin-top: 10px;
+        }
     }
 
     @media all and (max-width: 370px) {
@@ -115,7 +145,11 @@
 
 <div class="fav-title">
     <h2>Itens salvos</h2>
-    <p><span class="qtd"></span> Produtos</p>
+    <p>
+        <span class="qtd"></span>
+        <button>Enviar Produtos</button>
+    </p>
+
 </div>
 
 <section class="products">

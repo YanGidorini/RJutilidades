@@ -28,6 +28,7 @@ function initContact(event){
 
                 swiperWrapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
                     product.classList.add("swiper-slide");
+                    product.children[0].children[1].style.cursor = "unset";
         
                     if(array.length == 1){
                         swiperWrapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
@@ -47,6 +48,7 @@ function initContact(event){
                 h3.classList.add('nothingSaved');
                 h3.style.color = "rgba(0,0,0,.5)";
                 swiperWrapper.appendChild(h3);
+
             }
         }
         
@@ -62,6 +64,7 @@ function titleReplace(){
     if(window.matchMedia("(max-width: 912px)").matches){
         document.querySelector(".favorites h2").innerHTML = "<a href='favoritos'>Clique aqui</a> para conferir os produtos curtidos."
     }
+    
 }
 
 
