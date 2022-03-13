@@ -30,6 +30,30 @@ function searchProduct(e){
         document.querySelector("#search-bar").blur();
     }
 
+    let productsContainer = document.querySelector(".products-container");
+    let products = productsContainer.querySelectorAll(".product-card");
+    let teste = [];
+    let notFound = productsContainer.querySelector(".not-found");
+
+    products.forEach((product, i) =>{
+        if(product.style.display == "block"){
+            teste[i] = product;
+        }
+    })
+
+    if (teste.length == 0){
+        productsContainer.style.display = "flex";
+        productsContainer.style.height = "200px";
+        productsContainer.style.alignItems = "center";
+        notFound.style.display = "block"
+    } else {
+        notFound.style.display = "none"
+        productsContainer.style.display = "grid";
+        productsContainer.style.height = "auto";
+        productsContainer.style.alignItems = "unset";
+    }
+
+    console.log(document.querySelector(".products-container"));
 }
 
 export {inputSearch, focus, searchProduct};

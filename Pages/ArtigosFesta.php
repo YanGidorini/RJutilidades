@@ -117,6 +117,7 @@
             </div>
 
             <div class="products-container">
+                <h3 class="not-found">Produto não encontrado</h3>
                 <div class="product-card" data-id="1" data-date="2022, 3, 2">
                     <div class="content-card">
                         <picture class="product-img">
