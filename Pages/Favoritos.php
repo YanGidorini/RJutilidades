@@ -147,7 +147,7 @@
     <h2>Itens salvos</h2>
     <p>
         <span class="qtd"></span>
-        <button>Enviar Produtos</button>
+        <button id="favorite-button">Enviar Produtos</button>
     </p>
 
 </div>

@@ -41,18 +41,16 @@ function initContact(event){
         });
     }
         
-        if (productsSaved.length == 0) {
-            if (!document.querySelector('.nothingSaved')) {
-                const h3 = document.createElement('h3')
-                h3.textContent = "Nenhum produto salvo"
-                h3.classList.add('nothingSaved');
-                h3.style.color = "rgba(0,0,0,.5)";
-                swiperWrapper.appendChild(h3);
-
-            }
+    if (productsSaved.length == 0) {
+        if (!document.querySelector('.nothingSaved')) {
+            const h3 = document.createElement('h3')
+            h3.textContent = "Nenhum produto salvo"
+            h3.classList.add('nothingSaved');
+            h3.style.color = "rgba(0,0,0,.5)";
+            swiperWrapper.appendChild(h3);
         }
+    }
         
-
     const submitButton = document.querySelector("#submitButton");
     submitButton.addEventListener('click', sendProduct);
 }
@@ -60,11 +58,19 @@ function initContact(event){
 const contactButton = document.getElementById("contact-button");
 contactButton.addEventListener('click', initContact);
 
+const favoriteButton = document.getElementById("favorite-button");
+if(favoriteButton){
+    favoriteButton.addEventListener('click', initContact);
+}
+
 function titleReplace(){
     if(window.matchMedia("(max-width: 912px)").matches){
         document.querySelector(".favorites h2").innerHTML = "<a href='favoritos'>Clique aqui</a> para conferir os produtos curtidos."
     }
-    
+
+    if(location.pathname == "/RJutilidades/favoritos" && window.matchMedia("(max-width: 912px)").matches){
+        document.querySelector(".favorites h2").style.display = "none";
+    }
 }
 
 
