@@ -29,13 +29,6 @@ function initContact(event){
                 swiperWrapper.querySelectorAll(".product-card").forEach((product, index, array) =>{
                     product.classList.add("swiper-slide");
                     product.children[0].children[1].style.cursor = "unset";
-        
-                    if(array.length == 1){
-                        swiperWrapper.querySelectorAll(".product-card")[0].style.minWidth = "235px"
-                        document.querySelector(".contact-block").style.paddingBottom = "50px"
-                    } else {
-                        document.querySelector(".contact-block").style.paddingBottom = "0px"
-                    }
                 }); 
             }    
         });

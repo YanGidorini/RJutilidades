@@ -1616,7 +1616,7 @@ svg.mail{
 .contact-container .contact-block{
     width: min-content;
     border-radius: 20px;
-    padding: 20px;
+    padding: 20px 20px 0px;
     background-color: #fff;
     display: flex;
     position: relative;
@@ -1625,7 +1625,6 @@ svg.mail{
 
 .favorites{
     width: 500px;
-    /* max-height: 500px; */
 }
 .contact-block .favorite-items{
     display: flex;
@@ -1687,26 +1686,23 @@ svg.mail{
     line-height: 33px;
     letter-spacing: 2px;
     color: #4e4e4e;
-    max-width: 380px;
+    width: 380px;
 }
 
-.nothingSaved{
+.contact-block .nothingSaved{
     width: 100%;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 33px;
     letter-spacing: 2px;
     color: #b3b3b3;
     text-align: center;
+    margin: auto;
 }
-.nothingSaved::before{
-    content: "";
-    height: 2px;
-    width: 180px;
-    margin: 0 auto 15px;
-    background-color: #dfdfdf;
-    display: block;
+
+.contact-block .form{
+    width: min-content;
 }
 
 .contact-block .form form{
@@ -1746,18 +1742,6 @@ svg.mail{
     background: #75CC67;
     border: 2px solid #66B859;
     margin-top: 20px;
-    cursor: pointer;
-}
-
-.contact-block .form form p{
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 1px;
-    color: #757575;
-    margin: 10px 0;
-    text-decoration: underline;
     cursor: pointer;
 }
 
