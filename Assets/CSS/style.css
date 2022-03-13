@@ -151,7 +151,7 @@ header #ornament nav #btn-mobile span {
     border-top: 4px solid;
     color: #fff;
     border-radius: 4px;
-
+    margin-left: 20px;
 }
 
 header #ornament nav #btn-mobile span::after,
@@ -185,7 +185,7 @@ a.mobile-favorite{
     height: 30px;
     fill: #fff;
     display: none;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 header nav a.mobile-favorite .badge-active{
@@ -1854,6 +1854,7 @@ svg.mail{
     align-items: center;
     justify-content: center;
     box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
 .arrow span{
