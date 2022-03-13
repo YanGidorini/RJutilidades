@@ -1,4 +1,5 @@
 let inputSearch = document.querySelector("#search-bar");
+
 if (inputSearch) {
     inputSearch.addEventListener('keyup', searchProduct);
 }
@@ -12,7 +13,8 @@ function focus() {
     });
 }
 
-function searchProduct(){
+function searchProduct(e){
+    let key = e.key;
     let input = document.querySelector("#search-bar").value.toLowerCase().normalize("NFD").replace(/[^a-zA-Zs]/g, "");
     let titles = document.querySelector(".products-container").querySelectorAll("h2");
 
@@ -21,8 +23,13 @@ function searchProduct(){
             titles[i].parentElement.parentElement.style.display = "none";
         } else {
             titles[i].parentElement.parentElement.style.display = "block";
-        }   
+        } 
     }
+
+    if(key == "Enter"){
+        document.querySelector("#search-bar").blur();
+    }
+
 }
 
 export {inputSearch, focus, searchProduct};
