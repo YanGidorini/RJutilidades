@@ -74,7 +74,7 @@
     }
 </style>
 
-<title>Miudezas</title>
+<title>RJ Utilidades | Miudezas</title>
 
 <div class="box">
     <picture class="banner">

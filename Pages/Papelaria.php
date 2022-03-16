@@ -77,7 +77,7 @@
 
 </style>
 
-<title>Papelaria, Escritório e Escolar</title>
+<title>RJ Utilidades | Papelaria, Escritório e Escolar</title>
 
 <div class="box">
     <picture class="banner">

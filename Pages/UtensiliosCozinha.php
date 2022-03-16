@@ -50,7 +50,7 @@
     }
 </style>
 
-<title>Cozinha</title>
+<title>RJ Utilidades | Cozinha</title>
 
 <div class="box">
     <picture class="banner">

@@ -79,7 +79,7 @@
     }
 </style>
 
-<title>Artigos de Festa e Brinquedos</title>
+<title>RJ Utilidades | Artigos para Festa e Brinquedos</title>
 
 <div class="box">
     <picture class="banner">

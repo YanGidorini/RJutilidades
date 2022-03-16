@@ -6,7 +6,13 @@
 	<meta http-equiv="X-UA_Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Tudo o que precisa, encontra aqui! Papelaria, escritório, utilidades, miudezas...">
-	<meta name="theme-color" content="#fff" />
+	<meta name="theme-color" content="#dc0404" />
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="content-language" content="pt-br">
+	<meta name="creator" content="Yan Gidorini; Renan Goulart.">
+	<meta property="og:title" content="Poá-SP: WhatsApp 11 952950248."><meta>
+	<meta property="og:description" content="Rua Jair de Godóy, 56 - Vila Açoreana."><meta>
+	<meta property="og:site_name" content="RJ utilidades"><meta>
 	<link rel="apple-touch-icon" href="./Assets/IMG/icones/apple-touch-icon.png">
 	<link rel="shortcut icon" href="./Assets/IMG/icones/favicon.ico" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,8 +36,7 @@
 </head>
 
 <body>
-	<div id="top-of-site"></div>
-	<header>
+	<header id="top-of-site">
 		<div id="logo-container">
 			<a href="home">
 				<picture>
@@ -205,11 +210,11 @@
 				slidesPerView: 5,
 				spaceBetween: 30,
 			},
-			autoplay: {
-				delay: 4000,
-				disableOnInteraction: true,
-			},
-		}
+		},
+		autoplay: {
+			delay: 4000,
+			disableOnInteraction: true,
+		},
 	});
 </script>
 <script type="module" src="./Assets/JS/main.js"></script>
