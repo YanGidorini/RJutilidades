@@ -109,17 +109,26 @@
 		</li>
 		<li>
 			<a rel="noreferrer" href="https://api.whatsapp.com/send?phone=5511952950248&text=Ol%C3%A1,%20vim%20pelo%20site!%20Pode%20me%20ajudar?" target="_blank" title="Whatsapp da loja">
-				<div alt="Whatsapp da loja"></div>
+			<picture>
+				<source srcset="Assets/IMG/icones/wpp.webp" type="image/webp">
+				<img src="Assets/IMG/icones/wpp.png" alt="logo da R&J Utilidades">
+			</picture>
 			</a>
 		</li>
 		<li>
 			<a rel="noreferrer" href="https://www.instagram.com/rjutilidadess/" target="_blank" title="Instagram da loja">
-				<div alt="Instagram da loja"></div>
+			<picture>
+				<source srcset="Assets/IMG/icones/instagram.webp" type="image/webp">
+				<img src="Assets/IMG/icones/instagram.png" alt="logo da R&J Utilidades">
+			</picture>
 			</a>
 		</li>
 		<li>
 			<a rel="noreferrer" href="https://web.facebook.com/rjutilidadess/?ref=page_internal&_rdc=1&_rdr" target="_blank" title="Facebook da loja">
-				<div alt="Facebook da loja"></div>
+			<picture>
+				<source srcset="Assets/IMG/icones/facebook.webp" type="image/webp">
+				<img src="Assets/IMG/icones/facebook.png" alt="logo da R&J Utilidades">
+			</picture>
 			</a>
 		</li>
 	</ul>

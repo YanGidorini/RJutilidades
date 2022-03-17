@@ -1387,16 +1387,12 @@ section.products{
     display: flex;
     align-items: center;
     position: fixed;
-    gap: 10px;
+    gap: 17px;
     bottom: 4%;
     right: 2%;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
+    padding-right: 17px;
     width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
-    padding-right: 15px;
     background: #FFFFFF;
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
@@ -1404,8 +1400,6 @@ section.products{
     overflow: hidden;
 }
 .social-media li:first-child{
-    display: inline-flex;
-    align-items: center;
     height: 100%;
     width: auto;
     padding: 15px;
@@ -1413,112 +1407,38 @@ section.products{
     box-shadow: 2px 0px 9px rgba(0, 0, 0, 0.29);
     border-radius: 15px;
 }
-.social-media li:first-child picture{
-    height: 40px;
+.social-media li picture{
+    display: flex;
+}
+.social-media li picture img{
+    width: 40px;
+    height: auto;
 }
 .social-media li:first-child img{
     width: 74px;
     height: 40px;
 }
-.social-media li:nth-child(2) a div{
-    height: 54px;
-    width: 54px;
-    background-image: url(../IMG/icones/wpp.png);
-    background-image: 
-        image-set(
-            url(../IMG/icones/wpp.webp) type("image/webp"), 
-            url(../IMG/icones/wpp.png) type("image/png")
-        );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.social-media li:nth-child(3) a div{
-    display: block;
-    height: 46px;
-    width: 46px;
-    background-image: url(../IMG/icones/instagram.png);
-    background-image: 
-        image-set(
-            url(../IMG/icones/instagram.webp) type("image/webp"),
-            url(../IMG/icones/instagram.png) type("image/png")
-        );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.social-media li:last-child a div{
-    height: 43px;
-    width: 43px;
-    background-image: url(../IMG/icones/facebook.png);
-    background-image: 
-        image-set(
-            url(../IMG/icones/facebook.webp) type("image/webp"),
-            url(../IMG/icones/facebook.png) type("image/png")
-        );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.social-media li a div:hover {
-    transform: scale(1.05);
-}
 
 @media all and (max-width: 920px){
-    .social-media{
-        position: fixed;
-        flex-direction: row;
-        padding-right: 10px;
-        padding-top: 0px;
-        border-radius: 10px;
-        bottom: 2%;
-        right: 4%;
-    }
     .social-media li:first-child{
         padding: 10px;
         border-radius: 10px;
     }
-    .social-media li:first-child picture{
-        height: 27px;
-    }
-
     .social-media li:first-child img{
         width: 49px;
         height: 27px;
     }
-    .social-media li:nth-child(2) a div{
-        height: 48px;
-        width: 48px;
-    }
-    .social-media li:nth-child(3) a div{
-        height: 40px;
-        width: 40px;
-    }
-    .social-media li:last-child a div{
-        height: 37px;
-        width: 37px;
-    }
-}
-
-@media all and (max-width: 620px){
-    .social-media{
-        gap: 8px;
-    }
-    .social-media li:nth-child(2) a div{
-        height: 45px;
-        width: 45px;
-    }
-    .social-media li:nth-child(3) a div{
-        height: 38px;
-        width: 38px;
-    }
-    .social-media li:last-child a div{
-        height: 35px;
+    .social-media li picture img{
         width: 35px;
     }
+    .social-media{
+        gap: 12px;
+        padding-right: 10px;
+        border-radius: 10px;
+        bottom: 2%;
+        right: 4%;
+    }
 }
-
 
 /* footer */
 footer{
@@ -1570,6 +1490,7 @@ svg.mail{
     .social-media{
         bottom: 2%;
         left: 4%;
+        gap: 10px
     }
     footer ul li:nth-child(3){
         margin-top: 5px;
