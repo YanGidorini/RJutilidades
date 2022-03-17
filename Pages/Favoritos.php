@@ -1,4 +1,4 @@
-<title>Favoritos</title>
+<title>RJ Utilidades | Favoritos</title>
 <style>
     header h1 {
         display: none;
