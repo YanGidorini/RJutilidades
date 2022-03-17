@@ -10,9 +10,10 @@
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="content-language" content="pt-br">
 	<meta name="creator" content="Yan Gidorini; Renan Goulart.">
-	<meta property="og:title" content="Poá-SP: WhatsApp 11 952950248."><meta>
-	<meta property="og:description" content="Rua Jair de Godóy, 56 - Vila Açoreana."><meta>
-	<meta property="og:site_name" content="RJ utilidades"><meta>
+	<meta property="og:title" content="Poá-SP: WhatsApp 11 952950248.">
+	<meta property="og:description" content="Rua Jair de Godóy, 56 - Vila Açoreana.">
+	<meta property="og:site_name" content="RJ utilidades">
+	<link rel="canonical" href="https://rjutilidades.com.br" />
 	<link rel="apple-touch-icon" href="./Assets/IMG/icones/apple-touch-icon.png">
 	<link rel="shortcut icon" href="./Assets/IMG/icones/favicon.ico" type="image/x-icon">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,7 +54,7 @@
 			<nav>
 				<a class="mobile-favorite" href="favoritos">
 					<svg class="mobile-heart" role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
-						<title id="favouriteIconTitle">Salve seus itens favoritos</title>
+						<title>Salve seus itens favoritos</title>
 						<path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
 					</svg>
 					<div class="mobile-badge"></div>
@@ -71,11 +72,11 @@
 							<li><a href="Miudezas">Miudezas</a></li>
 						</ul>
 					</li>
-					<li><a id="contact-button">CONTATO</a></li>
+					<li><a href="/" id="contact-button">CONTATO</a></li>
 					<li>
 						<a href="favoritos">
 							<svg role="img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-labelledby="favouriteIconTitle">
-								<title id="favouriteIconTitle">Salve seus itens favoritos</title>
+								<title>Salve seus itens favoritos</title>
 								<path d="M12,21 L10.55,19.7051771 C5.4,15.1242507 2,12.1029973 2,8.39509537 C2,5.37384196 4.42,3 7.5,3 C9.24,3 10.91,3.79455041 12,5.05013624 C13.09,3.79455041 14.76,3 16.5,3 C19.58,3 22,5.37384196 22,8.39509537 C22,12.1029973 18.6,15.1242507 13.45,19.7149864 L12,21 Z"></path>
 							</svg>
 							<div class="badge"></div>
