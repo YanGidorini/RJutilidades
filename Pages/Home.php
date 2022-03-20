@@ -182,16 +182,16 @@
         <div class="buttons">
             <a href="https://www.google.com.br/maps/@-23.5168516,-46.3417263,3a,75y,172.2h,90.79t/data=!3m7!1e1!3m5!1sqXFSPgSMz18tusWez8V_wQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DqXFSPgSMz18tusWez8V_wQ%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D103.03132%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192" target="_blank" rel="noreferrer">
                 <picture class="img-app">
-                    <source srcset="Assets/IMG/maps.webp" type="image/webp">
-                    <img src="Assets/IMG/maps.svg" alt="Google Maps">
+                    <source srcset="Assets/IMG/icones/maps.webp" type="image/webp">
+                    <img src="Assets/IMG/icones/maps.svg" alt="Google Maps">
                 </picture>
                 <p>Ver no Maps</p>
             </a>
 
             <a href="https://www.waze.com/pt-BR/live-map/directions/brasil/sao-paulo/rua-jair-de-godoy,-56?navigate=yes&utm_campaign=waze_website&utm_source=waze_website&utm_medium=lm_share_location&to=place.ChIJHS-Iwxh7zpQRv5dYienT7tA" target="_blank" rel="noreferrer">
                 <picture class="img-app">
-                    <source srcset="Assets/IMG/waze.webp" type="image/webp">
-                    <img src="Assets/IMG/waze.svg" alt="Waze">
+                    <source srcset="Assets/IMG/icones/waze.webp" type="image/webp">
+                    <img src="Assets/IMG/icones/waze.svg" alt="Waze">
                 </picture>
                 <p>Ver no Waze</p>
             </a>
