@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA_Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Tudo o que precisa, encontra aqui! Papelaria, escritório, utilidades, miudezas...">
-	<meta name="theme-color" content="#dc0404" />
+	<meta name="theme-color" content="#bf0404"/>
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="content-language" content="pt-br">
 	<meta name="creator" content="Yan Gidorini; Renan Goulart.">
