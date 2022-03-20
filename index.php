@@ -222,8 +222,9 @@
 			},
 		},
 		autoplay: {
-			delay: 4000,
-			disableOnInteraction: true,
+			delay: 3500,
+			disableOnInteraction: false,
+			pauseOnMouseEnter: true,
 		},
 	});
 </script>
