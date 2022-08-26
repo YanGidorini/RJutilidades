@@ -15,6 +15,7 @@ Um amigo meu atuou como colaborador nesse projeto: [Renan Goulart](https://githu
   * Funcionalidade Favoritos: permite favoritar os produtos que gostou, usando localStorage;
   * Ordenar produtos com base no valor ( menor e maior preço )
   * Ordenar produtos com base na data de adição mais recente
+  * Enviar para o whatsapp da loja os produtos favoritados
 * Feito com PHP:
    * URL amigável;
    * Reuso do header e footer, carregando apenas o conteúdo entre eles;
