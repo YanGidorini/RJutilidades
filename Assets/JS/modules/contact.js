@@ -110,7 +110,7 @@ function sendProduct(e){
             urlApi = "https://api.whatsapp.com/send";
         }
 
-        window.open(urlApi + "?phone=5511952950248" + "&text=" + text, "_blank");
+        window.open(urlApi + "?phone=55119999999999" + "&text=" + text, "_blank");
     } else {
         alert("Nome vazio ou telefone incompleto");
     }
