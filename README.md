@@ -1,14 +1,14 @@
-#RJUtilidades e esse projeto são o que?
+# RJUtilidades e esse projeto são o que?
 
 RJUtilidades é uma empresa e esse projeto é um protótipo de um catálogo para uma loja da minha cidade.
 Foi usado HTML, CSS, JS e PHP, sem biblioteca ou framework, tudo "vanilla".
 
-##Contexto
+## Contexto
 Esse projeto foi a primeira coisa que fiz assim que terminei o curso técnico e foi de grande aprendizado.
 Aprendi e apliquei grid layout e flexbox, bem como muitos outros conhecimentos de front-end (CEO, Desempenho)
 Um amigo meu atuou como colaborador nesse projeto: [Renan Goulart](https://github.com/RenanGoulart)
 
-##Funcionalidades
+## Funcionalidades
 * Totalmente responsivo;
 * Feito com Javascript:
   * Funcionalidade Favoritos: permite favoritar os produtos que gostou, usando localStorage;
