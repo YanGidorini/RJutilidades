@@ -1,4 +1,4 @@
-# RJUtilidades e esse projeto são o que?
+# O que é esse projeto?
 
 RJUtilidades é uma empresa e esse projeto é um protótipo de um catálogo para uma loja da minha cidade.
 Foi usado HTML, CSS, JS e PHP, sem biblioteca ou framework, tudo "vanilla".
