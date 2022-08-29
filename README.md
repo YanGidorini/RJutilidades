@@ -1,7 +1,10 @@
+# Preview
+<img src="https://media.discordapp.net/attachments/706870551758635060/1013884865516675193/Captura_de_tela_2022-08-29_155334.png?width=960&height=475">
+
 # O que é esse projeto?
 
-RJUtilidades é uma empresa e esse projeto é um protótipo de um catálogo para uma loja da minha cidade.
-Foi usado HTML, CSS, JS e PHP, sem biblioteca ou framework, tudo "vanilla".
+RJUtilidades é uma empresa e esse projeto é um protótipo de um catálogo para essa loja.
+Foi usado HTML, CSS, JS, PHP e Swiper.js
 
 ## Contexto
 Esse projeto foi a primeira coisa que fiz assim que terminei o curso técnico e foi de grande aprendizado.
